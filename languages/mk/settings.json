@@ -15,7 +15,8 @@
     "friendly_tiles": "Може да j менувате големината и броот на плочките што се достапни на почетниот екран.",
     "themes": {
       "light": "Светла",
-      "dark": "Темна"
+      "dark": "Темна",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Лесен пристап",
     "description": "големина на текст, висок контраст и друго",
-    "reduce_motion": "Помалце мрдање",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Големина",
     "font": {
       "title": "Фонт",
       "choose": "Одбери...",
       "remove": "Издишување фонт"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Дебагирање",
       "dump_apps": "Cтушту инсталирани апликаци во JSON"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Апникаци маџер",
       "title_experimental": "Апникаци маџер (НЕЗАВРШЕНО)",
       "system": "Систем",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {

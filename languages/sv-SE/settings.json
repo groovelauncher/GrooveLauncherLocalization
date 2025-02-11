@@ -15,7 +15,8 @@
     "friendly_tiles": "Du kan ändra storleken och antalet paneler som ska finnas på startskärmen.",
     "themes": {
       "light": "Ljus",
-      "dark": "Mörk"
+      "dark": "Mörk",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Hjälpmedel",
     "description": "textstorlek, hög kontrast med mera",
-    "reduce_motion": "Minska rörelse",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Skalning",
     "font": {
       "title": "Typsnitt",
       "choose": "Välj...",
       "remove": "Ta bort teckensnittet"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Felsökning",
       "dump_apps": "Dumpa installerade appar i JSON"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Pakethanterare",
       "title_experimental": "Pakethanterare (EXPERIMENTELL)",
       "system": "System",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {

@@ -15,7 +15,8 @@
     "friendly_tiles": "Siz başlama ekranınızda mövcud olan lövhəciklərin ölçüsü və sayını dəyişdirə bilərsiniz.",
     "themes": {
       "light": "Açıq",
-      "dark": "Tünd"
+      "dark": "Tünd",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Giriş Asanlığı",
     "description": "mətn ölçüsü, yüksək kəskinlik və sair",
-    "reduce_motion": "Hərəkəti azaltmaq",
+    "reduce_motion": {
+      "title": "Hərəkəti azaldın",
+      "description": "Paralaks və animasiyalar kimi hərəkət effektlərini azaldın, hərəkət xəstəliyinin qarşısını almağa kömək edin."
+    },
+    "high_contrast": {
+      "title": "Yüksək Kontrast",
+      "description": "Bəzi xüsusiyyətlər üçün rəngləri dəyişir və bəzi fon şəkillərini gizlədir."
+    },
     "scaling": "Miqyaslama",
     "font": {
       "title": "Şrift",
       "choose": "Seç...",
       "remove": "Şrifti Silin"
+    },
+    "haptic_feedback": {
+      "title": "Haptik Əlaqə",
+      "description": "Lövhəciklər və idarəetmələrlə qarşılıqlı əlaqədə titrəmə əks əlaqəsini aktiv edin."
+    },
+    "groups": {
+      "vision": "Görmə",
+      "tactile": "Toxunma"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Sazlama",
       "dump_apps": "Quraşdırılmış proqramları JSON formatında dökümlə"
     },
+    "data": {
+      "title": "Məlumat",
+      "backup": "Ehtiyat nüsxə",
+      "restore": "Bərpa et"
+    },
     "package_manager": {
       "title": "Paket meneceri",
       "title_experimental": "Paket meneceri (EKSPERİMENTAL)",
       "system": "Sistem",
       "root": "Kök",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Yatmaq üçün iki dəfə toxunun",
+    "alternative_wallpaper": "Alternativ divar kağızı yerləşdirmə"
   },
   "alerts": {
     "reset": {
@@ -106,26 +129,26 @@
   },
   "apps": {
     "uninstall_app": "Quraş-ı ləğv et",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "show_in_app_list": "Bu proqramı Proqram Siyahısında göstərin",
+    "name": "Ad",
+    "icon": "Simge",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Varsayılan",
+      "monochrome": "Monoxrom"
     },
-    "background": "Background",
+    "background": "Fon",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "Varsayılan",
+      "transparent": "Şəffaf"
     },
-    "text_color": "Text color",
+    "text_color": "Mətn rəngi",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Avtomatik",
+      "dark": "Tünd",
+      "light": "Açıq"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Canlı lövhəcik",
+    "show_app": "Proqramlar siyahısında göstərin"
   },
   "roles": {
     "team_groove": "Groove Komandası",

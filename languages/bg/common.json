@@ -7,6 +7,7 @@
     "uninstall": "Деинсталирай",
     "cancel": "Отказ",
     "apply": "Приложи",
+    "allow": "Allow",
     "try_again": "Опитай отново",
     "light": "Светъл",
     "dark": "Тъмен",
@@ -14,7 +15,9 @@
     "on": "Вкл",
     "off": "Изкл",
     "locked": "Заключено",
-    "unlocked": "Отключено"
+    "unlocked": "Отключено",
+    "dismiss": "Dismiss",
+    "read_more": "Read more"
   },
   "search": {
     "title": "Търси",
@@ -28,6 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Закачи на началния екран",
+    "app_info": "App info",
     "uninstall": "Деинсталирай"
   },
   "alerts": {

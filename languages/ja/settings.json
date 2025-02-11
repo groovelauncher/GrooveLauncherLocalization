@@ -1,11 +1,11 @@
 {
-  "title": "Settings",
+  "title": "設定",
   "tabs": {
-    "home": "Home",
-    "applications": "Applications"
+    "home": "ホーム",
+    "applications": "アプリケーション"
   },
   "theme": {
-    "title": "Home+Theme",
+    "title": "ホーム+テーマ",
     "accent_color": "アクセントカラー",
     "background": "背景",
     "home_background": "ホーム画面の背景",
@@ -15,12 +15,13 @@
     "friendly_tiles": "ホーム画面に表示するタイルのサイズと数を変更できます。",
     "themes": {
       "light": "白",
-      "dark": "黑"
+      "dark": "黒",
+      "auto": "自動"
     }
   },
   "screen_rotation": {
     "title": "画面の向き",
-    "auto_rotate": "Auto-rotate",
+    "auto_rotate": "自動回転",
     "rotation_lock": "回転ロック",
     "friendly_rotation_lock": "［回転ロック］をオンにすると、電話を回転させても画面の向きが変わりません。"
   },
@@ -30,107 +31,129 @@
   "ease_of_access": {
     "title": "簡単操作",
     "description": "文字サイズ、ハイコントラスト、その他",
-    "reduce_motion": "Reduce motion",
-    "scaling": "Scaling",
+    "reduce_motion": {
+      "title": "動きを減らす",
+      "description": "視差やアニメーションなどの動きの効果を減らして、乗り物酔いを防ぎます。"
+    },
+    "high_contrast": {
+      "title": "ハイコントラスト",
+      "description": "一部の機能の色を変更し、一部の背景画像を非表示にします。"
+    },
+    "scaling": "スケーリング",
     "font": {
-      "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "title": "フォント",
+      "choose": "選択...",
+      "remove": "フォントを削除"
+    },
+    "haptic_feedback": {
+      "title": "触覚フィードバック",
+      "description": "タイルやコントロールを操作するときに振動フィードバックを有効にします。"
+    },
+    "groups": {
+      "vision": "視覚",
+      "tactile": "触覚"
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "高度な設定",
+    "description": "パッケージマネージャーとその他の調整",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "デバッグ",
+      "dump_apps": "インストールされたアプリのJSONをダンプ"
+    },
+    "data": {
+      "title": "データ",
+      "backup": "バックアップ",
+      "restore": "復元"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
-      "system": "System",
-      "root": "Root",
+      "title": "パッケージマネージャー",
+      "title_experimental": "パッケージマネージャー（実験的）",
+      "system": "システム",
+      "root": "ルート",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "ダブルタップでスリープ",
+    "alternative_wallpaper": "代替壁紙配置"
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "Groove Launcherをリセットしますか？",
+      "message": "これにより、ランチャーがデフォルト設定にリセットされます。すべてのカスタマイズが失われます。"
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "ルートアクセスが必要です",
+      "message": "この操作を実行するにはルートアクセスが必要です。続行するにはルートアクセスを許可してください。"
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "Shizukuの権限が必要です",
+      "message": "この操作を実行するにはShizukuの権限が必要です。続行するにはShizukuの権限を許可してください。"
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "アップデートが利用可能です！",
+      "message": "新しいバージョン<strong>({{version}})</strong>が利用可能です。サイズは{{size}}です。ダウンロードしますか？",
+      "message2": "新しいバージョン<strong>({{version}})</strong>が利用可能です。ダウンロードしますか？"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "アップデートの確認に失敗しました！",
+      "message": "アプリのアップデートを確認できませんでした。後でもう一度お試しください。"
     },
     "up_to_date": {
-      "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "title": "最新の状態です！",
+      "message": "Groove Launcherの最新バージョンを使用しています。"
     },
     "font_read_error": {
-      "title": "Unsupported file format",
-      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
+      "title": "サポートされていないファイル形式",
+      "message": "フォントファイルが無効です。 .ttfファイルであることを確認し、再度アップロードしてください。"
     },
     "font_load_error": {
-      "title": "Can’t load font",
-      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
+      "title": "フォントを読み込めません",
+      "message": "フォントファイルを読み取れませんでした。 .ttfフォントのみがサポートされています。別のファイルを試してください。"
     },
     "copy_failed": {
-      "title": "Copy Failed!",
-      "message": "Unable to copy apps list. Please try again."
+      "title": "コピーに失敗しました！",
+      "message": "アプリリストをコピーできませんでした。もう一度お試しください。"
     },
     "copy_success": {
-      "title": "Copied to Clipboard!",
-      "message": "Installed apps copied to JSON format successfully."
+      "title": "クリップボードにコピーされました！",
+      "message": "インストールされたアプリがJSON形式で正常にコピーされました。"
     }
   },
   "about": {
     "title": "情報",
     "description": "Groove Launcher",
-    "version": "Version: {{version}}",
-    "webview_version": "WebView Version: {{version}}",
-    "reset_launcher": "Reset Launcher",
-    "check_updates": "Check Updates"
+    "version": "バージョン: {{version}}",
+    "webview_version": "WebViewバージョン: {{version}}",
+    "reset_launcher": "ランチャーをリセット",
+    "check_updates": "アップデートを確認"
   },
   "apps": {
-    "uninstall_app": "Uninstall App",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "uninstall_app": "アプリをアンインストール",
+    "show_in_app_list": "このアプリをアプリリストに表示",
+    "name": "名前",
+    "icon": "アイコン",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "デフォルト",
+      "monochrome": "モノクローム"
     },
-    "background": "Background",
+    "background": "背景",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "デフォルト",
+      "transparent": "透明"
     },
-    "text_color": "Text color",
+    "text_color": "テキストの色",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "自動",
+      "dark": "暗い",
+      "light": "明るい"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "ライブタイル",
+    "show_app": "アプリリストに表示"
   },
   "roles": {
-    "team_groove": "Team Groove",
-    "developer": "Developer",
-    "icon_design": "Icon Design",
-    "logo_design": "Logo Design"
+    "team_groove": "チームグルーブ",
+    "developer": "開発者",
+    "icon_design": "アイコンデザイン",
+    "logo_design": "ロゴデザイン"
   }
 }

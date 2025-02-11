@@ -7,6 +7,7 @@
     "uninstall": "Shoo app go bye-bye!",
     "cancel": "Naw, nebermindz!",
     "apply": "Makez it happenz!",
+    "allow": "Allow",
     "try_again": "Tryz 'gain, meow!",
     "light": "Shinyz mode!",
     "dark": "Spoopy darkz!",
@@ -14,7 +15,9 @@
     "on": "Onny-onz!",
     "off": "Offy-offz!",
     "locked": "Locky-lockz!",
-    "unlocked": "Freeeeeee!"
+    "unlocked": "Freeeeeee!",
+    "dismiss": "Dismiss",
+    "read_more": "Read more"
   },
   "search": {
     "title": "Findy-findz!",
@@ -28,6 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Stick it to homez!",
+    "app_info": "App info",
     "uninstall": "Bye-bye appy!"
   },
   "alerts": {

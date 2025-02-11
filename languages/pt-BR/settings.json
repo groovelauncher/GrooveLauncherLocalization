@@ -15,7 +15,8 @@
     "friendly_tiles": "Você pode alterar o tamanho e o número de blocos disponíveis na sua tela inicial.",
     "themes": {
       "light": "Clara",
-      "dark": "Escura"
+      "dark": "Escura",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Facilidade de acesso",
     "description": "tamanho de texto, alto contraste e mais",
-    "reduce_motion": "Reduce motion",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Scaling",
     "font": {
       "title": "Font",
       "choose": "Choose...",
       "remove": "Remove Font"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Debugging",
       "dump_apps": "Dump Installed Apps JSON"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Package manager",
       "title_experimental": "Package manager (EXPERIMENTAL)",
       "system": "Sistema",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {

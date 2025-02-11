@@ -7,6 +7,7 @@
     "uninstall": "Silin",
     "cancel": "Ləğv et",
     "apply": "Tətbiq et",
+    "allow": "Allow",
     "try_again": "Yenidən cəhd edin",
     "light": "Açıq",
     "dark": "Tünd",
@@ -14,7 +15,9 @@
     "on": "Aktiv",
     "off": "Qeyri-aktiv",
     "locked": "Kilidlənib",
-    "unlocked": "Kilidi açıldı"
+    "unlocked": "Kilidi açıldı",
+    "dismiss": "Məhəl qoyma",
+    "read_more": "Ətraflı oxu"
   },
   "search": {
     "title": "Axtarış",
@@ -28,6 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Əsas ekrana daxil et",
+    "app_info": "Proqram məlumatı",
     "uninstall": "Quraş-ı ləğv et"
   },
   "alerts": {

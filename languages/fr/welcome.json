@@ -29,6 +29,27 @@
         "title": "Choisissez votre couleur",
         "description": "Choisir une couleur qui correspond à votre humeur."
     },
+    "permissions": {
+        "title": "Permissions",
+        "groups": {
+            "contacts": {
+                "title": "Contacts",
+                "description": "L'accès aux contacts est nécessaire pour afficher la vignette dynamique de vos contacts."
+            },
+            "photos": {
+                "title": "Photos",
+                "description": "L'accès aux photos est nécessaire pour afficher la vignette dynamique de vos photos."
+            },
+            "notifications": {
+                "title": "Notifications",
+                "description": "L'accès aux notifications est nécessaire pour afficher la vignette dynamique de vos notifications."
+            },
+            "accessibility": {
+                "title": "Accessibilité",
+                "description": "Activer l'accessibilité pour verrouiller l'appareil."
+            }
+        }
+    },
     "whatsnew": {
         "title": "Quoi de neuf?"
     },

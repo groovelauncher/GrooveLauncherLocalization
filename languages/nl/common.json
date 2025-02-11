@@ -7,6 +7,7 @@
     "uninstall": "Verwijder",
     "cancel": "Annuleer",
     "apply": "Pas toe",
+    "allow": "Allow",
     "try_again": "Probeer opnieuw",
     "light": "Wit",
     "dark": "Zwart",
@@ -14,7 +15,9 @@
     "on": "Ingeschakeld",
     "off": "Uitgeschakeld",
     "locked": "Vergrendeld",
-    "unlocked": "Ontgrendeld"
+    "unlocked": "Ontgrendeld",
+    "dismiss": "Dismiss",
+    "read_more": "Read more"
   },
   "search": {
     "title": "Zoeken",
@@ -28,6 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Aan thuisscherm vastmaken",
+    "app_info": "App info",
     "uninstall": "Verwijderen"
   },
   "alerts": {

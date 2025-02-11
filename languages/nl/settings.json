@@ -15,7 +15,8 @@
     "friendly_tiles": "U kunt de grootte van de tegels en het aantal tegels op uw thuisscherm wijzigen.",
     "themes": {
       "light": "Wit",
-      "dark": "Zwart"
+      "dark": "Zwart",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Toegankelijkheid",
     "description": "lettergrootte, hoog contrast en meer",
-    "reduce_motion": "Verminder beweging",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Schalen",
     "font": {
       "title": "Lettertype",
       "choose": "Kies...",
       "remove": "Verwijder Lettertype"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Debuggen",
       "dump_apps": "Dump Geïnstalleerde Apps JSON"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Pakketbeheer",
       "title_experimental": "Pakketbeheer (EXPERIMENTEEL)",
       "system": "Systeem",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {

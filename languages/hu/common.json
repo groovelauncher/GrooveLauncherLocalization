@@ -7,6 +7,7 @@
     "uninstall": "Eltávolít",
     "cancel": "Mégse",
     "apply": "Alkalmaz",
+    "allow": "Allow",
     "try_again": "Próbálja újra",
     "light": "Világos",
     "dark": "Sötét",
@@ -14,7 +15,9 @@
     "on": "Be",
     "off": "Ki",
     "locked": "Zárolt",
-    "unlocked": "Feloldott"
+    "unlocked": "Feloldott",
+    "dismiss": "Dismiss",
+    "read_more": "Read more"
   },
   "search": {
     "title": "Keresés",
@@ -28,6 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Kitűzés",
+    "app_info": "App info",
     "uninstall": "Eltávolítás"
   },
   "alerts": {

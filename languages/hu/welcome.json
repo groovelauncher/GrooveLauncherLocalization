@@ -29,6 +29,27 @@
         "title": "Válasszon színt",
         "description": "Válasszon hangulatának megfelelő színt."
     },
+    "permissions": {
+        "title": "Permissions",
+        "groups": {
+            "contacts": {
+                "title": "Contacts",
+                "description": "Access to contacts is needed to display your contacts live tile."
+            },
+            "photos": {
+                "title": "Photos",
+                "description": "Access to photos is needed to display your photos live tile."
+            },
+            "notifications": {
+                "title": "Notifications",
+                "description": "Access to notifications is needed to display your notifications live tile."
+            },
+            "accessibility": {
+                "title": "Accessibility",
+                "description": "Enable accessibility to lock device."
+            }
+        }
+    },
     "whatsnew": {
         "title": "Újdonságok"
     },

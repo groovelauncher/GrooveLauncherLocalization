@@ -15,7 +15,8 @@
     "friendly_tiles": "Vous pouvez modifier la taille et le nombre des vignettes disponibles sur votre écran d'accueil.",
     "themes": {
       "light": "Clair",
-      "dark": "Sombre"
+      "dark": "Sombre",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Options D'ergonomie",
     "description": "taille du texte, contraste, etc",
-    "reduce_motion": "Réduire le mouvement",
+    "reduce_motion": {
+      "title": "Réduire les mouvements",
+      "description": "Réduisez les effets de mouvement, tels que la parallaxe et les animations, pour aider à prévenir le mal des transports."
+    },
+    "high_contrast": {
+      "title": "Contraste élevé",
+      "description": "Modifie les couleurs de certaines fonctionnalités et masque certaines de leurs images d'arrière-plan."
+    },
     "scaling": "Mise à l'échelle",
     "font": {
       "title": "Police",
       "choose": "Choisir...",
       "remove": "Supprimer La Police"
+    },
+    "haptic_feedback": {
+      "title": "Retour haptique",
+      "description": "Activez le retour par vibration lors de l'interaction avec les vignettes et les contrôles."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Débogage",
       "dump_apps": "Vider les applications installées dans JSON"
     },
+    "data": {
+      "title": "Données",
+      "backup": "Sauvegarde",
+      "restore": "Restaurer"
+    },
     "package_manager": {
       "title": "Gestionnaire de paquets",
       "title_experimental": "Gestionnaire de paquets (EXPÉRIMENTAL)",
       "system": "Système",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap pour dormir",
+    "alternative_wallpaper": "Placement alternatif du fond d'écran"
   },
   "alerts": {
     "reset": {
@@ -76,7 +99,7 @@
       "message": "Impossible de vérifier les mises à jour de l'application. Veuillez réessayer plus tard."
     },
     "up_to_date": {
-      "title": "Jusqu'à la date !",
+      "title": "À jour !",
       "message": "Vous disposez de la dernière version de Groove Launcher."
     },
     "font_read_error": {
@@ -106,26 +129,26 @@
   },
   "apps": {
     "uninstall_app": "Désinstaller l'application",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "show_in_app_list": "Afficher cette application dans la liste des applications",
+    "name": "Nom",
+    "icon": "Icône",
     "icon_selections": {
-      "default": "Default",
+      "default": "Par défaut",
       "monochrome": "Monochrome"
     },
-    "background": "Background",
+    "background": "Arrière-plan",
     "background_selections": {
-      "default": "Default",
+      "default": "Par défaut",
       "transparent": "Transparent"
     },
-    "text_color": "Text color",
+    "text_color": "Couleur du texte",
     "text_color_selections": {
       "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "dark": "Sombre",
+      "light": "Clair"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Vignette dynamique",
+    "show_app": "Afficher dans la liste des applications"
   },
   "roles": {
     "team_groove": "L'équipe Groove",

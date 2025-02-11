@@ -7,6 +7,7 @@
     "uninstall": "Деинсталира",
     "cancel": "Откажи",
     "apply": "Примени",
+    "allow": "Allow",
     "try_again": "Пробај пак",
     "light": "Светла",
     "dark": "Темна",
@@ -14,7 +15,9 @@
     "on": "Вклучено",
     "off": "Исклучено",
     "locked": "Блокирано",
-    "unlocked": "Отклучено"
+    "unlocked": "Отклучено",
+    "dismiss": "Dismiss",
+    "read_more": "Read more"
   },
   "search": {
     "title": "Пребарај",
@@ -28,6 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Прикачи на почетен",
+    "app_info": "App info",
     "uninstall": "Деинсталирај"
   },
   "alerts": {
