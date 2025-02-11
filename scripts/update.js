@@ -1,13 +1,10 @@
 import axios from 'axios';
 import { Octokit } from "@octokit/rest";
-import cron from 'node-cron';
 import dotenv from 'dotenv';
 import AdmZip from 'adm-zip';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import parser from 'cron-parser';
-const SYNC_INTERVAL = '6 hours'; // Change this to your desired interval
 
 dotenv.config();
 
