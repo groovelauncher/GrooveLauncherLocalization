@@ -15,7 +15,8 @@
     "friendly_tiles": "Voit vaihtaa aloitusnäytön ruutujen määrää ja kokoa.",
     "themes": {
       "light": "Vaalea",
-      "dark": "Tumma"
+      "dark": "Tumma",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Aputoiminnot",
     "description": "tekstikoko, suuri kontrasti ja muut ominaisuudet",
-    "reduce_motion": "Vähennä liikettä",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Skaalaus",
     "font": {
       "title": "Fontti",
       "choose": "Selaa...",
       "remove": "Poista fontti"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Debuggaus",
       "dump_apps": "Vie asennetut sovellukset JSON -tiedostoon"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Paketin hallinta",
       "title_experimental": "Paketin hallinta (KOKEELLINEN)",
       "system": "Järjestelmä",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {

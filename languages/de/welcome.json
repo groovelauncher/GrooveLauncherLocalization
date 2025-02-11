@@ -29,6 +29,27 @@
         "title": "Wähle deine Farbe",
         "description": "Wähle eine Farbe, die zu deiner Stimmung passt."
     },
+    "permissions": {
+        "title": "Berechtigungen",
+        "groups": {
+            "contacts": {
+                "title": "Kontakte",
+                "description": "Zugriff auf Kontakte ist erforderlich, um deine Kontakte-Live-Kachel anzuzeigen."
+            },
+            "photos": {
+                "title": "Fotos",
+                "description": "Zugriff auf Fotos ist erforderlich, um deine Fotos-Live-Kachel anzuzeigen."
+            },
+            "notifications": {
+                "title": "Benachrichtigungen",
+                "description": "Zugriff auf Benachrichtigungen ist erforderlich, um deine Benachrichtigungen-Live-Kachel anzuzeigen."
+            },
+            "accessibility": {
+                "title": "Barrierefreiheit",
+                "description": "Aktiviere die Barrierefreiheit, um das Gerät zu sperren."
+            }
+        }
+    },
     "whatsnew": {
         "title": "Was gibt’s Neues?"
     },

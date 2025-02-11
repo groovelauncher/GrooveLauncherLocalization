@@ -7,6 +7,7 @@
     "uninstall": "Κατάργηση",
     "cancel": "Cancel",
     "apply": "Apply",
+    "allow": "Allow",
     "try_again": "Try again",
     "light": "Light",
     "dark": "Dark",
@@ -14,7 +15,9 @@
     "on": "Ενεργό",
     "off": "Ανενεργό",
     "locked": "Locked",
-    "unlocked": "Unlocked"
+    "unlocked": "Unlocked",
+    "dismiss": "Dismiss",
+    "read_more": "Read more"
   },
   "search": {
     "title": "Αναζήτηση",
@@ -28,6 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Pin to home",
+    "app_info": "App info",
     "uninstall": "Κατάργηση"
   },
   "alerts": {

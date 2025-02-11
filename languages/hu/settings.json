@@ -15,7 +15,8 @@
     "friendly_tiles": "Megváltoztathatja a kezdőlapon elérhető csempék méretét és számát.",
     "themes": {
       "light": "Világos",
-      "dark": "Sötét"
+      "dark": "Sötét",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Akadálymentesítés",
     "description": "szöveg méret, magas kontraszt és továbbiak",
-    "reduce_motion": "Animációk korlátozása",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Méretarány",
     "font": {
       "title": "Betűtípus",
       "choose": "Tallózás...",
       "remove": "Betűtípus eltávolítása"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Hibakeresés",
       "dump_apps": "Telepített alkalmazások írása JSON fájlba"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Csomagkezelő",
       "title_experimental": "Csomagkezelő (fejlesztés alatt)",
       "system": "Rendszer",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {

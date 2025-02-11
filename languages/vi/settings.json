@@ -15,7 +15,8 @@
     "friendly_tiles": "Bạn có thể thay đổi kích cỡ và số lượng hình xếp sẵn dùng trên màn hình bắt đầu.",
     "themes": {
       "light": "Sáng",
-      "dark": "Tối"
+      "dark": "Tối",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Hỗ trợ tiếp cận",
     "description": "cỡ chữ, tương phản cao, và hơn thế",
-    "reduce_motion": "Giảm hoạt ảnh",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Cỡ phóng",
     "font": {
       "title": "Phông chữ",
       "choose": "Lựa chọn...",
       "remove": "Xóa font"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Gỡ lỗi",
       "dump_apps": "Dump danh sách ứng dụng được cài đặt ra JSON"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Trình quản lí gói",
       "title_experimental": "Trình quản lí gói (THỬ NGHIỆM)",
       "system": "Hệ thống",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {

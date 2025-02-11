@@ -15,7 +15,8 @@
     "friendly_tiles": "Вы можете изменить размер и количество иконок, доступных на рабочем столе.",
     "themes": {
       "light": "Светлый",
-      "dark": "Тёмный"
+      "dark": "Тёмный",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Специальные Возможности",
     "description": "размер текста, высокая контрастность и многое другое",
-    "reduce_motion": "Уменьшить движение",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Масштаб",
     "font": {
       "title": "Шрифт",
       "choose": "Выбрать...",
       "remove": "Удалить Шрифт"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Отладка",
       "dump_apps": "Дамп установленных приложений JSON"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Менеджер пакетов",
       "title_experimental": "Менеджер пакетов (ЭКСПЕРИМЕНТАЛЬНО)",
       "system": "Система",
       "root": "Рут",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {

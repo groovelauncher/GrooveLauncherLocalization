@@ -1,20 +1,23 @@
 {
   "actions": {
-    "ok": "Ok",
-    "okay": "Okay",
+    "ok": "はい",
+    "okay": "はい",
     "yes": "はい",
     "no": "いいえ",
-    "uninstall": "Uninstall",
-    "cancel": "Cancel",
-    "apply": "Apply",
-    "try_again": "Try again",
+    "uninstall": "アンインストール",
+    "cancel": "キャンセル",
+    "apply": "適用",
+    "allow": "許可",
+    "try_again": "再試行",
     "light": "白",
-    "dark": "黑",
-    "remove": "Remove",
+    "dark": "黒",
+    "remove": "削除",
     "on": "オン",
     "off": "オフ",
-    "locked": "Locked",
-    "unlocked": "Unlocked"
+    "locked": "ロック",
+    "unlocked": "ロック解除",
+    "dismiss": "閉じる",
+    "read_more": "もっと読む"
   },
   "search": {
     "title": "検索",
@@ -22,18 +25,19 @@
     "search_store": "ストアを検索"
   },
   "errors": {
-    "webview_old": "WebView is too old!",
-    "home_reset": "Your home screen was reset because of a fatal error :( Please report this:",
-    "launch_timeout": "System took too long to launch"
+    "webview_old": "WebViewが古すぎます！",
+    "home_reset": "致命的なエラーのため、ホーム画面がリセットされました :( 報告してください:",
+    "launch_timeout": "システムの起動に時間がかかりすぎました"
   },
   "app_menu": {
-    "pin_to_home": "Pin to home",
+    "pin_to_home": "ホームにピン留め",
+    "app_info": "アプリ情報",
     "uninstall": "削除"
   },
   "alerts": {
     "default": {
-      "title": "Alert!",
-      "message": "Message"
+      "title": "警告！",
+      "message": "メッセージ"
     },
     "uninstall": {
       "title": "このアプリを削除しますか？",

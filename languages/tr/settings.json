@@ -15,7 +15,8 @@
     "friendly_tiles": "Ana ekranınızdaki Kutucukların boyutunu ve sayısını değiştirebilirsiniz.",
     "themes": {
       "light": "Açık",
-      "dark": "Koyu"
+      "dark": "Koyu",
+      "auto": "Otomatik"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Erişim Kolaylığı",
     "description": "metin boyutu, yüksek kontrast ve diğer özellikler",
-    "reduce_motion": "Hareketi azalt",
+    "reduce_motion": {
+      "title": "Hareketi azalt",
+      "description": "Hareket hassassiyetini tetiklememeye yardımcı olmak için paralaks ve animasyonlar gibi hareket etkilerini azaltın."
+    },
+    "high_contrast": {
+      "title": "Yüksek karşıtlık",
+      "description": "Bazı elemanların renklerini değiştirir ve arka plan resimlerini gizler."
+    },
     "scaling": "Ölçekleme",
     "font": {
       "title": "Font",
       "choose": "Seç...",
       "remove": "Fontu kaldır"
+    },
+    "haptic_feedback": {
+      "title": "Dokunsal Geribildirim",
+      "description": "Karolar ve kontrollerle etkileşime girerken titreşim geri bildirimini etkinleştirin."
+    },
+    "groups": {
+      "vision": "Görme",
+      "tactile": "Dokunma"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Hata ayıklama",
       "dump_apps": "Yüklü uygulamaları JSON olarak dökümle"
     },
+    "data": {
+      "title": "Veri",
+      "backup": "Yedekle",
+      "restore": "Geri Yükle"
+    },
     "package_manager": {
       "title": "Paket yöneticisi",
       "title_experimental": "Paket yöneticisi (DENEYSEL)",
       "system": "Sistem",
       "root": "Kök",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Uyutmak için çift dokunma",
+    "alternative_wallpaper": "Alternatif duvar kağıdı yerleşimi"
   },
   "alerts": {
     "reset": {
@@ -106,26 +129,26 @@
   },
   "apps": {
     "uninstall_app": "Uygulamayı Kaldır",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "show_in_app_list": "Bu uygulamayı listede göster",
+    "name": "İsim",
+    "icon": "Simge",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Varsayılan",
+      "monochrome": "Siyah-Beyaz"
     },
-    "background": "Background",
+    "background": "Arka plan",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "Varsayılan",
+      "transparent": "Saydam"
     },
-    "text_color": "Text color",
+    "text_color": "Metin rengi",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Otomatik",
+      "dark": "koyu",
+      "light": "açık"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Canlı kutucuk",
+    "show_app": "Uygulamalarda göster"
   },
   "roles": {
     "team_groove": "Groove Takımı",

@@ -7,14 +7,17 @@
     "uninstall": "Désinstaller",
     "cancel": "Annuler",
     "apply": "Appliquer",
+    "allow": "Autoriser",
     "try_again": "Réessayer",
     "light": "Clair",
     "dark": "Sombre",
     "remove": "Supprimer",
-    "on": "On",
-    "off": "Off",
+    "on": "Activé",
+    "off": "Désactivé",
     "locked": "Verrouillé",
-    "unlocked": "Déverrouillé"
+    "unlocked": "Déverrouillé",
+    "dismiss": "Ignorer",
+    "read_more": "En savoir plus"
   },
   "search": {
     "title": "Rechercher",
@@ -28,6 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Épingler à l'accueil",
+    "app_info": "Infos sur l'application",
     "uninstall": "Désinstaller"
   },
   "alerts": {

@@ -29,6 +29,27 @@
         "title": "Renginizi seçin",
         "description": "Ruh halinize uygun bir renk seçin."
     },
+    "permissions": {
+        "title": "İzinler",
+        "groups": {
+            "contacts": {
+                "title": "Kişiler",
+                "description": "Kişiler canlı kutucuğunu görüntülemek için kişilere erişim gereklidir."
+            },
+            "photos": {
+                "title": "Fotoğraflar",
+                "description": "Fotoğraflar canlı kutucuğunu görüntülemek için fotoğraflara erişim gereklidir."
+            },
+            "notifications": {
+                "title": "Bildirimler",
+                "description": "Bildirimler canlı kutucuğunu görüntülemek için bildirimlere erişim gereklidir."
+            },
+            "accessibility": {
+                "title": "Erişilebilirlik",
+                "description": "Cihazı uyutmak için erişilebilirlik izni gereklidir."
+            }
+        }
+    },
     "whatsnew": {
         "title": "Neler Yeni?"
     },

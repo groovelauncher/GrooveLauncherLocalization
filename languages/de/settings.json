@@ -15,7 +15,8 @@
     "friendly_tiles": "Du kannst die Größe und die Anzahl der auf dem Homebildschirm angezeigten Kacheln ändern.",
     "themes": {
       "light": "Hell",
-      "dark": "Dunkel"
+      "dark": "Dunkel",
+      "auto": "Automatisch"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Erleichterte Bedienung",
     "description": "Textgröße, hoher Kontrast und weitere Features",
-    "reduce_motion": "Animationen reduzieren",
+    "reduce_motion": {
+      "title": "Bewegung reduzieren",
+      "description": "Reduziert Bewegungseffekte wie Parallax und Animationen, um Reisekrankheit zu verhindern."
+    },
+    "high_contrast": {
+      "title": "Hoher Kontrast",
+      "description": "Ändert die Farben für einige Funktionen und blendet einige ihrer Hintergrundbilder aus."
+    },
     "scaling": "Skalierung",
     "font": {
       "title": "Schriftart",
       "choose": "Wählen...",
       "remove": "Schriftart entfernen"
+    },
+    "haptic_feedback": {
+      "title": "Haptisches Feedback",
+      "description": "Aktiviert Vibrationsfeedback bei der Interaktion mit Kacheln und Steuerelementen."
+    },
+    "groups": {
+      "vision": "Sehen",
+      "tactile": "Taktile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Debuggen",
       "dump_apps": "Installierte Apps im JSON-Format exportieren"
     },
+    "data": {
+      "title": "Daten",
+      "backup": "Sicherung",
+      "restore": "Wiederherstellen"
+    },
     "package_manager": {
       "title": "Paketmanager",
       "title_experimental": "Paketmanager (EXPERIMENTELL)",
       "system": "System",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Doppeltippen zum Schlafen",
+    "alternative_wallpaper": "Alternative Hintergrundbildplatzierung"
   },
   "alerts": {
     "reset": {
@@ -106,26 +129,26 @@
   },
   "apps": {
     "uninstall_app": "App deinstallieren",
-    "show_in_app_list": "Show this app in App List",
+    "show_in_app_list": "Diese App in der App-Liste anzeigen",
     "name": "Name",
     "icon": "Icon",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Standard",
+      "monochrome": "Monochrom"
     },
-    "background": "Background",
+    "background": "Hintergrund",
     "background_selections": {
-      "default": "Default",
+      "default": "Standard",
       "transparent": "Transparent"
     },
-    "text_color": "Text color",
+    "text_color": "Textfarbe",
     "text_color_selections": {
       "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "dark": "Dunkel",
+      "light": "Hell"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Live-Kachel",
+    "show_app": "In der App-Liste anzeigen"
   },
   "roles": {
     "team_groove": "Team Groove",

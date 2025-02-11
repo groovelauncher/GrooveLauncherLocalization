@@ -15,7 +15,8 @@
     "friendly_tiles": "Resizez an choos da tilez how u likez on ur hoom screenz!",
     "themes": {
       "light": "Shiny Modez!",
-      "dark": "Spoopy Modez!"
+      "dark": "Spoopy Modez!",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Eazy-Peazy Use!",
     "description": "texty-sizez, contrasty, and moar stuffz!",
-    "reduce_motion": "Less wigglez!",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Zoomy-zoom!",
     "font": {
       "title": "Letter Stylez!",
       "choose": "Pickz one!",
       "remove": "Buh-byez Font!"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Debuggy Timez!",
       "dump_apps": "Make appy-listz JSON!"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Appy-Packagez!",
       "title_experimental": "Dangerous Packagez (EXPERIMENTAL!)",
       "system": "Systemz!",
       "root": "Rootz!",
       "shizuku": "Shizuku Powerz!"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {
