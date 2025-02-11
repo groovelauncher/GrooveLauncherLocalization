@@ -15,7 +15,8 @@
     "friendly_tiles": "Puteți schimba dimensiunea și numărul de dale disponibile în ecranul de acasă.",
     "themes": {
       "light": "Deschis",
-      "dark": "Închis"
+      "dark": "Închis",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Simplificare Acces",
     "description": "dimensiuni text, contrast ridicat și altele",
-    "reduce_motion": "Reducere mișcare",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Scalare",
     "font": {
       "title": "Font",
       "choose": "Alegeți...",
       "remove": "Eliminare Font"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Debugging",
       "dump_apps": "Exportare JSON de Aplicații Instalate"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Manager de pachete",
       "title_experimental": "Manager de pachete (EXPERIMENTAL)",
       "system": "Sistem",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {
@@ -105,7 +128,27 @@
     "check_updates": "Verificare Actualizări"
   },
   "apps": {
-    "uninstall_app": "Dezinstalați Aplicația"
+    "uninstall_app": "Dezinstalați Aplicația",
+    "show_in_app_list": "Show this app in App List",
+    "name": "Name",
+    "icon": "Icon",
+    "icon_selections": {
+      "default": "Default",
+      "monochrome": "Monochrome"
+    },
+    "background": "Background",
+    "background_selections": {
+      "default": "Default",
+      "transparent": "Transparent"
+    },
+    "text_color": "Text color",
+    "text_color_selections": {
+      "auto": "Auto",
+      "dark": "dark",
+      "light": "light"
+    },
+    "live_tile": "Live tile",
+    "show_app": "Show in apps list"
   },
   "roles": {
     "team_groove": "Echipa Groove",

@@ -1,39 +1,60 @@
 {
     "common": {
-        "next": "następny",
-        "previous": "poprzedni",
-        "pleaseWait": "Proszę czekać..."
+        "next": "next",
+        "previous": "previous",
+        "pleaseWait": "Please wait..."
     },
     "welcome": {
-        "install": "Witaj",
-        "update": "Witaj ponownie",
+        "install": "Welcome",
+        "update": "Welcome back",
         "appName": "Groove Launcher",
         "setupIntro": "Let's setup your experience in a few short steps.",
-        "warning": "Uwaga: To jest wydanie przedpremierowe i może zawierać błędy."
+        "warning": "Warning: This is pre-release software and may contain bugs."
     },
     "wizard": {
         "title": "Update Wizard",
-        "description": "Plik czcionki jest nieprawidłowy. Upewnij się że to jest plik z rozszerzeniem. ttf i spróbuj. wysłać ponownie."
+        "description": "Let's ensure your data is moved across safely! Click next to continue."
     },
     "access": {
-        "title": "Ułatwienia dostępu",
+        "title": "Ease of Access",
         "description": "Customize your experience to ensure that everything feels just right.",
-        "background": "Tło",
-        "scaling": "Skalowanie"
+        "background": "Background",
+        "scaling": "Scaling"
     },
     "themes": {
-        "light": "Jasny",
-        "dark": "Ciemny"
+        "light": "Light",
+        "dark": "Dark"
     },
     "colors": {
-        "title": "Wybierz swój kolor",
-        "description": "Wybierz kolor, który odpowiada twojemu nastrojowi."
+        "title": "Choose your color",
+        "description": "Pick a color that matches your mood."
+    },
+    "permissions": {
+        "title": "Permissions",
+        "groups": {
+            "contacts": {
+                "title": "Contacts",
+                "description": "Access to contacts is needed to display your contacts live tile."
+            },
+            "photos": {
+                "title": "Photos",
+                "description": "Access to photos is needed to display your photos live tile."
+            },
+            "notifications": {
+                "title": "Notifications",
+                "description": "Access to notifications is needed to display your notifications live tile."
+            },
+            "accessibility": {
+                "title": "Accessibility",
+                "description": "Enable accessibility to lock device."
+            }
+        }
     },
     "whatsnew": {
-        "title": "Co nowego?"
+        "title": "What's New?"
     },
     "finish": {
         "title": "Get ready to Groove",
-        "description": "Wszystko gotowe!"
+        "description": "Your setup is done. Time to dive in!"
     }
 }

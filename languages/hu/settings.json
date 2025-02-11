@@ -15,7 +15,8 @@
     "friendly_tiles": "Megváltoztathatja a kezdőlapon elérhető csempék méretét és számát.",
     "themes": {
       "light": "Világos",
-      "dark": "Sötét"
+      "dark": "Sötét",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Akadálymentesítés",
     "description": "szöveg méret, magas kontraszt és továbbiak",
-    "reduce_motion": "Animációk korlátozása",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Méretarány",
     "font": {
       "title": "Betűtípus",
       "choose": "Tallózás...",
       "remove": "Betűtípus eltávolítása"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Hibakeresés",
       "dump_apps": "Telepített alkalmazások írása JSON fájlba"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Csomagkezelő",
       "title_experimental": "Csomagkezelő (fejlesztés alatt)",
       "system": "Rendszer",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {
@@ -68,8 +91,8 @@
     },
     "update_available": {
       "title": "Frissítés elérhető!",
-      "message": "Új verzió érhető el: <strong>{{version}}</strong>, mérete {{size}}. Szeretné letölteni?",
-      "message2": "Új verzió érhető el: <strong>{{version}}</strong>. Szeretné letölteni?"
+      "message": "Új verzió érhető el: <strong>({{version}})</strong>, mérete {{size}}. Szeretné letölteni?",
+      "message2": "Új verzió érhető el: <strong>({{version}})</strong>. Szeretné letölteni?"
     },
     "update_check_failed": {
       "title": "Frissítés keresése sikertelen!",
@@ -77,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Naprakész.",
-      "message": "A Groove Launcher naprakész."
+      "message": "Ön a Groove Launcher legújabb verziójával rendelkezik."
     },
     "font_read_error": {
       "title": "Ismeretlen fájlformátum",
@@ -105,12 +128,32 @@
     "check_updates": "Frissítések keresése"
   },
   "apps": {
-    "uninstall_app": "Alkalmazás eltávolítása"
+    "uninstall_app": "Alkalmazás eltávolítása",
+    "show_in_app_list": "Show this app in App List",
+    "name": "Name",
+    "icon": "Icon",
+    "icon_selections": {
+      "default": "Default",
+      "monochrome": "Monochrome"
+    },
+    "background": "Background",
+    "background_selections": {
+      "default": "Default",
+      "transparent": "Transparent"
+    },
+    "text_color": "Text color",
+    "text_color_selections": {
+      "auto": "Auto",
+      "dark": "dark",
+      "light": "light"
+    },
+    "live_tile": "Live tile",
+    "show_app": "Show in apps list"
   },
   "roles": {
     "team_groove": "Groove csapat",
     "developer": "Fejlesztő",
     "icon_design": "Ikon dizájn",
-    "logo_design": "Logó dizájn"
+    "logo_design": "Logo Design"
   }
 }

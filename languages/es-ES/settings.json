@@ -15,7 +15,8 @@
     "friendly_tiles": "Puedes cambiar el tamaño y el número de mosaicos disponibles en tu menú inicio.",
     "themes": {
       "light": "Claro",
-      "dark": "Oscuro"
+      "dark": "Oscuro",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Accesibilidad",
     "description": "tamaño de fuente, alto contraste y más",
-    "reduce_motion": "Reducir movimiento",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Escalado",
     "font": {
       "title": "Fuente",
       "choose": "Elige...",
       "remove": "Eliminar fuente"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Depuración",
       "dump_apps": "Exportar aplicaciones instaladas en formato JSON"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Administrador de paquetes",
       "title_experimental": "Administrador de paquetes (EXPERIMENTAL)",
       "system": "Sistema",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {
@@ -105,7 +128,27 @@
     "check_updates": "Comprobar actualizaciones"
   },
   "apps": {
-    "uninstall_app": "Desinstalar aplicación"
+    "uninstall_app": "Desinstalar aplicación",
+    "show_in_app_list": "Show this app in App List",
+    "name": "Name",
+    "icon": "Icon",
+    "icon_selections": {
+      "default": "Default",
+      "monochrome": "Monochrome"
+    },
+    "background": "Background",
+    "background_selections": {
+      "default": "Default",
+      "transparent": "Transparent"
+    },
+    "text_color": "Text color",
+    "text_color_selections": {
+      "auto": "Auto",
+      "dark": "dark",
+      "light": "light"
+    },
+    "live_tile": "Live tile",
+    "show_app": "Show in apps list"
   },
   "roles": {
     "team_groove": "Equipo de Groove",

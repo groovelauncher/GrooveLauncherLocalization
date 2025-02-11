@@ -1,43 +1,47 @@
 {
   "actions": {
-    "ok": "Buscad",
-    "okay": "Buscad",
-    "yes": "Bale",
-    "no": "Xeyr",
-    "uninstall": "Hazf kon",
-    "cancel": "Lagcv kon",
-    "apply": "Eëmul kon",
-    "try_again": "Dobure talusc konid",
-    "light": "Róscan",
-    "dark": "Turik",
-    "remove": "Bardusctan",
-    "on": "Róscan",
-    "off": "Xumwsc",
-    "locked": "Qofl scode",
-    "unlocked": "Qofl nascode"
+    "ok": "Ok",
+    "okay": "Okay",
+    "yes": "Yes",
+    "no": "No",
+    "uninstall": "Uninstall",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "allow": "Allow",
+    "try_again": "Try again",
+    "light": "Light",
+    "dark": "Dark",
+    "remove": "Remove",
+    "on": "On",
+    "off": "Off",
+    "locked": "Locked",
+    "unlocked": "Unlocked",
+    "dismiss": "Dismiss",
+    "read_more": "Read more"
   },
   "search": {
-    "title": "Jostojw",
-    "no_results": "Natijei baruyé {{query}} yuft nascod",
-    "search_store": "dar Buzur jostojw kon"
+    "title": "Search",
+    "no_results": "No results for {{query}}",
+    "search_store": "search Store"
   },
   "errors": {
-    "webview_old": "WebView xeyli qadimi ast!",
-    "home_reset": "Safheyé asliyé scomu be dalilé xatuyé sumunei buznescuni scod :( Lotfan in ru gozuresc dahid:",
-    "launch_timeout": "Zamuné ziyudi baruyé burgozuriyé sumune twl kescid"
+    "webview_old": "WebView is too old!",
+    "home_reset": "Your home screen was reset because of a fatal error :( Please report this:",
+    "launch_timeout": "System took too long to launch"
   },
   "app_menu": {
-    "pin_to_home": "Sanjuq kardan be xune",
-    "uninstall": "Hazf"
+    "pin_to_home": "Pin to home",
+    "app_info": "App info",
+    "uninstall": "Uninstall"
   },
   "alerts": {
     "default": {
-      "title": "Hoscdur!",
-      "message": "Payum"
+      "title": "Alert!",
+      "message": "Message"
     },
     "uninstall": {
-      "title": "In barnume hazf scavad?",
-      "message": "In barnume, hamruh bu hameyé etteluuti ke darbardurad, az dastguhé scomu hazf xuhad scod."
+      "title": "Uninstall this app?",
+      "message": "This app, plus any information it contains, will be deleted from your device."
     }
   },
   "numbers": {

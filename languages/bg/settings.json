@@ -6,23 +6,24 @@
   },
   "theme": {
     "title": "Начало+Тема",
-    "accent_color": "Цвят",
+    "accent_color": "Цветови оттенък",
     "background": "Фон",
-    "home_background": "Фон на начална страница",
+    "home_background": "Фон на началния екран",
     "choose_photo": "Избери снимка",
-    "show_more_tiles": "Покажи повече Плочки",
-    "friendly_accent": "Променете фона на устройството и <span style='color: var(--accent-color)'>цвета</span> според Вашето настроение днес, тази седмица или месец.",
-    "friendly_tiles": "Може да променяте размера и броя плочки, намиращи се на началния екран.",
+    "show_more_tiles": "Показване на още плочки",
+    "friendly_accent": "Сменете фона и <span style='color: var(--accent-color)'>цветовия оттенък</span> на устройството в съответствие с настроението си днес, тази седмица или за целия месец.",
+    "friendly_tiles": "Може да променяте размера и броя на наличните плочки на началния екран.",
     "themes": {
-      "light": "Светла",
-      "dark": "Тъмна"
+      "light": "Светъл",
+      "dark": "Тъмен",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
     "title": "Завъртане на екрана",
     "auto_rotate": "Автоматично завъртане",
-    "rotation_lock": "Заключване на завъртането",
-    "friendly_rotation_lock": "Когато функцията Заключване на завъртането на екрана е включена, началният Ви екран ще остане в текущата ориентация, когато завъртите устройството си."
+    "rotation_lock": "Заключване на вртенето",
+    "friendly_rotation_lock": "Когато заключването на вртенето е включено, вашият екран ще остава в текущата си ориентация при завъртане на устройството."
   },
   "language": {
     "title": "Език"
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Улеснен достъп",
     "description": "размер на текст, висок контраст и други",
-    "reduce_motion": "Намаляване на движението",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Мащабиране",
     "font": {
       "title": "Шрифт",
       "choose": "Изберете...",
       "remove": "Премахване на шрифт"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Отстраняване на грешки",
       "dump_apps": "Извличане на инсталирани приложения JSON"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Мениджър на пакети",
       "title_experimental": "Мениджър на пакети (ЕКСПЕРИМЕНТАЛЕН)",
       "system": "Система",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {
@@ -98,14 +121,34 @@
   },
   "about": {
     "title": "За",
-    "description": "Groove стартер",
+    "description": "Groove Launcher",
     "version": "Версия: {{version}}",
     "webview_version": "WebView версия: {{version}}",
     "reset_launcher": "Нулиране на стартера",
     "check_updates": "Проверка за актуализации"
   },
   "apps": {
-    "uninstall_app": "Деинсталиране на приложение"
+    "uninstall_app": "Деинсталиране на приложение",
+    "show_in_app_list": "Show this app in App List",
+    "name": "Name",
+    "icon": "Icon",
+    "icon_selections": {
+      "default": "Default",
+      "monochrome": "Monochrome"
+    },
+    "background": "Background",
+    "background_selections": {
+      "default": "Default",
+      "transparent": "Transparent"
+    },
+    "text_color": "Text color",
+    "text_color_selections": {
+      "auto": "Auto",
+      "dark": "dark",
+      "light": "light"
+    },
+    "live_tile": "Live tile",
+    "show_app": "Show in apps list"
   },
   "roles": {
     "team_groove": "Екип на Groove",

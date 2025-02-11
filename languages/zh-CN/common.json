@@ -1,43 +1,47 @@
 {
   "actions": {
-    "ok": "Ok",
-    "okay": "Okay",
-    "yes": "Yes",
-    "no": "No",
-    "uninstall": "Uninstall",
-    "cancel": "Cancel",
-    "apply": "Apply",
-    "try_again": "Try again",
-    "light": "Light",
-    "dark": "Dark",
-    "remove": "Remove",
-    "on": "On",
-    "off": "Off",
-    "locked": "Locked",
-    "unlocked": "Unlocked"
+    "ok": "确定",
+    "okay": "好的",
+    "yes": "是",
+    "no": "否",
+    "uninstall": "卸载",
+    "cancel": "取消",
+    "apply": "应用",
+    "allow": "允许",
+    "try_again": "重试",
+    "light": "浅色",
+    "dark": "深色",
+    "remove": "移除",
+    "on": "开",
+    "off": "关",
+    "locked": "已锁定",
+    "unlocked": "未锁定",
+    "dismiss": "忽略",
+    "read_more": "阅读更多"
   },
   "search": {
-    "title": "Search",
-    "no_results": "No results for {{query}}",
-    "search_store": "search Store"
+    "title": "搜索",
+    "no_results": "没有找到与 {{query}} 相关的结果",
+    "search_store": "搜索商店"
   },
   "errors": {
-    "webview_old": "WebView is too old!",
-    "home_reset": "Your home screen was reset because of a fatal error :( Please report this:",
-    "launch_timeout": "System took too long to launch"
+    "webview_old": "WebView 版本太旧！",
+    "home_reset": "由于致命错误，您的主屏幕已重置 :( 请报告此问题：",
+    "launch_timeout": "系统启动时间过长"
   },
   "app_menu": {
-    "pin_to_home": "Pin to home",
-    "uninstall": "Uninstall"
+    "pin_to_home": "固定到主屏幕",
+    "app_info": "应用信息",
+    "uninstall": "卸载"
   },
   "alerts": {
     "default": {
-      "title": "Alert!",
-      "message": "Message"
+      "title": "警报！",
+      "message": "消息"
     },
     "uninstall": {
-      "title": "Uninstall this app?",
-      "message": "This app, plus any information it contains, will be deleted from your device."
+      "title": "卸载此应用？",
+      "message": "此应用及其包含的任何信息将从您的设备中删除。"
     }
   },
   "numbers": {

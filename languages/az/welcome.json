@@ -29,6 +29,27 @@
         "title": "Rənginizi seçin",
         "description": "Əhvalınıza uyğun bir rəng seçin."
     },
+    "permissions": {
+        "title": "İcazələr",
+        "groups": {
+            "contacts": {
+                "title": "Əlaqələr",
+                "description": "Əlaqələrinizin canlı plitəsini göstərmək üçün əlaqələrə giriş lazımdır."
+            },
+            "photos": {
+                "title": "Şəkillər",
+                "description": "Şəkillərinizin canlı plitəsini göstərmək üçün şəkillərə giriş lazımdır."
+            },
+            "notifications": {
+                "title": "Bildirişlər",
+                "description": "Bildirişlərinizin canlı plitəsini göstərmək üçün bildirişlərə giriş lazımdır."
+            },
+            "accessibility": {
+                "title": "Giriş Asanlığı",
+                "description": "Cihazı kilidləmək üçün giriş asanlığını aktiv edin."
+            }
+        }
+    },
     "whatsnew": {
         "title": "Nələr Yeni?"
     },

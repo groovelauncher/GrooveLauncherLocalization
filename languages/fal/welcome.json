@@ -1,39 +1,60 @@
 {
     "common": {
-        "next": "baëdi",
-        "previous": "qabli",
-        "pleaseWait": "Lotfan sabr konid..."
+        "next": "next",
+        "previous": "previous",
+        "pleaseWait": "Please wait..."
     },
     "welcome": {
-        "install": "Xosc umadid",
-        "update": "Mojaddadan xosc umadid",
-        "appName": "Launcheré Groove",
-        "setupIntro": "Ruhanduziyé tajrobeyé scomu ru dar cand qadamé kwtuh anjum dahim.",
-        "warning": "Hoscdur! In yek narmafzuré piscarze scode mibuscad va momken ast scumelé mosckeluti buscad."
+        "install": "Welcome",
+        "update": "Welcome back",
+        "appName": "Groove Launcher",
+        "setupIntro": "Let's setup your experience in a few short steps.",
+        "warning": "Warning: This is pre-release software and may contain bugs."
     },
     "wizard": {
-        "title": "Judwgaré Berwzresuni",
-        "description": "Motmaen scavim ke dudehuyé scomu be dorosti montaqel scodeand! Baruyé edume baëdi ru kelik konid."
+        "title": "Update Wizard",
+        "description": "Let's ensure your data is moved across safely! Click next to continue."
     },
     "access": {
-        "title": "Usuniyé Dastresi",
-        "description": "Baruyé motmaen scodanetun az in ke hame ciz tebqé meylé scomust tajrobeyétun ru sefurescisuzi konid.",
-        "background": "Paszamine",
-        "scaling": "Meqyusbandi"
+        "title": "Ease of Access",
+        "description": "Customize your experience to ensure that everything feels just right.",
+        "background": "Background",
+        "scaling": "Scaling"
     },
     "themes": {
-        "light": "Róscan",
-        "dark": "Turik"
+        "light": "Light",
+        "dark": "Dark"
     },
     "colors": {
-        "title": "Rangetun ru entexub konid",
-        "description": "Yek rang entexub konid ke bu ehsusetun suzgur buscad."
+        "title": "Choose your color",
+        "description": "Pick a color that matches your mood."
+    },
+    "permissions": {
+        "title": "Permissions",
+        "groups": {
+            "contacts": {
+                "title": "Contacts",
+                "description": "Access to contacts is needed to display your contacts live tile."
+            },
+            "photos": {
+                "title": "Photos",
+                "description": "Access to photos is needed to display your photos live tile."
+            },
+            "notifications": {
+                "title": "Notifications",
+                "description": "Access to notifications is needed to display your notifications live tile."
+            },
+            "accessibility": {
+                "title": "Accessibility",
+                "description": "Enable accessibility to lock device."
+            }
+        }
     },
     "whatsnew": {
-        "title": "Ce cizi jadid ast?"
+        "title": "What's New?"
     },
     "finish": {
-        "title": "Baruyé Groove umude buscid",
-        "description": "Ruhanduzitun tamum scod. Boro berim!"
+        "title": "Get ready to Groove",
+        "description": "Your setup is done. Time to dive in!"
     }
 }

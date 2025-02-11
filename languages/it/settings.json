@@ -5,17 +5,18 @@
     "applications": "Applicazioni"
   },
   "theme": {
-    "title": "Home+Tema",
+    "title": "Home+Theme",
     "accent_color": "Colore in primo piano",
     "background": "Sfondo",
-    "home_background": "Sfondo di Home",
+    "home_background": "Home background",
     "choose_photo": "Scegli foto",
     "show_more_tiles": "Mostra altri riquadri",
     "friendly_accent": "Cambia il colore dello sfondo e quello <span style='color: var(--accent-color)'>in primo piano</span> in modo che riflettano il tuo stato d'animo di oggi, di questa settimana o di tutto il mese.",
-    "friendly_tiles": "Puoi modificare la dimensione e il numero di riquadri nella schermata Home.",
+    "friendly_tiles": "You can change the size and number of tiles available on your home screen.",
     "themes": {
       "light": "Chiaro",
-      "dark": "Scuro"
+      "dark": "Scuro",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,28 +31,50 @@
   "ease_of_access": {
     "title": "Accessibilità",
     "description": "dimensioni testo, contrasto elevato e altro",
-    "reduce_motion": "Riduci il movimento",
-    "scaling": "Scala",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
+    "scaling": "Scaling",
     "font": {
       "title": "Font",
-      "choose": "Scegli...",
-      "remove": "Rimuovi il Font"
+      "choose": "Choose...",
+      "remove": "Remove Font"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
-    "title": "Avanzato",
-    "description": "gestore pacchetti e altri tweaks",
+    "title": "Advanced",
+    "description": "package manager and other tweaks",
     "debugging": {
-      "title": "Debug",
-      "dump_apps": "Esporta le app installate come JSON"
+      "title": "Debugging",
+      "dump_apps": "Dump Installed Apps JSON"
+    },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
     },
     "package_manager": {
-      "title": "Gestore pacchetti",
-      "title_experimental": "Gestore pacchetti (SPERIMENTALE)",
+      "title": "Package manager",
+      "title_experimental": "Package manager (EXPERIMENTAL)",
       "system": "Sistema",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {
@@ -59,41 +82,41 @@
       "message": "This will reset your launcher to its default settings. All customizations will be lost."
     },
     "root": {
-      "title": "Accesso Root Richiesto",
-      "message": "L’accesso root è necessario per eseguire questa azione. Concedi l’accesso root per continuare."
+      "title": "Root Access Required",
+      "message": "Root access is required to perform this action. Please grant root access to continue."
     },
     "shizuku": {
-      "title": "Permesso Shizuku Richiesto",
-      "message": "Il permesso Shizuku è necessario per eseguire questa azione. Concedi il permesso Shizuku per continuare."
+      "title": "Shizuku Permission Required",
+      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
     },
     "update_available": {
-      "title": "Aggiornamento Disponibile!",
-      "message": "È disponibile una nuova versione <strong>({{version}})</strong>, di dimensioni {{size}}. Vuoi scaricarla?",
-      "message2": "È disponibile una nuova versione <strong>({{version}})</strong>. Vuoi scaricarla?"
+      "title": "Update Available!",
+      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
+      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
     },
     "update_check_failed": {
-      "title": "Controllo Aggiornamenti Fallito!",
-      "message": "Impossibile verificare la disponibilità di aggiornamenti per l’app. Riprova più tardi."
+      "title": "Update Check Failed!",
+      "message": "Unable to check for app updates. Please try again later."
     },
     "up_to_date": {
-      "title": "Aggiornamento Completo!",
-      "message": "Hai la versione più aggiornata di Groove Launcher."
+      "title": "Up to Date!",
+      "message": "You have the grooviest version of Groove Launcher."
     },
     "font_read_error": {
-      "title": "Formato File Non Supportato",
-      "message": "Il file del font non è valido. Assicurati che sia un file .ttf e riprova a caricarlo."
+      "title": "Unsupported file format",
+      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
     },
     "font_load_error": {
-      "title": "Impossibile Caricare il Font",
-      "message": "Non siamo riusciti a leggere il file del font. Sono supportati solo i font .ttf. Prova con un file diverso."
+      "title": "Can’t load font",
+      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
     },
     "copy_failed": {
-      "title": "Copia Fallita!",
-      "message": "Impossibile copiare la lista delle app. Riprova."
+      "title": "Copy Failed!",
+      "message": "Unable to copy apps list. Please try again."
     },
     "copy_success": {
-      "title": "Copiato negli Appunti!",
-      "message": "Le applicazioni installate sono state copiate con successo nel formato JSON."
+      "title": "Copied to Clipboard!",
+      "message": "Installed apps copied to JSON format successfully."
     }
   },
   "about": {
@@ -105,12 +128,32 @@
     "check_updates": "Check Updates"
   },
   "apps": {
-    "uninstall_app": "Uninstall App"
+    "uninstall_app": "Uninstall App",
+    "show_in_app_list": "Show this app in App List",
+    "name": "Name",
+    "icon": "Icon",
+    "icon_selections": {
+      "default": "Default",
+      "monochrome": "Monochrome"
+    },
+    "background": "Background",
+    "background_selections": {
+      "default": "Default",
+      "transparent": "Transparent"
+    },
+    "text_color": "Text color",
+    "text_color_selections": {
+      "auto": "Auto",
+      "dark": "dark",
+      "light": "light"
+    },
+    "live_tile": "Live tile",
+    "show_app": "Show in apps list"
   },
   "roles": {
     "team_groove": "Team Groove",
-    "developer": "Sviluppatore",
-    "icon_design": "Progettazione dell'icona",
-    "logo_design": "Progettazione del logo"
+    "developer": "Developer",
+    "icon_design": "Icon Design",
+    "logo_design": "Logo Design"
   }
 }

@@ -4,17 +4,20 @@
     "okay": "Okay",
     "yes": "Sì",
     "no": "No",
-    "uninstall": "Disinstallare",
+    "uninstall": "Uninstall",
     "cancel": "Cancel",
     "apply": "Apply",
+    "allow": "Allow",
     "try_again": "Try again",
     "light": "Chiaro",
     "dark": "Scuro",
     "remove": "Rimuovi",
-    "on": "Sì",
-    "off": "No",
+    "on": "On",
+    "off": "Off",
     "locked": "Locked",
-    "unlocked": "Unlocked"
+    "unlocked": "Unlocked",
+    "dismiss": "Dismiss",
+    "read_more": "Read more"
   },
   "search": {
     "title": "Cerca",
@@ -27,7 +30,8 @@
     "launch_timeout": "System took too long to launch"
   },
   "app_menu": {
-    "pin_to_home": "Aggiungi a home",
+    "pin_to_home": "Pin to home",
+    "app_info": "App info",
     "uninstall": "Rimuovi"
   },
   "alerts": {

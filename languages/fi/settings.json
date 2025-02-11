@@ -14,8 +14,9 @@
     "friendly_accent": "Voit vaihtaa laitteesi taustaväriä ja <span style='color: var(--accent-color)'>korostusväriä</span> mielesi mukaan vaikka päivittäin, viikoittain tai kuukausittain.",
     "friendly_tiles": "Voit vaihtaa aloitusnäytön ruutujen määrää ja kokoa.",
     "themes": {
-      "light": "Tumma",
-      "dark": "Vaalea"
+      "light": "Vaalea",
+      "dark": "Tumma",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Aputoiminnot",
     "description": "tekstikoko, suuri kontrasti ja muut ominaisuudet",
-    "reduce_motion": "Vähennä liikettä",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
     "scaling": "Skaalaus",
     "font": {
       "title": "Fontti",
       "choose": "Selaa...",
       "remove": "Poista fontti"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
@@ -45,13 +61,20 @@
       "title": "Debuggaus",
       "dump_apps": "Vie asennetut sovellukset JSON -tiedostoon"
     },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
+    },
     "package_manager": {
       "title": "Paketin hallinta",
       "title_experimental": "Paketin hallinta (KOKEELLINEN)",
       "system": "Järjestelmä",
       "root": "Root",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {
@@ -105,7 +128,27 @@
     "check_updates": "Tarkista päivitykset"
   },
   "apps": {
-    "uninstall_app": "Poista Sovellus"
+    "uninstall_app": "Poista Sovellus",
+    "show_in_app_list": "Show this app in App List",
+    "name": "Name",
+    "icon": "Icon",
+    "icon_selections": {
+      "default": "Default",
+      "monochrome": "Monochrome"
+    },
+    "background": "Background",
+    "background_selections": {
+      "default": "Default",
+      "transparent": "Transparent"
+    },
+    "text_color": "Text color",
+    "text_color_selections": {
+      "auto": "Auto",
+      "dark": "tumma",
+      "light": "vaalea"
+    },
+    "live_tile": "Live tile",
+    "show_app": "Show in apps list"
   },
   "roles": {
     "team_groove": "Team Groove",

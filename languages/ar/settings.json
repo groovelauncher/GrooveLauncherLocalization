@@ -1,116 +1,159 @@
 {
-  "title": "Settings",
+  "title": "الإعدادات",
   "tabs": {
-    "home": "Home",
-    "applications": "Applications"
+    "home": "الصفحة الرئيسية",
+    "applications": "التطبيقات"
   },
   "theme": {
-    "title": "Home+Theme",
-    "accent_color": "Accent color",
-    "background": "Background",
-    "home_background": "Home background",
-    "choose_photo": "Choose photo",
-    "show_more_tiles": "Show more Tiles",
-    "friendly_accent": "Change your device's background and <span style='color: var(--accent-color)'>accent color</span> to match your mood today, this week, or all month.",
-    "friendly_tiles": "You can change the size and number of tiles available on your home screen.",
+    "title": "الرئيسية+التخصيص",
+    "accent_color": "اللون الثانوي",
+    "background": "الخلفية",
+    "home_background": "الخلفية الرئيسية",
+    "choose_photo": "اختيار صورة",
+    "show_more_tiles": "إظهار المزيد من البرامج",
+    "friendly_accent": "قم بتغيير خلفية جهازك و <span style='color: var(--accent-color)'>لون الثانوي</span> لتطابق مزاجك اليوم، هذا الأسبوع، أو طوال الشهر.",
+    "friendly_tiles": "يمكنك تغيير حجم وعدد البرامج المتاحة على شاشتك الرئيسية.",
     "themes": {
-      "light": "Light",
-      "dark": "Dark"
+      "light": "فاتح",
+      "dark": "غامق",
+      "auto": "Auto"
     }
   },
   "screen_rotation": {
-    "title": "Screen Rotation",
-    "auto_rotate": "Auto-rotate",
-    "rotation_lock": "Rotation lock",
-    "friendly_rotation_lock": "When Rotation lock is on, your home will stay in the current orientation when you rotate your device."
+    "title": "استدارة الشاشة",
+    "auto_rotate": "دوران تلقائي",
+    "rotation_lock": "قفل الدوران",
+    "friendly_rotation_lock": "عندما يكون قفل الدوران علي قيد التشغيل، سوف يبقى منزلك في الاتجاه الحالي عندما تقوم بتدوير جهازك."
   },
   "language": {
-    "title": "Language"
+    "title": "اللغة"
   },
   "ease_of_access": {
-    "title": "Ease of Access",
-    "description": "text size, high contrast, and more",
-    "reduce_motion": "Reduce motion",
-    "scaling": "Scaling",
+    "title": "سهولة الوصول",
+    "description": "حجم النص, تباين عالي, ومزيد",
+    "reduce_motion": {
+      "title": "Reduce motion",
+      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+    },
+    "high_contrast": {
+      "title": "High contrast",
+      "description": "Changes the colors for some features, and hides some of their background images."
+    },
+    "scaling": "القياس",
     "font": {
-      "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "title": "الخط",
+      "choose": "اختر...",
+      "remove": "أزلة الخط"
+    },
+    "haptic_feedback": {
+      "title": "Haptic Feedback",
+      "description": "Enable vibration feedback when interacting with tiles and controls."
+    },
+    "groups": {
+      "vision": "Vision",
+      "tactile": "Tactile"
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "إعدادات متقدمة",
+    "description": "مدير الحُزْمَات وتعديلات أخرى",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "تصحيح الأخطاء",
+      "dump_apps": "تفريغ التطبيقات المثبتة JSON"
+    },
+    "data": {
+      "title": "Data",
+      "backup": "Backup",
+      "restore": "Restore"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
-      "system": "System",
-      "root": "Root",
+      "title": "مدير الحزمات",
+      "title_experimental": "مدير الحزمة (تجريبي)",
+      "system": "النظام",
+      "root": "الروت",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Double tap to sleep",
+    "alternative_wallpaper": "Alternative wallpaper placing"
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "إعادة تعيين مشغل جروفي؟",
+      "message": "سيؤدي هذا إلى إعادة تعيين المشغل إلى إعداداته الافتراضية. سيتم فقدان جميع التخصيصات."
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "مطلوب الروت",
+      "message": "مطلوب روت لتنفيذ هذا الإجراء. الرجاء منح صلاحيات الروت للمتابعة."
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "مطلوب إذن Shizuku",
+      "message": "إذن Shizuku مطلوب لتنفيذ هذا الإجراء. يرجى منح إذن Shizuku للمتابعة."
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "تحديث متوفر!",
+      "message": "يتوفر إصدار جديد <strong>({{version}})</strong> بحجم {{size}}. هل ترغب في تحميله؟",
+      "message2": "يتوفر إصدار جديد <strong>({{version}})</strong> هل ترغب في تحميله؟"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "فشل في التحقق من التحديث!",
+      "message": "غير قادر على التحقق من وجود تحديثات التطبيق. الرجاء المحاولة مرة أخرى لاحقاً."
     },
     "up_to_date": {
-      "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "title": "آخر إصدار!",
+      "message": "لديك الإصدار الاخير من جروفي."
     },
     "font_read_error": {
-      "title": "Unsupported file format",
-      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
+      "title": "تنسيق الملف غير مدعوم",
+      "message": "ملف الخط غير صالح. تأكد من أنه ملف .ttf وحاول التحميل مرة أخرى."
     },
     "font_load_error": {
-      "title": "Can’t load font",
-      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
+      "title": "يتعذر تحميل الخط",
+      "message": "لم نتمكن من قراءة ملف الخط. فقط خطوط .ttf مدعومة. الرجاء محاولة ملف مختلف."
     },
     "copy_failed": {
-      "title": "Copy Failed!",
-      "message": "Unable to copy apps list. Please try again."
+      "title": "فشل في النسخ!",
+      "message": "غير قادر على نسخ قائمة التطبيقات. الرجاء المحاولة مرة أخرى."
     },
     "copy_success": {
-      "title": "Copied to Clipboard!",
-      "message": "Installed apps copied to JSON format successfully."
+      "title": "نسخ إلى الحافظة!",
+      "message": "تم نسخ التطبيقات المثبتة إلى تنسيق JSON بنجاح."
     }
   },
   "about": {
-    "title": "About",
-    "description": "Groove Launcher",
-    "version": "Version: {{version}}",
-    "webview_version": "WebView Version: {{version}}",
-    "reset_launcher": "Reset Launcher",
-    "check_updates": "Check Updates"
+    "title": "حول التطبيق",
+    "description": "مشغل جروفي",
+    "version": "الإصدار: {{version}}",
+    "webview_version": "إصدار WebView {{version}}",
+    "reset_launcher": "إعادة ضبط المشغل",
+    "check_updates": "تحقق من التحديثات"
   },
   "apps": {
-    "uninstall_app": "Uninstall App"
+    "uninstall_app": "إلغاء تثبيت التطبيق",
+    "show_in_app_list": "إظهار هذا التطبيق في قائمة التطبيقات",
+    "name": "الإسم",
+    "icon": "ايقونة",
+    "icon_selections": {
+      "default": "القياسي",
+      "monochrome": "أحادي"
+    },
+    "background": "الخلفية",
+    "background_selections": {
+      "default": "القياسي",
+      "transparent": "شفاف"
+    },
+    "text_color": "لون النص",
+    "text_color_selections": {
+      "auto": "تلقائي",
+      "dark": "داكن",
+      "light": "فاتح"
+    },
+    "live_tile": "مربع حي",
+    "show_app": "إظهار في قائمة التطبيقات"
   },
   "roles": {
-    "team_groove": "Team Groove",
-    "developer": "Developer",
-    "icon_design": "Icon Design",
-    "logo_design": "Logo Design"
+    "team_groove": "فريق جروفي",
+    "developer": "المطور",
+    "icon_design": "تصميم الأيقونة",
+    "logo_design": "تصميم الشعار"
   }
 }

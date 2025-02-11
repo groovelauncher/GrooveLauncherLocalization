@@ -7,6 +7,7 @@
     "uninstall": "Deinstallieren",
     "cancel": "Abbrechen",
     "apply": "Anwenden",
+    "allow": "Erlauben",
     "try_again": "Nochmals versuchen",
     "light": "Hell",
     "dark": "Dunkel",
@@ -14,7 +15,9 @@
     "on": "Ein",
     "off": "Aus",
     "locked": "Ausgeschaltet",
-    "unlocked": "Entsperrt"
+    "unlocked": "Entsperrt",
+    "dismiss": "Schließen",
+    "read_more": "Mehr lesen"
   },
   "search": {
     "title": "Suchen",
@@ -23,11 +26,12 @@
   },
   "errors": {
     "webview_old": "WebView ist veraltet!",
-    "home_reset": "Der Startbildschirm wurde aufgrund eines fatalen Fehlers zurückgesetzt. Bitte melden:",
+    "home_reset": "Der Homebildschirm wurde aufgrund eines fatalen Fehlers zurückgesetzt :( bitte melden:",
     "launch_timeout": "Systemstart dauerte zu lange"
   },
   "app_menu": {
-    "pin_to_home": "Am Startbildschirm anheften",
+    "pin_to_home": "Auf Homebildschirm",
+    "app_info": "App-Info",
     "uninstall": "Deinstallieren"
   },
   "alerts": {

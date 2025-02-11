@@ -17,7 +17,7 @@
     },
     "access": {
         "title": "Улеснен достъп",
-        "description": "Персонализирайте Вашето изживяване, за да сте сигурни, че всичко е както трябва.",
+        "description": "Персонализирайте вашето изживяване, за да сте сигурни, че всичко се чувства както трябва.",
         "background": "Фон",
         "scaling": "Мащабиране"
     },
@@ -28,6 +28,27 @@
     "colors": {
         "title": "Изберете своя цвят",
         "description": "Изберете цвят, който съответства на вашето настроение."
+    },
+    "permissions": {
+        "title": "Permissions",
+        "groups": {
+            "contacts": {
+                "title": "Contacts",
+                "description": "Access to contacts is needed to display your contacts live tile."
+            },
+            "photos": {
+                "title": "Photos",
+                "description": "Access to photos is needed to display your photos live tile."
+            },
+            "notifications": {
+                "title": "Notifications",
+                "description": "Access to notifications is needed to display your notifications live tile."
+            },
+            "accessibility": {
+                "title": "Accessibility",
+                "description": "Enable accessibility to lock device."
+            }
+        }
     },
     "whatsnew": {
         "title": "Какво ново?"

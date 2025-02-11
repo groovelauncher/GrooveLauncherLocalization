@@ -15,7 +15,8 @@
     "friendly_tiles": "Ana ekranınızdaki Kutucukların boyutunu ve sayısını değiştirebilirsiniz.",
     "themes": {
       "light": "Açık",
-      "dark": "Koyu"
+      "dark": "Koyu",
+      "auto": "Otomatik"
     }
   },
   "screen_rotation": {
@@ -30,12 +31,27 @@
   "ease_of_access": {
     "title": "Erişim Kolaylığı",
     "description": "metin boyutu, yüksek kontrast ve diğer özellikler",
-    "reduce_motion": "Hareketi azalt",
+    "reduce_motion": {
+      "title": "Hareketi azalt",
+      "description": "Hareket hassassiyetini tetiklememeye yardımcı olmak için paralaks ve animasyonlar gibi hareket etkilerini azaltın."
+    },
+    "high_contrast": {
+      "title": "Yüksek karşıtlık",
+      "description": "Bazı elemanların renklerini değiştirir ve arka plan resimlerini gizler."
+    },
     "scaling": "Ölçekleme",
     "font": {
       "title": "Font",
       "choose": "Seç...",
       "remove": "Fontu kaldır"
+    },
+    "haptic_feedback": {
+      "title": "Dokunsal Geribildirim",
+      "description": "Karolar ve kontrollerle etkileşime girerken titreşim geri bildirimini etkinleştirin."
+    },
+    "groups": {
+      "vision": "Görme",
+      "tactile": "Dokunma"
     }
   },
   "advanced": {
@@ -45,17 +61,24 @@
       "title": "Hata ayıklama",
       "dump_apps": "Yüklü uygulamaları JSON olarak dökümle"
     },
+    "data": {
+      "title": "Veri",
+      "backup": "Yedekle",
+      "restore": "Geri Yükle"
+    },
     "package_manager": {
       "title": "Paket yöneticisi",
       "title_experimental": "Paket yöneticisi (DENEYSEL)",
       "system": "Sistem",
       "root": "Kök",
       "shizuku": "Shizuku"
-    }
+    },
+    "double_tap_to_sleep": "Uyutmak için çift dokunma",
+    "alternative_wallpaper": "Alternatif duvar kağıdı yerleşimi"
   },
   "alerts": {
     "reset": {
-      "title": "Groove Başlatıcısı sıfırlansın mı?",
+      "title": "Groove Launcher sıfırlansın mı?",
       "message": "Bu, başlatıcınızı varsayılan ayarlarına sıfırlar. Tüm kişiselleştirmeler kaybedilecektir."
     },
     "root": {
@@ -68,7 +91,7 @@
     },
     "update_available": {
       "title": "Güncelleme Mevcut!",
-      "message": "{{size}} boyutlu yeni bir sürüm <strong>({{version}})</strong> mevcuttur. İndirmek ister misiniz?",
+      "message": "{{size}} boyutlu yeni bir sürüm <strong>({{version}})</strong> mevcut. İndirmek ister misiniz?",
       "message2": "Yeni bir sürüm <strong>({{version}})</strong> mevcut. İndirmek ister misiniz?"
     },
     "update_check_failed": {
@@ -77,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Son sürümdesiniz!",
-      "message": "En kıyak Groove Başlatıcısı'nı kullanıyorsunuz."
+      "message": "En kıyak Groove Launcher sürümünü kullanıyorsunuz."
     },
     "font_read_error": {
       "title": "Desteklenmeyen dosya formatı",
@@ -98,14 +121,34 @@
   },
   "about": {
     "title": "Hakkında",
-    "description": "Groove Başlatıcısı",
+    "description": "Groove Launcher",
     "version": "Versiyon: {{version}}",
     "webview_version": "WebView Versiyonu: {{version}}",
     "reset_launcher": "Başlatıcıyı Sıfırla",
     "check_updates": "Güncellemeleri Al"
   },
   "apps": {
-    "uninstall_app": "Uygulamayı Kaldır"
+    "uninstall_app": "Uygulamayı Kaldır",
+    "show_in_app_list": "Bu uygulamayı listede göster",
+    "name": "İsim",
+    "icon": "Simge",
+    "icon_selections": {
+      "default": "Varsayılan",
+      "monochrome": "Siyah-Beyaz"
+    },
+    "background": "Arka plan",
+    "background_selections": {
+      "default": "Varsayılan",
+      "transparent": "Saydam"
+    },
+    "text_color": "Metin rengi",
+    "text_color_selections": {
+      "auto": "Otomatik",
+      "dark": "koyu",
+      "light": "açık"
+    },
+    "live_tile": "Canlı kutucuk",
+    "show_app": "Uygulamalarda göster"
   },
   "roles": {
     "team_groove": "Groove Takımı",

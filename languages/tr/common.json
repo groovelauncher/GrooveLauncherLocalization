@@ -7,6 +7,7 @@
     "uninstall": "Kaldır",
     "cancel": "İptal",
     "apply": "Uygula",
+    "allow": "İzin ver",
     "try_again": "Yeniden dene",
     "light": "Açık",
     "dark": "Koyu",
@@ -14,7 +15,9 @@
     "on": "Açık",
     "off": "Kapalı",
     "locked": "Kilitli",
-    "unlocked": "Kilit kaldırıldı"
+    "unlocked": "Kilit kaldırıldı",
+    "dismiss": "Yoksay",
+    "read_more": "Devamını oku"
   },
   "search": {
     "title": "Ara",
@@ -28,6 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Ana ekrana sabitle",
+    "app_info": "Uygulama bilgisi",
     "uninstall": "Kaldır"
   },
   "alerts": {
