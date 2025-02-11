@@ -1,0 +1,16 @@
+{
+  "name": "groove-launcher-localization",
+  "description": "This is the official database containing all supported localizations for Groove Launcher.",
+  "scripts": {
+    "update": "node scripts/update.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@octokit/rest": "^21.0.2",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.7.7",
+    "cron-parser": "^4.9.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}
