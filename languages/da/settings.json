@@ -1,159 +1,159 @@
 {
-  "title": "Settings",
+  "title": "Indstillinger",
   "tabs": {
-    "home": "Home",
-    "applications": "Applications"
+    "home": "Hjem",
+    "applications": "Applikationer"
   },
   "theme": {
-    "title": "Home+Theme",
-    "accent_color": "Accent color",
-    "background": "Background",
-    "home_background": "Home background",
-    "choose_photo": "Choose photo",
-    "show_more_tiles": "Show more Tiles",
-    "friendly_accent": "Change your device's background and <span style='color: var(--accent-color)'>accent color</span> to match your mood today, this week, or all month.",
-    "friendly_tiles": "You can change the size and number of tiles available on your home screen.",
+    "title": "Hjem+Tema",
+    "accent_color": "Markeringsfarve",
+    "background": "Baggrund",
+    "home_background": "Hjemskærms baggrund",
+    "choose_photo": "Vælg billede",
+    "show_more_tiles": "Vis flere felter",
+    "friendly_accent": "Indstil din enheds baggrund og <span style='color: var(--accent-color)'>markeringsfarve</span> til at matche dit humør i dag, denne uge eller hele måneden.",
+    "friendly_tiles": "Du kan ændre størrelsen og antallet af felter der vises på din hjemskærm.",
     "themes": {
-      "light": "Light",
-      "dark": "Dark",
-      "auto": "Auto"
+      "light": "Lys",
+      "dark": "Mørk",
+      "auto": "Automatisk"
     }
   },
   "screen_rotation": {
-    "title": "Screen Rotation",
-    "auto_rotate": "Auto-rotate",
-    "rotation_lock": "Rotation lock",
-    "friendly_rotation_lock": "When Rotation lock is on, your home will stay in the current orientation when you rotate your device."
+    "title": "Skærmrotation",
+    "auto_rotate": "Auto-roter",
+    "rotation_lock": "Rotationslås",
+    "friendly_rotation_lock": "Når rotationslås er tændt vil din hjemskærm forblive i den samme rotation, når du roterer din enhed."
   },
   "language": {
-    "title": "Language"
+    "title": "Sprog"
   },
   "ease_of_access": {
-    "title": "Ease of Access",
-    "description": "text size, high contrast, and more",
+    "title": "Tilgængelighed",
+    "description": "tekststørrelse, høj kontrast, og mere",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Reducer bevægelser",
+      "description": "Reducer bevægelser, som animationer, for at forhindre køresyge."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Høj kontrast",
+      "description": "Ændrer farverne for nogen funktioner, og gemmer nogen af deres baggrundsbilleder væk."
     },
-    "scaling": "Scaling",
+    "scaling": "Skalering",
     "font": {
-      "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "title": "Skrifttype",
+      "choose": "Vælg...",
+      "remove": "Fjern Skrifttype"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Haptisk Feedback",
+      "description": "Aktiver vibrationsfeedback ved berøring af felter og kontrolelementer."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Syn",
+      "tactile": "Taktil"
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "Avanceret",
+    "description": "pakkemanager og andre justeringer",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "Fejlfinding",
+      "dump_apps": "Dump installeret apps JSON"
     },
     "data": {
       "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "backup": "Sikkerhedskopier",
+      "restore": "Gendan"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
+      "title": "Pakkemanager",
+      "title_experimental": "Pakkehåndterer (EKSPERIMENTAL)",
       "system": "System",
       "root": "Root",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Dobbelttryk for slumre",
+    "alternative_wallpaper": "Alternativ baggrundsplacering"
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "Nulstil Groove Launcher?",
+      "message": "Dette vil gendanne din launcher til dens oprindelige indstillinger. Alle personlige konfigurationer vil blive fjernet."
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "Root Adgang Påkrævet",
+      "message": "Root-adgang er påkrævet for at udføre denne handling. Tildel root-adgang for at fortsætte."
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "Shizuku Tilladelse Påkrævet",
+      "message": "Shizuku tilladelse påkrævet for at udføre denne handling. Tildel Shizuku tilladelse for at fortsætte."
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "Opdatering tilgængelig!",
+      "message": "En ny version <strong>({{version}})</strong> er tilgængelig, med størrelsen {{size}}. Vil du gerne downloade den?",
+      "message2": "En ny version <strong>({{version}})</strong> er tilgængelig. Vil du gerne downloade den?"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "Søgning efter opdateringer fejlede!",
+      "message": "Kunne ikke søge efter app opdateringer. Prøv igen senere."
     },
     "up_to_date": {
-      "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "title": "Du er opdateret!",
+      "message": "Du har den seneste version af Groove Launcher."
     },
     "font_read_error": {
-      "title": "Unsupported file format",
-      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
+      "title": "Ikke understøttet filformat",
+      "message": "Skrifttypefilen er ikke gyldig. Sørg for, at det er en .ttf-fil, og prøv igen."
     },
     "font_load_error": {
-      "title": "Can’t load font",
-      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
+      "title": "Kan ikke indlæse skrifttype",
+      "message": "Vi kunne ikke læse skrifttypefilen. Kun .ttf skrifttyper understøttes. Prøv en anden fil."
     },
     "copy_failed": {
-      "title": "Copy Failed!",
-      "message": "Unable to copy apps list. Please try again."
+      "title": "Kopiring Fejlede!",
+      "message": "Kunne ikke kopiere applisten. Prøv venligst igen."
     },
     "copy_success": {
-      "title": "Copied to Clipboard!",
-      "message": "Installed apps copied to JSON format successfully."
+      "title": "Kopiret til Udklipningsholder!",
+      "message": "Installerede apps kopieret til JSON-format med succes."
     }
   },
   "about": {
-    "title": "About",
+    "title": "Om",
     "description": "Groove Launcher",
     "version": "Version: {{version}}",
     "webview_version": "WebView Version: {{version}}",
-    "reset_launcher": "Reset Launcher",
-    "check_updates": "Check Updates"
+    "reset_launcher": "Nulstil Launcher",
+    "check_updates": "Søg efter opdateringer"
   },
   "apps": {
-    "uninstall_app": "Uninstall App",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "uninstall_app": "Afinstaller App",
+    "show_in_app_list": "Vis app i Applisten",
+    "name": "Navn",
+    "icon": "Ikon",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Standard",
+      "monochrome": "Monokrom"
     },
-    "background": "Background",
+    "background": "Baggrund",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "Standard",
+      "transparent": "Gennemsigtig"
     },
-    "text_color": "Text color",
+    "text_color": "Tekstfarve",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Automatisk",
+      "dark": "mørk",
+      "light": "lys"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Dynamisk felt",
+    "show_app": "Vis i applisten"
   },
   "roles": {
     "team_groove": "Team Groove",
-    "developer": "Developer",
-    "icon_design": "Icon Design",
-    "logo_design": "Logo Design"
+    "developer": "Udvikler",
+    "icon_design": "Ikondesign",
+    "logo_design": "Logodesign"
   }
 }
