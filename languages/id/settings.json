@@ -1,159 +1,159 @@
 {
-  "title": "Settings",
+  "title": "Pengaturan",
   "tabs": {
-    "home": "Home",
-    "applications": "Applications"
+    "home": "Beranda",
+    "applications": "Aplikasi"
   },
   "theme": {
-    "title": "Home+Theme",
-    "accent_color": "Accent color",
+    "title": "Beranda+Tema",
+    "accent_color": "Aksen warna",
     "background": "Background",
-    "home_background": "Home background",
-    "choose_photo": "Choose photo",
-    "show_more_tiles": "Show more Tiles",
-    "friendly_accent": "Change your device's background and <span style='color: var(--accent-color)'>accent color</span> to match your mood today, this week, or all month.",
-    "friendly_tiles": "You can change the size and number of tiles available on your home screen.",
+    "home_background": "Background beranda",
+    "choose_photo": "Pilih foto",
+    "show_more_tiles": "Tunjukkan semua tiles",
+    "friendly_accent": "Ganti background dan <span style='color: var(--accent-color)'>aksen warna</span> gawai sesuka Anda.",
+    "friendly_tiles": "Anda bisa ubah ukuran dan jumlah tiles yang ada di layar depan.",
     "themes": {
-      "light": "Light",
-      "dark": "Dark",
-      "auto": "Auto"
+      "light": "Terang",
+      "dark": "Gelap",
+      "auto": "Otomatis"
     }
   },
   "screen_rotation": {
-    "title": "Screen Rotation",
-    "auto_rotate": "Auto-rotate",
-    "rotation_lock": "Rotation lock",
-    "friendly_rotation_lock": "When Rotation lock is on, your home will stay in the current orientation when you rotate your device."
+    "title": "Rotasi Layar",
+    "auto_rotate": "Putar otomatis",
+    "rotation_lock": "Kunci rotasi",
+    "friendly_rotation_lock": "Ketika Kunci rotasi dinyalakan, layar beranda akan tetap berada di orientasi yang sudah ditetapkan saat gawai Anda diputar."
   },
   "language": {
-    "title": "Language"
+    "title": "Bahasa"
   },
   "ease_of_access": {
-    "title": "Ease of Access",
-    "description": "text size, high contrast, and more",
+    "title": "Kemudahan Akses",
+    "description": "ukuran teks, kontras tinggi, dan lain-lain.",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Kurangi gerakan",
+      "description": "Kurangi efek gerakan seperti paralaks dan animasi untuk menghindari mabuk gerakan."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Kontras tinggi",
+      "description": "Ubah warna fitur tertentu dan sembunyikan beberapa gambar yang ada."
     },
-    "scaling": "Scaling",
+    "scaling": "Skala",
     "font": {
       "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "choose": "Pilih...",
+      "remove": "Hapus Font"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Umpan balik haptik",
+      "description": "Nyalakan getaran ketika berinteraksi dengan tiles dan beberapa kontrol."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Penglihatan",
+      "tactile": "Perabaan"
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "Opsi Selengkapnya",
+    "description": "manajemen paket dan opsi penyempurnaan lainnya",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "Debug",
+      "dump_apps": "Hapus aplikasi JSON yang terinstal"
     },
     "data": {
       "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "backup": "Cadangan",
+      "restore": "Pemulihan"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
-      "system": "System",
+      "title": "Manajemen paket",
+      "title_experimental": "Manajemen paket (EKSPERIMENTAL)",
+      "system": "Sistem",
       "root": "Root",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Ketuk dua kali untuk tidur",
+    "alternative_wallpaper": "Penempatan wallpaper alternatif"
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "Muat ulang Groove Launcher?",
+      "message": "Launcher akan dimuat ulang ke pengaturan awal. Semua kustomisasi akan kembali ke semula."
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "Akses Root Dibutuhkan",
+      "message": "Akses root dibutuhkan untuk melakukan aksi ini. Mohon berikan akses root untuk lanjut."
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "Izin Shizuku Dibutuhkan",
+      "message": "Perizinan Shizuku dibutuhkan untuk melakukan aksis ini. Mohon berikan izin Shizuku untuk lanjut."
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "Pembaruan Tersedia!",
+      "message": "Versi <strong>({{version}})</strong> telah tersedia, dengan ukuran {{size}}. Unduh sekarang?",
+      "message2": "Versi <strong>({{version}})</strong> telah tersedia. Unduh sekarang?"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "Pemeriksaan Gagal!",
+      "message": "Tidak dapat memerika pembaruan aplikasi. Coba lagi nanti."
     },
     "up_to_date": {
-      "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "title": "Versi Terkini!",
+      "message": "Anda menggunakan versi terkini Groove Launcher."
     },
     "font_read_error": {
-      "title": "Unsupported file format",
-      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
+      "title": "Format file tidak didukung",
+      "message": "Format file font tidak valid. Pastikan format yang digunakan adalah .ttf dan coba unggah lagi."
     },
     "font_load_error": {
-      "title": "Can’t load font",
-      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
+      "title": "Tidak bisa memuat font",
+      "message": "Tidak bisa memuat file font. Hanya format .ttf yang bisa didukung. Coba gunakan file lain."
     },
     "copy_failed": {
-      "title": "Copy Failed!",
-      "message": "Unable to copy apps list. Please try again."
+      "title": "Gagal Menyalin!",
+      "message": "Tidak bisa menyalin daftar aplikasi. Coba lagi."
     },
     "copy_success": {
-      "title": "Copied to Clipboard!",
-      "message": "Installed apps copied to JSON format successfully."
+      "title": "Tersalin ke papan klip!",
+      "message": "Sukses menyalin daftar aplikasi terinstal ke JSON."
     }
   },
   "about": {
-    "title": "About",
+    "title": "Tentang",
     "description": "Groove Launcher",
-    "version": "Version: {{version}}",
-    "webview_version": "WebView Version: {{version}}",
+    "version": "Versi: {{version}}",
+    "webview_version": "Versi WebView: {{version}}",
     "reset_launcher": "Reset Launcher",
-    "check_updates": "Check Updates"
+    "check_updates": "Periksa Pembaruan"
   },
   "apps": {
-    "uninstall_app": "Uninstall App",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "uninstall_app": "Hapus Aplikasi",
+    "show_in_app_list": "Tunjukkan aplikasi ini ke Daftar Aplikasi",
+    "name": "Nama",
+    "icon": "Ikon",
     "icon_selections": {
       "default": "Default",
-      "monochrome": "Monochrome"
+      "monochrome": "Monokrom"
     },
     "background": "Background",
     "background_selections": {
       "default": "Default",
-      "transparent": "Transparent"
+      "transparent": "Transparan"
     },
-    "text_color": "Text color",
+    "text_color": "Warna teks",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Otomatis",
+      "dark": "gelap",
+      "light": "terang"
     },
     "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "show_app": "Tunjukkan di dalam daftar aplikasi"
   },
   "roles": {
-    "team_groove": "Team Groove",
-    "developer": "Developer",
-    "icon_design": "Icon Design",
-    "logo_design": "Logo Design"
+    "team_groove": "Tim Groove",
+    "developer": "Pengembang",
+    "icon_design": "Desain Ikon",
+    "logo_design": "Desain Logo"
   }
 }

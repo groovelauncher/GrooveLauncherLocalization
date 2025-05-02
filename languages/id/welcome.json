@@ -1,60 +1,60 @@
 {
     "common": {
-        "next": "next",
-        "previous": "previous",
-        "pleaseWait": "Please wait..."
+        "next": "selanjutnya",
+        "previous": "sebelumnya",
+        "pleaseWait": "Mohon tunggu..."
     },
     "welcome": {
-        "install": "Welcome",
-        "update": "Welcome back",
+        "install": "Selamat datang",
+        "update": "Selamat datang kembali",
         "appName": "Groove Launcher",
-        "setupIntro": "Let's setup your experience in a few short steps.",
-        "warning": "Warning: This is pre-release software and may contain bugs."
+        "setupIntro": "Mari siapkan pengalaman Anda dengan melakukan tahap-tahap berikut ini.",
+        "warning": "Perhatian: perangkat lunak ini masih dalam tahap prarilis dan mungkin masih mengandung kecacatan."
     },
     "wizard": {
-        "title": "Update Wizard",
-        "description": "Let's ensure your data is moved across safely! Click next to continue."
+        "title": "Pembaruan",
+        "description": "Pastikan data anda telah terpindah dengan aman. Tekan selanjutnya."
     },
     "access": {
-        "title": "Ease of Access",
-        "description": "Customize your experience to ensure that everything feels just right.",
+        "title": "Kemudahan Akses",
+        "description": "Sesuaikan pengalaman anda sehingga semuanya terasa sempurna.",
         "background": "Background",
-        "scaling": "Scaling"
+        "scaling": "Skala"
     },
     "themes": {
-        "light": "Light",
-        "dark": "Dark"
+        "light": "Terang",
+        "dark": "Gelap"
     },
     "colors": {
-        "title": "Choose your color",
-        "description": "Pick a color that matches your mood."
+        "title": "Pilih warna anda",
+        "description": "Pilihlah warna sesuka hati Anda."
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "Perizinan",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "Kontak",
+                "description": "Memerlukan akses ke kontak untuk menunjukkan live tile kontak."
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "Foto",
+                "description": "Memerlukan akses ke foto untuk menunjukkan live tile foto."
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "Pemberitahuan",
+                "description": "Memerlukan akses ke pemberitahuan untuk menunjukkan live tile pemberitahuan."
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "Aksesibilitas",
+                "description": "Nyalakan aksesibilitas untuk mengunci perangkat anda."
             }
         }
     },
     "whatsnew": {
-        "title": "What's New?"
+        "title": "Apa yang Baru?"
     },
     "finish": {
-        "title": "Get ready to Groove",
-        "description": "Your setup is done. Time to dive in!"
+        "title": "Bersiaplah 'tuk Groove",
+        "description": "Semua sudah siap. Saatnya meluncur!"
     }
 }

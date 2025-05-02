@@ -30,23 +30,23 @@
         "description": "Выберите цвет по вашему вкусу."
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "Доступ",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "Контакты",
+                "description": "Доступ к контактам нужен для отображения вашей живой плитки контактов."
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "Фотографии",
+                "description": "Доступ к фотографиям нужен для отображения живой плитки с фотографиями."
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "Уведомления",
+                "description": "Доступ к уведомлениям нужен для отображения вашей живой плитки с уведомлениями."
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "Специальные возможности",
+                "description": "Включите специальные возможности для блокировки экрана устройства."
             }
         }
     },

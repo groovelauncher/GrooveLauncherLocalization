@@ -16,7 +16,7 @@
     "themes": {
       "light": "Светлый",
       "dark": "Тёмный",
-      "auto": "Auto"
+      "auto": "Автоматически"
     }
   },
   "screen_rotation": {
@@ -32,12 +32,12 @@
     "title": "Специальные Возможности",
     "description": "размер текста, высокая контрастность и многое другое",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Уменьшить движение",
+      "description": "Уменьшение эффектов движения, таких как параллакс и анимация, для предотвращения болезни движения."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Высокая контрастность",
+      "description": "Изменяет цвета для некоторых функций и скрывает некоторые из их фоновых изображений."
     },
     "scaling": "Масштаб",
     "font": {
@@ -46,12 +46,12 @@
       "remove": "Удалить Шрифт"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Тактильная отдача",
+      "description": "Включить вибрацию при взаимодействии с плитками и элементами управления."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Зрение",
+      "tactile": "Тактильный"
     }
   },
   "advanced": {
@@ -62,9 +62,9 @@
       "dump_apps": "Дамп установленных приложений JSON"
     },
     "data": {
-      "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "title": "Данные",
+      "backup": "Резервное копирование",
+      "restore": "Восстановить"
     },
     "package_manager": {
       "title": "Менеджер пакетов",
@@ -73,8 +73,8 @@
       "root": "Рут",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Нажать два раза для блокировки экрана",
+    "alternative_wallpaper": "Установка другого фона"
   },
   "alerts": {
     "reset": {
@@ -129,26 +129,26 @@
   },
   "apps": {
     "uninstall_app": "Удалить приложение",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "show_in_app_list": "Показать это приложение в списке приложений",
+    "name": "Название",
+    "icon": "Иконка",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "По умолчанию",
+      "monochrome": "Монохромная"
     },
-    "background": "Background",
+    "background": "Фон",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "По умолчанию",
+      "transparent": "Прозрачнасть"
     },
-    "text_color": "Text color",
+    "text_color": "Цвет текста",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Автоматически",
+      "dark": "тёмный",
+      "light": "светлый"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Живая плитка",
+    "show_app": "Показать в списке приложений"
   },
   "roles": {
     "team_groove": "Команда Groove",

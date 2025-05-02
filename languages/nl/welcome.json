@@ -30,23 +30,23 @@
         "description": "Kies een kleur dat bij jouw stemming past."
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "Toestemmingen",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "Contacten",
+                "description": "Toegang tot contacten is nodig om live tegels van uw contacten weer te geven."
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "Foto's",
+                "description": "Toegang tot foto's is nodig om live tegels van uw foto's weer te geven."
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "Meldingen",
+                "description": "Toegang tot meldingen is nodig om live tegels van uw meldingen weer te geven."
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "Toegankelijkheid",
+                "description": "Toegankelijkheid inschakelen om apparaat te vergrendelen."
             }
         }
     },
