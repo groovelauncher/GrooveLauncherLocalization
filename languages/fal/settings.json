@@ -1,36 +1,36 @@
 {
-  "title": "Settings",
+  "title": "Tanzimut",
   "tabs": {
-    "home": "Home",
-    "applications": "Applications"
+    "home": "Xune",
+    "applications": "Barnumehu"
   },
   "theme": {
-    "title": "Home+Theme",
-    "accent_color": "Accent color",
-    "background": "Background",
-    "home_background": "Home background",
-    "choose_photo": "Choose photo",
-    "show_more_tiles": "Show more Tiles",
-    "friendly_accent": "Change your device's background and <span style='color: var(--accent-color)'>accent color</span> to match your mood today, this week, or all month.",
-    "friendly_tiles": "You can change the size and number of tiles available on your home screen.",
+    "title": "Xune+Pwste",
+    "accent_color": "Rangé taëkidi",
+    "background": "Paszamine",
+    "home_background": "Paszamineyé xune",
+    "choose_photo": "Entexubé aks",
+    "show_more_tiles": "Namuyesce Kuscihuyé bisctar",
+    "friendly_accent": "Paszamine va <span style='color: var(--accent-color)'>rangé taëkidi</span> dastguhé xod ru har jwr ke mixuhid tagcyir dahid.",
+    "friendly_tiles": "Scoma mitavunid anduze va teëdudé kuscihuyé mójwd dar safheyé asliyetun ru tagcyir dahid.",
     "themes": {
-      "light": "Light",
-      "dark": "Dark",
+      "light": "Róschan",
+      "dark": "Turik",
       "auto": "Auto"
     }
   },
   "screen_rotation": {
-    "title": "Screen Rotation",
-    "auto_rotate": "Auto-rotate",
-    "rotation_lock": "Rotation lock",
-    "friendly_rotation_lock": "When Rotation lock is on, your home will stay in the current orientation when you rotate your device."
+    "title": "Carxescé Safhe",
+    "auto_rotate": "Carxescé xodkur",
+    "rotation_lock": "Qoflé carxesc",
+    "friendly_rotation_lock": "Hengumi ke qoflé carxesc róscan buscad, gwsciyé scomu dar hamin jahatgiresc xuhad mund agar un ru becarxunid."
   },
   "language": {
-    "title": "Language"
+    "title": "Zabun"
   },
   "ease_of_access": {
-    "title": "Ease of Access",
-    "description": "text size, high contrast, and more",
+    "title": "Usuniyé Dastresi",
+    "description": "anduzeyé matn, kontrusté bulu, va bischtar",
     "reduce_motion": {
       "title": "Reduce motion",
       "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
@@ -39,11 +39,11 @@
       "title": "High contrast",
       "description": "Changes the colors for some features, and hides some of their background images."
     },
-    "scaling": "Scaling",
+    "scaling": "Meqyusbandi",
     "font": {
       "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "choose": "Entexub...",
+      "remove": "Bardusctané Font"
     },
     "haptic_feedback": {
       "title": "Haptic Feedback",
@@ -55,11 +55,11 @@
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "Piscrafte",
+    "description": "modiré baste va digar tarfandhu",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "Esckulzoduyi",
+      "dump_apps": "Hazfé barnumehuyé nasb scodeyé JSON"
     },
     "data": {
       "title": "Data",
@@ -67,9 +67,9 @@
       "restore": "Restore"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
-      "system": "System",
+      "title": "Gardunandeyé baste",
+      "title_experimental": "Gardunandeyé baste (UZMUYESCI)",
+      "system": "Sumune",
       "root": "Root",
       "shizuku": "Shizuku"
     },
@@ -78,25 +78,25 @@
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "Launcheré Groove buznescuni scavad?",
+      "message": "In monjar be buznescuni scodané launcher be tanzimuté piscfarz xuhad scod. Hameyé sefurescisuzihu az dast xuhand raft."
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "Dastresiyé root niyuz ast",
+      "message": "Dastresiyé root baruyé anjumé in konesc vojwd durad. Lotfan baruyé edume dastresiyé root ru suder konid."
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "Dastresiyé shizuku niyuz ast",
+      "message": "Dastresiyé shizuku baruyé anjumé in konesc vojwd durad. Lotfan baruyé edume dastresiyé shizuku ru suder konid."
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "Berwzresuni mójwd ast!",
+      "message": "Yek nosxeyé jadid <strong>({{version}}) </strong> bu hajmé {{size}} mójwd aast. Uyu mixuhid burgiri konidasc?",
+      "message2": "Yek nosxeyé jadid <strong>({{version}}) </strong> mójwd ast. Uyu mixuhid burgiri konidasc?"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "Barresiyé Berwzresuni Anjum Nascod!",
+      "message": "Emkune barresiyé berwzresunihuyé barnumehu vojwd nadurad. Lotfan baëdan dobure talusc konid."
     },
     "up_to_date": {
       "title": "Up to Date!",

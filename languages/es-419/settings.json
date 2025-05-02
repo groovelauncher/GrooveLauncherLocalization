@@ -16,7 +16,7 @@
     "themes": {
       "light": "Claro",
       "dark": "Oscuro",
-      "auto": "Auto"
+      "auto": "Automático"
     }
   },
   "screen_rotation": {
@@ -32,12 +32,12 @@
     "title": "Accesibilidad",
     "description": "tamaño de letra, contraste alto, y más",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Reducir movimiento",
+      "description": "Reduce los efectos de movimiento, como el efecto paralax y animaciones, para ayudar a prevenir la enfermedad del movimiento."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Contraste alto",
+      "description": "Cambia los colores de algunas características, y oculta algunas de sus imágenes de fondo."
     },
     "scaling": "Escalado",
     "font": {
@@ -46,12 +46,12 @@
       "remove": "Remover fuente"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Retroalimentación haptica",
+      "description": "Activa la vibración al interactuar con mosaicos y controles."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Visión",
+      "tactile": "Tactil"
     }
   },
   "advanced": {
@@ -62,9 +62,9 @@
       "dump_apps": "Exportar aplicaciones instaladas en JSON"
     },
     "data": {
-      "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "title": "Datos",
+      "backup": "Copia de seguridad",
+      "restore": "Restaurar"
     },
     "package_manager": {
       "title": "Administrador de paquetes",
@@ -73,8 +73,8 @@
       "root": "Root",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Doble toque para suspender",
+    "alternative_wallpaper": "Posición de fondo alternativo"
   },
   "alerts": {
     "reset": {
@@ -129,26 +129,26 @@
   },
   "apps": {
     "uninstall_app": "Desinstalar aplicación",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "show_in_app_list": "Mostrar esta app en la lista de aplicaciones",
+    "name": "Nombre",
+    "icon": "Ícono",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Por defecto",
+      "monochrome": "Monocromático"
     },
-    "background": "Background",
+    "background": "Fondo",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "Por defecto",
+      "transparent": "Transparente"
     },
-    "text_color": "Text color",
+    "text_color": "Color del texto",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Automático",
+      "dark": "oscuro",
+      "light": "claro"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Mosaico animado",
+    "show_app": "Mostrar en la lista de aplicaciones"
   },
   "roles": {
     "team_groove": "Equipo de Groove",
