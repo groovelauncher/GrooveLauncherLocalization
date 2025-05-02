@@ -1,60 +1,60 @@
 {
     "common": {
-        "next": "next",
-        "previous": "previous",
-        "pleaseWait": "Please wait..."
+        "next": "Próximo",
+        "previous": "Anterior",
+        "pleaseWait": "Por favor aguarda..."
     },
     "welcome": {
-        "install": "Welcome",
-        "update": "Welcome back",
+        "install": "Bem-vindo",
+        "update": "Bem-vindo novamente",
         "appName": "Groove Launcher",
-        "setupIntro": "Let's setup your experience in a few short steps.",
-        "warning": "Warning: This is pre-release software and may contain bugs."
+        "setupIntro": "Vamos configurar a tua experiência em poucos passos.",
+        "warning": "Aviso: Este é um software de pré-lançamento e pode conter erros."
     },
     "wizard": {
-        "title": "Update Wizard",
-        "description": "Let's ensure your data is moved across safely! Click next to continue."
+        "title": "Assistente de atualização",
+        "description": "Vamos garantir que teus dados sejam movidos com segurança! Clica em próximo para continuar."
     },
     "access": {
-        "title": "Ease of Access",
-        "description": "Customize your experience to ensure that everything feels just right.",
-        "background": "Background",
-        "scaling": "Scaling"
+        "title": "Facilidade de acesso",
+        "description": "Customiza tua experiência para garantir que tudo está correto.",
+        "background": "Fundo",
+        "scaling": "Escala"
     },
     "themes": {
-        "light": "Light",
-        "dark": "Dark"
+        "light": "Claro",
+        "dark": "Escuro"
     },
     "colors": {
-        "title": "Choose your color",
-        "description": "Pick a color that matches your mood."
+        "title": "Escolhe tua cor",
+        "description": "Escolhe uma cor que combina com o teu humor."
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "Permissões",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "Contactos",
+                "description": "É necessário acesso aos contatos para exibir contactos no bloco."
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "Fotografias",
+                "description": "O acesso às fotos é necessário para exibir fotos no bloco."
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "Notificações",
+                "description": "O acesso às notificações é necessário para exibir as notificações no bloco."
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "Acessibilidade",
+                "description": "Ativar acessibilidade para bloquear o dispositivo."
             }
         }
     },
     "whatsnew": {
-        "title": "What's New?"
+        "title": "O que há de novo?"
     },
     "finish": {
-        "title": "Get ready to Groove",
-        "description": "Your setup is done. Time to dive in!"
+        "title": "Prepara-te pro Groove",
+        "description": "Tua configuração está pronta. Hora de entrar."
     }
 }

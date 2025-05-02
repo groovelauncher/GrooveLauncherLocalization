@@ -7,7 +7,7 @@
     "uninstall": "Desinstalar",
     "cancel": "Cancelar",
     "apply": "Aplicar",
-    "allow": "Allow",
+    "allow": "Permitir",
     "try_again": "Probar de nuevo",
     "light": "Claro",
     "dark": "Oscuro",
@@ -16,8 +16,8 @@
     "off": "Desactivado",
     "locked": "Bloqueado",
     "unlocked": "Desbloqueado",
-    "dismiss": "Dismiss",
-    "read_more": "Read more"
+    "dismiss": "Descartar",
+    "read_more": "Leer más"
   },
   "search": {
     "title": "Buscar",
@@ -31,7 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Anclar a casa",
-    "app_info": "App info",
+    "app_info": "Información de la app",
     "uninstall": "Desinstalar"
   },
   "alerts": {
