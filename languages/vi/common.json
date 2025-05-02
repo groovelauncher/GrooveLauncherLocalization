@@ -7,7 +7,7 @@
     "uninstall": "Dỡ cài đặt",
     "cancel": "Huỷ",
     "apply": "Áp dụng",
-    "allow": "Allow",
+    "allow": "Cho phép",
     "try_again": "Thử lại",
     "light": "Sáng",
     "dark": "Tối",
@@ -16,8 +16,8 @@
     "off": "Tắt",
     "locked": "Đã khóa",
     "unlocked": "Đã mở khóa",
-    "dismiss": "Dismiss",
-    "read_more": "Read more"
+    "dismiss": "Bỏ qua",
+    "read_more": "Đọc thêm"
   },
   "search": {
     "title": "Tìm kiếm",
@@ -31,7 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Ghim vào màn hình bắt đầu",
-    "app_info": "App info",
+    "app_info": "Thông tin ứng dụng",
     "uninstall": "Dỡ cài đặt"
   },
   "alerts": {

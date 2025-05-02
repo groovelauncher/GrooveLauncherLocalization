@@ -16,7 +16,7 @@
     "themes": {
       "light": "Wit",
       "dark": "Zwart",
-      "auto": "Auto"
+      "auto": "Automatisch"
     }
   },
   "screen_rotation": {
@@ -32,12 +32,12 @@
     "title": "Toegankelijkheid",
     "description": "lettergrootte, hoog contrast en meer",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Verminder beweging",
+      "description": "Verminder bewegingseffecten, zoals parallax en animaties, om bewegingsziekte te voorkomen."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Hoog contrast",
+      "description": "Verandert de kleuren voor sommige functies, en verbergt een aantal van hun achtergrondafbeeldingen."
     },
     "scaling": "Schalen",
     "font": {
@@ -46,12 +46,12 @@
       "remove": "Verwijder Lettertype"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Haptische feedback",
+      "description": "Trillen inschakelen bij interactie met tegels en bedieningselementen."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Visueel",
+      "tactile": "Tactiel"
     }
   },
   "advanced": {
@@ -63,8 +63,8 @@
     },
     "data": {
       "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "backup": "Back-up",
+      "restore": "Herstellen"
     },
     "package_manager": {
       "title": "Pakketbeheer",
@@ -73,8 +73,8 @@
       "root": "Root",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Dubbel-tik om te slapen",
+    "alternative_wallpaper": "Alternatieve achtergrond plaatsen"
   },
   "alerts": {
     "reset": {
@@ -129,26 +129,26 @@
   },
   "apps": {
     "uninstall_app": "Verwijder App",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "show_in_app_list": "Deze app weergeven in de App Lijst",
+    "name": "Naam",
+    "icon": "Icoon",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Standaard",
+      "monochrome": "Monochroom"
     },
-    "background": "Background",
+    "background": "Achtergrond",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "Standaard",
+      "transparent": "Transparant"
     },
-    "text_color": "Text color",
+    "text_color": "Tekstkleur",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Automatisch",
+      "dark": "donker",
+      "light": "licht"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Live tegel",
+    "show_app": "Weergeven in de lijst met apps"
   },
   "roles": {
     "team_groove": "Team Groove",

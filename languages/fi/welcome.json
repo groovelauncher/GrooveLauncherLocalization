@@ -30,23 +30,23 @@
         "description": "Valitse väri, joka sopii mielialaasi."
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "Käyttöluvat",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "Yhteystiedot",
+                "description": "Pääsy yhteystietoihin tarvitaan live tile -ruutua varten."
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "Kuvat",
+                "description": "Pääsy kuviin tarvitaan live tile -ruutua varten."
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "Ilmoitukset",
+                "description": "Pääsy ilmoituksiin tarvitaan live tile -ruutua varten."
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "Saavutettavuus",
+                "description": "Salli esteettömyys näytön lukitsemista varten."
             }
         }
     },

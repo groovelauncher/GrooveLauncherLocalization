@@ -16,7 +16,7 @@
     "themes": {
       "light": "Sáng",
       "dark": "Tối",
-      "auto": "Auto"
+      "auto": "Tự động"
     }
   },
   "screen_rotation": {
@@ -32,7 +32,7 @@
     "title": "Hỗ trợ tiếp cận",
     "description": "cỡ chữ, tương phản cao, và hơn thế",
     "reduce_motion": {
-      "title": "Reduce motion",
+      "title": "Giảm hoạt ảnh",
       "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
     },
     "high_contrast": {

@@ -30,23 +30,23 @@
         "description": "Изберете цвят, който съответства на вашето настроение."
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "Разрешения",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "Контакти",
+                "description": "Достъпът до контактите е необходим за показване на живата плочка контакти."
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "Снимки",
+                "description": "Достъпът до снимките е необходим за показване на живата плочка снимки."
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "Известия",
+                "description": "Достъпът до известията е необходим за показване на живата плочка известия."
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "Достъпност",
+                "description": "Разрешаване на достъпността за заключване на устройството."
             }
         }
     },

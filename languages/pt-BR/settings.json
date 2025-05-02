@@ -16,14 +16,14 @@
     "themes": {
       "light": "Clara",
       "dark": "Escura",
-      "auto": "Auto"
+      "auto": "Automático"
     }
   },
   "screen_rotation": {
-    "title": "Screen Rotation",
-    "auto_rotate": "Auto-rotate",
-    "rotation_lock": "Rotation lock",
-    "friendly_rotation_lock": "When Rotation lock is on, your home will stay in the current orientation when you rotate your device."
+    "title": "Rotação de tela",
+    "auto_rotate": "Rotação automática",
+    "rotation_lock": "Bloquear a rotação",
+    "friendly_rotation_lock": "Quando o bloqueio de rotação estar ativado, a sua tela inicial vai ficar na sua orientação atual quando você girar o seu dispositivo."
   },
   "language": {
     "title": "Idioma"
@@ -32,128 +32,128 @@
     "title": "Facilidade de acesso",
     "description": "tamanho de texto, alto contraste e mais",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Reduzir movimento",
+      "description": "Reduz os efeitos de movimento, como paralaxe e animações, para ajudar a prevenir o enjoo."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Alto contraste",
+      "description": "Altera as cores de alguns recursos e oculta algumas de suas imagens de fundo."
     },
-    "scaling": "Scaling",
+    "scaling": "Escala",
     "font": {
-      "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "title": "Fonte",
+      "choose": "Selecione...",
+      "remove": "Remover fonte"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Feedback tátil",
+      "description": "Ative o feedback de vibração ao interagir com blocos e controles."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Visão",
+      "tactile": "Tátil"
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "Avançado",
+    "description": "gerenciador de pacotes e outras opções",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "Depuração",
+      "dump_apps": "Despejar JSON de aplicativos instalados"
     },
     "data": {
-      "title": "Data",
+      "title": "Dados",
       "backup": "Backup",
-      "restore": "Restore"
+      "restore": "Restaurar"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
+      "title": "Gerenciador de pacotes",
+      "title_experimental": "Gerenciador de pacotes (EXPERIMENTAL)",
       "system": "Sistema",
       "root": "Root",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Toque duas vezes para desligar",
+    "alternative_wallpaper": "Colocação alternativa de papel de parede"
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "Redefinir o Groove Launcher?",
+      "message": "Isso vai redefinir o seu launcher para suas configurações padrão. Todas as customizações serão perdidas."
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "Acesso root necessário",
+      "message": "Acesso root é necessário para executar esta ação. Por favor, conceda acesso root para continuar."
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "Permissão Shizuku necessária",
+      "message": "A permissão Shizuku é necessária para fazer esta ação. Por favor conceda a permissão Shizuku para continuar."
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "Atualização disponível!",
+      "message": "Uma nova versão <strong>({{version}})</strong> esta disponível, pesando {{size}}. Você quer baixá-la?",
+      "message2": "Uma nova versão <strong>({{version}})</strong> esta disponível. Você quer baixa-la?"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "Falha na verificação de atualizações!",
+      "message": "Não é possível verificar se há atualizações do aplicativo. Por favor, tente novamente mais tarde."
     },
     "up_to_date": {
-      "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "title": "Atualizado!",
+      "message": "Você tem a versão mais legal do Groove Launcher!"
     },
     "font_read_error": {
-      "title": "Unsupported file format",
-      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
+      "title": "Formato de arquivo não suportado",
+      "message": "O arquivo da fonte não é válido. Verifique se o arquivo é .ttf e tente novamente."
     },
     "font_load_error": {
-      "title": "Can’t load font",
-      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
+      "title": "Não é possível carregar a fonte",
+      "message": "Não conseguimos ler o arquivo de fonte. Apenas fontes .ttf são suportadas. Por favor, tente um arquivo diferente."
     },
     "copy_failed": {
-      "title": "Copy Failed!",
-      "message": "Unable to copy apps list. Please try again."
+      "title": "Falha na cópia!",
+      "message": "Não é possível copiar a lista de aplicativos. Por favor, tente novamente."
     },
     "copy_success": {
-      "title": "Copied to Clipboard!",
-      "message": "Installed apps copied to JSON format successfully."
+      "title": "Copiado para a Área de transferência!",
+      "message": "Aplicativos instalados copiados para o formato JSON com sucesso."
     }
   },
   "about": {
-    "title": "About",
+    "title": "Sobre",
     "description": "Groove Launcher",
-    "version": "Version: {{version}}",
-    "webview_version": "WebView Version: {{version}}",
-    "reset_launcher": "Reset Launcher",
-    "check_updates": "Check Updates"
+    "version": "Versão: {{version}}",
+    "webview_version": "Versão do WebView: {{version}}",
+    "reset_launcher": "Reiniciar o Launcher",
+    "check_updates": "Procurar Atualizações"
   },
   "apps": {
-    "uninstall_app": "Uninstall App",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "uninstall_app": "Desinstalar App",
+    "show_in_app_list": "Mostrar esse aplicativo na lista de aplicativos",
+    "name": "Nome",
+    "icon": "Ícone",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Padrão",
+      "monochrome": "Monocromático"
     },
-    "background": "Background",
+    "background": "Fundo",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "Padrão",
+      "transparent": "Transparente"
     },
-    "text_color": "Text color",
+    "text_color": "Cor do texto",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Automático",
+      "dark": "escuro",
+      "light": "claro"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Tile animado",
+    "show_app": "Mostrar na lista de aplicativos"
   },
   "roles": {
-    "team_groove": "Team Groove",
-    "developer": "Developer",
-    "icon_design": "Icon Design",
-    "logo_design": "Logo Design"
+    "team_groove": "Equipe Groove",
+    "developer": "Desenvolvedor",
+    "icon_design": "Design do ícone",
+    "logo_design": "Design do logotipo"
   }
 }

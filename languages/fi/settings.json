@@ -16,7 +16,7 @@
     "themes": {
       "light": "Vaalea",
       "dark": "Tumma",
-      "auto": "Auto"
+      "auto": "Automaattinen"
     }
   },
   "screen_rotation": {
@@ -32,12 +32,12 @@
     "title": "Aputoiminnot",
     "description": "tekstikoko, suuri kontrasti ja muut ominaisuudet",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Vähennä liikettä",
+      "description": "Vähennä liiketehosteita, kuten parallaksia ja animaatioita, estääksesi pahoinvointia."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Suuri kontrasti",
+      "description": "Vaihtaa joidenkin toimintojen väriä ja piilottaa joidenkin toimintojen taustakuvat."
     },
     "scaling": "Skaalaus",
     "font": {
@@ -46,12 +46,12 @@
       "remove": "Poista fontti"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Haptinen palaute",
+      "description": "Ota käyttöön värinäpalaute, kun muokkaat asetuksia ja ruutuja."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Näkö",
+      "tactile": "Kosketus"
     }
   },
   "advanced": {
@@ -62,9 +62,9 @@
       "dump_apps": "Vie asennetut sovellukset JSON -tiedostoon"
     },
     "data": {
-      "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "title": "Tiedot",
+      "backup": "Varmuuskopioi",
+      "restore": "Palauta"
     },
     "package_manager": {
       "title": "Paketin hallinta",
@@ -73,8 +73,8 @@
       "root": "Root",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Sammuta näyttö kaksoisnapauttamalla",
+    "alternative_wallpaper": "Vaihtoehtoinen aloitusnäytön taustan sijoitus"
   },
   "alerts": {
     "reset": {
@@ -129,26 +129,26 @@
   },
   "apps": {
     "uninstall_app": "Poista Sovellus",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "show_in_app_list": "Näytä tämä sovellus sovellusluettelossa",
+    "name": "Nimi",
+    "icon": "Kuvake",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Oletus",
+      "monochrome": "Yksivärinen"
     },
-    "background": "Background",
+    "background": "Tausta",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "Oletus",
+      "transparent": "Läpinäkyvä"
     },
-    "text_color": "Text color",
+    "text_color": "Tekstin väri",
     "text_color_selections": {
       "auto": "Auto",
       "dark": "tumma",
       "light": "vaalea"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Live ruutu",
+    "show_app": "Näytä sovellusluettelossa"
   },
   "roles": {
     "team_groove": "Team Groove",

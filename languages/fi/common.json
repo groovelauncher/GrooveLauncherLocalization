@@ -7,7 +7,7 @@
     "uninstall": "Poista",
     "cancel": "Peruuta",
     "apply": "Käytä",
-    "allow": "Allow",
+    "allow": "Salli",
     "try_again": "Yritä uudelleen",
     "light": "Vaalea",
     "dark": "Tumma",
@@ -16,8 +16,8 @@
     "off": "Ei käytössä",
     "locked": "Lukittu",
     "unlocked": "Ei lukittu",
-    "dismiss": "Dismiss",
-    "read_more": "Read more"
+    "dismiss": "Hylkää",
+    "read_more": "Lue lisää"
   },
   "search": {
     "title": "Haku",
@@ -31,7 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Kiinnitä aloitusnäyttöön",
-    "app_info": "App info",
+    "app_info": "Sovellustiedot",
     "uninstall": "Poista"
   },
   "alerts": {

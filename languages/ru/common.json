@@ -7,7 +7,7 @@
     "uninstall": "Удалить",
     "cancel": "Отмена",
     "apply": "Применить",
-    "allow": "Allow",
+    "allow": "Принять",
     "try_again": "Повторите попытку",
     "light": "Светлый",
     "dark": "Тёмный",
@@ -16,8 +16,8 @@
     "off": "Выкл",
     "locked": "Заблокирован",
     "unlocked": "Разблокирован",
-    "dismiss": "Dismiss",
-    "read_more": "Read more"
+    "dismiss": "Отклонить",
+    "read_more": "Читать дальше"
   },
   "search": {
     "title": "Поиск",
@@ -31,7 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "На рабочий стол",
-    "app_info": "App info",
+    "app_info": "Информация о приложении",
     "uninstall": "Удалить"
   },
   "alerts": {

@@ -1,159 +1,159 @@
 {
-  "title": "Settings",
+  "title": "அமைப்புகள்",
   "tabs": {
-    "home": "Home",
-    "applications": "Applications"
+    "home": "முகப்பு",
+    "applications": "செயலிகள்"
   },
   "theme": {
-    "title": "Home+Theme",
-    "accent_color": "Accent color",
-    "background": "Background",
-    "home_background": "Home background",
-    "choose_photo": "Choose photo",
-    "show_more_tiles": "Show more Tiles",
-    "friendly_accent": "Change your device's background and <span style='color: var(--accent-color)'>accent color</span> to match your mood today, this week, or all month.",
-    "friendly_tiles": "You can change the size and number of tiles available on your home screen.",
+    "title": "முகப்பு+வண்ணங்கள்",
+    "accent_color": "வண்ண விருப்பங்கள்",
+    "background": "பின்னணி",
+    "home_background": "முகப்பு பின்னணி",
+    "choose_photo": "படத்தைத் தேர்ந்தெடுக்கவும்",
+    "show_more_tiles": "மேலும் டைல்களைக் காட்டு",
+    "friendly_accent": "உங்கள் சாதனத்தின் பின்னணி மற்றும் <span style='color: var(--accent-color)'> வண்ண விருப்பங்களை </span> இன்றைய, இந்த வார, அல்லது மாதத்திற்கான மனநிலைக்கு ஏற்ப்ப அமையுங்கள்.",
+    "friendly_tiles": "உங்கள் முகப்புத் திரையில் கிடைக்கும் டைல்களின் அளவையும் எண்ணிக்கையையும் மாற்றலாம்.",
     "themes": {
-      "light": "Light",
-      "dark": "Dark",
-      "auto": "Auto"
+      "light": "வெளிர்",
+      "dark": "இருள்",
+      "auto": "தன்னியக்கம்"
     }
   },
   "screen_rotation": {
-    "title": "Screen Rotation",
-    "auto_rotate": "Auto-rotate",
-    "rotation_lock": "Rotation lock",
-    "friendly_rotation_lock": "When Rotation lock is on, your home will stay in the current orientation when you rotate your device."
+    "title": "திரை சுழற்சி",
+    "auto_rotate": "தானாக-சுழற்று",
+    "rotation_lock": "சுழற்சி பூட்டு",
+    "friendly_rotation_lock": "சுழற்சிப் பூட்டு இயக்கத்தில் இருக்கும் போது, ​​உங்கள் சாதனத்தைச் சுழற்றும்போது, ​​உங்கள் முகப்பு தற்போதைய நோக்கு நிலையிலேயே இருக்கும்."
   },
   "language": {
-    "title": "Language"
+    "title": "மொழி"
   },
   "ease_of_access": {
-    "title": "Ease of Access",
-    "description": "text size, high contrast, and more",
+    "title": "எளிமையான அணுகல்",
+    "description": "எழுத்துரு அளவு, உயர மாறுபாடு மற்றும் பல",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "இயக்க வேகத்தை குறைக்கவும்",
+      "description": "இயக்க குறைபாட்டை தடுக்க உதவும் வகையில், இடமாறுதல் மற்றும் அனிமேஷன்கள் போன்ற இயக்க வேகத்தை குறைக்கவும்."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "அதிக வண்ண வேறுபாடு",
+      "description": "சில அம்சங்களுக்கான வண்ணங்களை மாற்றுகிறது, மேலும் அவற்றின் பின்னணி படங்கள் சிலவற்றை மறைக்கிறது."
     },
-    "scaling": "Scaling",
+    "scaling": "திரை அளவீடு",
     "font": {
-      "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "title": "எழுத்துரு",
+      "choose": "தேர்ந்தெடு...",
+      "remove": "எழுத்துருவை நீக்கு"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "ஹாப்டிக் பின்னூட்டம்",
+      "description": "டைல்ஸ் மற்றும் கட்டுப்பாடுகளுடன் தொடர்பு கொள்ளும்போது அதிர்வு பின்னூட்டத்தை இயக்கவும்."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "பார்வை",
+      "tactile": "தொட்டுணரக்கூடியது"
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "மேம்பட்ட அமைப்பு",
+    "description": "நிறுவல் மேலாளர் மற்றும் பிற மாற்றங்கள்",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "பிழை திருத்தம்",
+      "dump_apps": "நிறுவப்பட்ட செயலிகளின் JSON பட்டியல்"
     },
     "data": {
-      "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "title": "தகவல்கள்",
+      "backup": "காப்பு நகலெடுத்தல்",
+      "restore": "மீட்பு"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
-      "system": "System",
-      "root": "Root",
-      "shizuku": "Shizuku"
+      "title": "நிறுவல் மேலாளர்",
+      "title_experimental": "நிறுவல் மேலாளர் (சோதனை)",
+      "system": "அமைப்பு",
+      "root": "ரூட்",
+      "shizuku": "ஷிசுகு"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "தூங்க இருமுறை தட்டவும்",
+    "alternative_wallpaper": "மாற்று வால்பேப்பர் வைப்பது"
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "குரோவ் லாஞ்சரை மறுஅமை?",
+      "message": "இது உங்கள் லாஞ்சரை அதன் இயல்புநிலை அமைப்புகளுக்கு மறு அமைக்கும். அனைத்து தனிப்பயனாக்கங்களும் இழக்கப்படும்."
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "ரூட் அணுகல் தேவை",
+      "message": "இந்த செயலைச் செய்ய ரூட் அணுகல் தேவை. தொடர ரூட் அணுகலை வழங்கவும்."
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "ஷிசுகு அனுமதி தேவை",
+      "message": "இந்தச் செயலைச் செய்ய ஷிசுகு அனுமதி தேவை. தொடர ஷிசுகு அனுமதி வழங்கவும்."
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "புதுப்பிப்பு கிடைக்கிறது!",
+      "message": "ஒரு புதிய பதிப்பு <strong>({{version}})</strong> கிடைக்கப்பெறுகிறது, அதன் அளவு {{size}}. நீங்கள் பதிவிறக்க விரும்புகிறீர்களா?",
+      "message2": "ஒரு புதிய பதிப்பு <strong>({{version}})</strong> கிடைக்கப்பெறுகிறது. நீங்கள் பதிவிறக்க விரும்புகிறீர்களா?"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "புதுப்பிப்பு சரிபார்ப்பு தோல்வியடைந்தது!",
+      "message": "செயலி புதுப்பிப்புகளைச் சரிபார்க்க முடியவில்லை. பிறகு முயற்சிக்கவும்."
     },
     "up_to_date": {
-      "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "title": "இன்று வரை புதுப்பிக்கப்பட்டது!",
+      "message": "நீங்கள் குரோவ் லாஞ்சரின் மிகவும் புதிய பதிப்பை வைத்துள்ளீர்கள்."
     },
     "font_read_error": {
-      "title": "Unsupported file format",
-      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
+      "title": "ஆதரிக்கப்படாத கோப்பு வடிவம்",
+      "message": "எழுத்துரு கோப்பு தவறானது. இது .ttf கோப்பு வகையா என்பதை உறுதிசெய்து, மீண்டும் பதிவேற்ற முயற்சிக்கவும்."
     },
     "font_load_error": {
-      "title": "Can’t load font",
-      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
+      "title": "எழுத்துருவை இயக்க முடியவில்லை",
+      "message": "எழுத்துருக் கோப்பைப் படிக்க முடியவில்லை. .ttf எழுத்துருக்கள் மட்டுமே ஆதரிக்கப்படுகின்றன. வேறு கோப்பை முயற்சிக்கவும்."
     },
     "copy_failed": {
-      "title": "Copy Failed!",
-      "message": "Unable to copy apps list. Please try again."
+      "title": "நகலெடுக்க முடியவில்லை!",
+      "message": "செயலி பட்டியலை நகலெடுக்க முடியவில்லை. மீண்டும் முயற்சிக்கவும்."
     },
     "copy_success": {
-      "title": "Copied to Clipboard!",
-      "message": "Installed apps copied to JSON format successfully."
+      "title": "கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது!",
+      "message": "நிறுவப்பட்ட செயலிகளின் பட்டியல் வெற்றிகரமாக JSON வடிவத்தில் நகலெடுக்கப்பட்டன."
     }
   },
   "about": {
-    "title": "About",
-    "description": "Groove Launcher",
-    "version": "Version: {{version}}",
-    "webview_version": "WebView Version: {{version}}",
-    "reset_launcher": "Reset Launcher",
-    "check_updates": "Check Updates"
+    "title": "எம்மைப் பற்றி",
+    "description": "குரோவ் லாஞ்சர்",
+    "version": "பதிப்பு : {{version}}",
+    "webview_version": "வெப் வியூ பதிப்பு: {{version}}",
+    "reset_launcher": "லாஞ்சரை மறு அமை",
+    "check_updates": "புதுப்பிப்புகளைச் சரிபார்க்கவும்"
   },
   "apps": {
-    "uninstall_app": "Uninstall App",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "uninstall_app": "செயலியை நிறுவல் நீக்கவும்",
+    "show_in_app_list": "செயலி பட்டியலில் இந்தப் செயலியை காட்டு",
+    "name": "பெயர்",
+    "icon": "ஐகான்",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "இயல்புநிலை",
+      "monochrome": "ஒரே வண்ணம்"
     },
-    "background": "Background",
+    "background": "பின்னணி",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "இயல்புநிலை",
+      "transparent": "வெளிப்படையானது"
     },
-    "text_color": "Text color",
+    "text_color": "எழுத்து வண்ணம்",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "தன்னியக்கம்",
+      "dark": "இருள்",
+      "light": "வெளிர்"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "லைவ் டைல்ஸ்",
+    "show_app": "செயலி பட்டியலில் காண்பிக்கவும்"
   },
   "roles": {
-    "team_groove": "Team Groove",
-    "developer": "Developer",
-    "icon_design": "Icon Design",
-    "logo_design": "Logo Design"
+    "team_groove": "குரோவ் குழு",
+    "developer": "டெவலப்பர்",
+    "icon_design": "ஐகான் வடிவமைப்பு",
+    "logo_design": "சின்னம் வடிவமைப்பு"
   }
 }

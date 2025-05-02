@@ -16,7 +16,7 @@
     "themes": {
       "light": "Светъл",
       "dark": "Тъмен",
-      "auto": "Auto"
+      "auto": "Автоматична"
     }
   },
   "screen_rotation": {
@@ -32,12 +32,12 @@
     "title": "Улеснен достъп",
     "description": "размер на текст, висок контраст и други",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Намаляване на движението",
+      "description": "Намалете ефектите на движение, като паралакс и анимации, за предотвратяването на кинетоза."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Висок контраст",
+      "description": "Променя цветовете на някои функции и скрива част от изображенията на заден план."
     },
     "scaling": "Мащабиране",
     "font": {
@@ -46,12 +46,12 @@
       "remove": "Премахване на шрифт"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Хаптична обратна връзка",
+      "description": "Активиране на обратна връзка с вибрации при взаимодействие с плочки и контроли."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Визия",
+      "tactile": "Осезаем"
     }
   },
   "advanced": {
@@ -62,9 +62,9 @@
       "dump_apps": "Извличане на инсталирани приложения JSON"
     },
     "data": {
-      "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "title": "Данни",
+      "backup": "Създай резервно копие",
+      "restore": "Възстанови"
     },
     "package_manager": {
       "title": "Мениджър на пакети",
@@ -73,8 +73,8 @@
       "root": "Root",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Двойно почукване за заспиване",
+    "alternative_wallpaper": "Алтернативно поставяне на тапети"
   },
   "alerts": {
     "reset": {
@@ -129,26 +129,26 @@
   },
   "apps": {
     "uninstall_app": "Деинсталиране на приложение",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "show_in_app_list": "Покажи това приложение в списъка с приложения",
+    "name": "Име",
+    "icon": "Икона",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "По подразбиране",
+      "monochrome": "Монохромен"
     },
-    "background": "Background",
+    "background": "Фон",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "По подразбиране",
+      "transparent": "Прозрачно"
     },
-    "text_color": "Text color",
+    "text_color": "Цвят на текста",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Автоматично",
+      "dark": "тъмен",
+      "light": "светъл"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Жива плочка",
+    "show_app": "Покажи в списъка с приложения"
   },
   "roles": {
     "team_groove": "Екип на Groove",
