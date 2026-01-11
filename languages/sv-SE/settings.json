@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Återställa Groove Launcher?",
+      "title": "Återställa Disco Launcher?",
       "message": "Detta kommer att återställa startprogrammet till dess standardinställningar. Alla anpassningar kommer att gå förlorade."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Uppdaterad!",
-      "message": "Du har den bästa versionen av Groove Launcher."
+      "message": "Du har den bästa versionen av Disco Launcher."
     },
     "font_read_error": {
       "title": "Filformat som inte stöds",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Om",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Version: {{version}}",
     "webview_version": "WebView-version: {{version}}",
     "reset_launcher": "Återställ Launcher",
@@ -151,7 +151,7 @@
     "show_app": "Show in apps list"
   },
   "roles": {
-    "team_groove": "Team Groove",
+    "team_disco": "Team Disco",
     "developer": "Utvecklare",
     "icon_design": "Ikon-design",
     "logo_design": "Logotyp-design"

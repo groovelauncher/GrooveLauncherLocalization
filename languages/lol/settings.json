@@ -16,7 +16,7 @@
     "themes": {
       "light": "Shiny Modez!",
       "dark": "Spoopy Modez!",
-      "auto": "Auto"
+      "auto": "Autoz"
     }
   },
   "screen_rotation": {
@@ -32,12 +32,12 @@
     "title": "Eazy-Peazy Use!",
     "description": "texty-sizez, contrasty, and moar stuffz!",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Less Wigglez!",
+      "description": "Reduces wigglez efex, an liek parallax n animashuns, fur no motion pukiez."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Hiz kontrast iz high",
+      "description": "Chngz teh colurz fur sum feechurz, n hidz sum bakgrund pics."
     },
     "scaling": "Zoomy-zoom!",
     "font": {
@@ -46,12 +46,12 @@
       "remove": "Buh-byez Font!"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Ticklez Fedback",
+      "description": "Turn on vibz fedback wen playin wif tiles n contruls."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Vishun!",
+      "tactile": "Tactilez"
     }
   },
   "advanced": {
@@ -62,9 +62,9 @@
       "dump_apps": "Make appy-listz JSON!"
     },
     "data": {
-      "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "title": "Dataz",
+      "backup": "Bakup",
+      "restore": "Reschore"
     },
     "package_manager": {
       "title": "Appy-Packagez!",
@@ -73,8 +73,8 @@
       "root": "Rootz!",
       "shizuku": "Shizuku Powerz!"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Dubble tap 4 napz",
+    "alternative_wallpaper": "Alturnatif wallpaper movy"
   },
   "alerts": {
     "reset": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Up-to-date Meow!",
-      "message": "You haz da grooviest Groove Launchy!"
+      "message": "You haz da grooviest Disco Launchy!"
     },
     "font_read_error": {
       "title": "Font iz Badz!",
@@ -129,29 +129,29 @@
   },
   "apps": {
     "uninstall_app": "Make Appy Go Bye-Bye!",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "show_in_app_list": "Showz da appz in da appy-list!",
+    "name": "Naym!",
+    "icon": "Pikchez!",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Nermal!",
+      "monochrome": "1 shadz"
     },
-    "background": "Background",
+    "background": "Backy-groundz!",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "Nermal!",
+      "transparent": "Tranzy-parentz!"
     },
-    "text_color": "Text color",
+    "text_color": "Texty Colorz!",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Autoz",
+      "dark": "Spoopy Modez!",
+      "light": "Shiny Modez!"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Live tilez",
+    "show_app": "Showz in da appy-list!"
   },
   "roles": {
-    "team_groove": "Team Groovy!",
+    "team_disco": "Team Groovy!",
     "developer": "Code Wizard!",
     "icon_design": "Piccy Makerz!",
     "logo_design": "Fancy Logo Makerz!"

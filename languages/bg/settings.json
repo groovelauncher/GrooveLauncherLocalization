@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Нулиране на Groove Launcher?",
+      "title": "Нулиране на Disco Launcher?",
       "message": "Това ще възстанови настройките по подразбиране на стартера. Всички персонализации ще бъдат загубени."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Актуален!",
-      "message": "Имате най-новата версия на Groove Launcher."
+      "message": "Имате най-новата версия на Disco Launcher."
     },
     "font_read_error": {
       "title": "Файл от неподдържан формат",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "За",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Версия: {{version}}",
     "webview_version": "WebView версия: {{version}}",
     "reset_launcher": "Нулиране на стартера",
@@ -151,7 +151,7 @@
     "show_app": "Покажи в списъка с приложения"
   },
   "roles": {
-    "team_groove": "Екип на Groove",
+    "team_disco": "Екип на Disco",
     "developer": "Разработчик",
     "icon_design": "Дизайн на икони",
     "logo_design": "Дизайн на лого"

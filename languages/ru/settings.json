@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Сбросить Groove Launcher?",
+      "title": "Сбросить Disco Launcher?",
       "message": "Это сбросит ваш лаунчер к его настройкам по умолчанию. Все настройки будут потеряны."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Вы в курсе событий!",
-      "message": "У вас лучшая версия Groove Launcher."
+      "message": "У вас лучшая версия Disco Launcher."
     },
     "font_read_error": {
       "title": "Формат файла не поддерживается",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "О приложении",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Версия: {{version}}",
     "webview_version": "Версия WebView: {{version}}",
     "reset_launcher": "Сбросить лаунчер",
@@ -151,7 +151,7 @@
     "show_app": "Показать в списке приложений"
   },
   "roles": {
-    "team_groove": "Команда Groove",
+    "team_disco": "Команда Disco",
     "developer": "Разработчик",
     "icon_design": "Дизайн значка",
     "logo_design": "Дизайн логотипа"

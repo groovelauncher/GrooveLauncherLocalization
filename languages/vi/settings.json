@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Đặt lại Groove Launcher?",
+      "title": "Đặt lại Disco Launcher?",
       "message": "Mọi cài đặt và tùy biến sẽ về mặc định."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Đang chạy bản mới nhất!",
-      "message": "Bạn đang sử dụng phiên bản xịn nhất của Groove Launcher."
+      "message": "Bạn đang sử dụng phiên bản xịn nhất của Disco Launcher."
     },
     "font_read_error": {
       "title": "Định dạng tập tin không được hỗ trợ",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Giới thiệu",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Phiên bản: {{version}}",
     "webview_version": "Phiên bản WebView: {{version}}",
     "reset_launcher": "Đặt lại",
@@ -151,7 +151,7 @@
     "show_app": "Show in apps list"
   },
   "roles": {
-    "team_groove": "Đội ngữ Groove",
+    "team_disco": "Đội ngữ Disco",
     "developer": "Nhà phát triển",
     "icon_design": "Thiết kế icon",
     "logo_design": "Thiết kế logo"

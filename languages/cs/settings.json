@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Resetovat Groove Launcher?",
+      "title": "Resetovat Disco Launcher?",
       "message": "Váš launcher bude obnoven do výchozího nastavení. Všechny úpravy budou ztraceny."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Aktuální!",
-      "message": "Máte tu nejnovější verzi Groove Launcheru."
+      "message": "Máte tu nejnovější verzi Disco Launcheru."
     },
     "font_read_error": {
       "title": "Nepodporovaný formát souboru",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "O aplikaci",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Verze: {{version}}",
     "webview_version": "WebView verze: {{version}}",
     "reset_launcher": "Resetovat launcher",
@@ -151,7 +151,7 @@
     "show_app": "Zobrazit v seznamu aplikací"
   },
   "roles": {
-    "team_groove": "Tým Groove",
+    "team_disco": "Tým Disco",
     "developer": "Vývojář",
     "icon_design": "Vzhled ikony",
     "logo_design": "Vzhled loga"

@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Рисетирајтего Groove launcher?",
+      "title": "Рисетирајтего Disco launcher?",
       "message": "Оба ке го рисетира апликациата како што беше кога прво го пушти."
     },
     "root": {
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Информации",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Верзија: {{version}}",
     "webview_version": "Верзија на WebView: {{version}}",
     "reset_launcher": "Рисетирајтеро апликациата",
@@ -151,7 +151,7 @@
     "show_app": "Show in apps list"
   },
   "roles": {
-    "team_groove": "Група Groove",
+    "team_disco": "Група Disco",
     "developer": "Девелопер",
     "icon_design": "Икон дизијн",
     "logo_design": "Лороа дизијн"

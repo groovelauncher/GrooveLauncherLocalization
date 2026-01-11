@@ -30,23 +30,23 @@
         "description": "Chooz da colory dat makz u happiez!"
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "Permishunz",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "Kontakts",
+                "description": "Needz accesz to kontakts fur showin' dem live tilez!"
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "Photoz",
+                "description": "Needz accesz to photoz fur showin' dem live tilez!"
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "Notifishunz",
+                "description": "Needz accesz to notifishunz fur showin' dem live tilez!"
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "Accessibilitez",
+                "description": "Turnz on accessibilitez to lock ur devicez!"
             }
         }
     },
@@ -54,7 +54,7 @@
         "title": "New Shiny Stuffz!"
     },
     "finish": {
-        "title": "All done! Time to Groovy-groove!",
+        "title": "All done! Time to Groovy-disco!",
         "description": "Wez all set! Go play nowz!"
     }
 }

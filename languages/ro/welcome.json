@@ -7,7 +7,7 @@
     "welcome": {
         "install": "Bine ați venit",
         "update": "Bine ați revenit",
-        "appName": "Lansator Groove",
+        "appName": "Lansator Disco",
         "setupIntro": "Haideți să vă configurăm experiența în câțiva pași scurți.",
         "warning": "Atenție: Aceasta este o aplicație de pre-lansare și poate conține bug-uri."
     },
@@ -54,7 +54,7 @@
         "title": "Ce E Nou?"
     },
     "finish": {
-        "title": "Pregătiți-vă să Groove-uiți",
+        "title": "Pregătiți-vă să Disco-uiți",
         "description": "Configurarea dvs. este gata. E timpul să începem!"
     }
 }

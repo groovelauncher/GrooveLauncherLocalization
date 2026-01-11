@@ -7,7 +7,7 @@
     "welcome": {
         "install": "Добредојдовте",
         "update": "Добредојдовте назад",
-        "appName": "Groove Launcher",
+        "appName": "Disco Launcher",
         "setupIntro": "Може на наместиме во неколку мали чекори.",
         "warning": "Вниманието: Ова е незавршено софтвер е и има не достатоци!"
     },
@@ -54,7 +54,7 @@
         "title": "Што е ново?"
     },
     "finish": {
-        "title": "Спреми се да Groove",
+        "title": "Спреми се да Disco",
         "description": "Сме завршени!"
     }
 }

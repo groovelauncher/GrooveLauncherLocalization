@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "¿Restablecer Groove Launcher?",
+      "title": "¿Restablecer Disco Launcher?",
       "message": "Esto restablecerá tu launcher a su configuración predeterminada. Se borrará toda la configuración."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "¡Todo actualizado!",
-      "message": "Tienes la versión más actual de Groove Launcher."
+      "message": "Tienes la versión más actual de Disco Launcher."
     },
     "font_read_error": {
       "title": "Tipo de archivo no soportado",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Acerca de",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Version: {{version}}",
     "webview_version": "Versión de WebView: {{version}}",
     "reset_launcher": "Restablecer el launcher",
@@ -151,7 +151,7 @@
     "show_app": "Show in apps list"
   },
   "roles": {
-    "team_groove": "Equipo de Groove",
+    "team_disco": "Equipo de Disco",
     "developer": "Desarrollador",
     "icon_design": "Diseño de iconos",
     "logo_design": "Diseño de logos"

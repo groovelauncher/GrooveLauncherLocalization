@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
+      "title": "Reset Disco Launcher?",
       "message": "This will reset your launcher to its default settings. All customisations will be lost."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "message": "You have the grooviest version of Disco Launcher."
     },
     "font_read_error": {
       "title": "Unsupported file format",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "About",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Version: {{version}}",
     "webview_version": "WebView Version: {{version}}",
     "reset_launcher": "Reset Launcher",
@@ -151,7 +151,7 @@
     "show_app": "Show in apps list"
   },
   "roles": {
-    "team_groove": "Team Groove",
+    "team_disco": "Team Disco",
     "developer": "Developer",
     "icon_design": "Icon Design",
     "logo_design": "Logo Design"

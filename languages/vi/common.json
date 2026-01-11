@@ -22,7 +22,7 @@
   "search": {
     "title": "Tìm kiếm",
     "no_results": "Không có kết quả nào cho {{query}}",
-    "search_store": "tìm kiếm Store"
+    "search_store": "tìm kiếm trong Cửa hàng"
   },
   "errors": {
     "webview_old": "Bản WebView này quá cũ!",

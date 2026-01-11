@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Groove Launcher Sıfırlansın?",
+      "title": "Disco Launcher Sıfırlansın?",
       "message": "Bu, launcherınızı standart parametrlərinə sıfırlayacaq. Bütün fərdiləşdirmələr itiriləcək."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Ən son versiyadasınız!",
-      "message": "Ən yaxşı Groove Launcher istifadə edirsiniz."
+      "message": "Ən yaxşı Disco Launcher istifadə edirsiniz."
     },
     "font_read_error": {
       "title": "Dəstəklənməyən fayl formatı",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Haqqında",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Versiya: {{version}}",
     "webview_version": "WebView Versiyası: {{version}}",
     "reset_launcher": "Başlatıcını Sıfırlayın",
@@ -151,7 +151,7 @@
     "show_app": "Proqramlar siyahısında göstərin"
   },
   "roles": {
-    "team_groove": "Groove Komandası",
+    "team_disco": "Disco Komandası",
     "developer": "Tərtibatçı",
     "icon_design": "Simge Dizaynı",
     "logo_design": "Logo Dizaynı"

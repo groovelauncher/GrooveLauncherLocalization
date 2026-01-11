@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Muat ulang Groove Launcher?",
+      "title": "Muat ulang Disco Launcher?",
       "message": "Launcher akan dimuat ulang ke pengaturan awal. Semua kustomisasi akan kembali ke semula."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Versi Terkini!",
-      "message": "Anda menggunakan versi terkini Groove Launcher."
+      "message": "Anda menggunakan versi terkini Disco Launcher."
     },
     "font_read_error": {
       "title": "Format file tidak didukung",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Tentang",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Versi: {{version}}",
     "webview_version": "Versi WebView: {{version}}",
     "reset_launcher": "Reset Launcher",
@@ -151,7 +151,7 @@
     "show_app": "Tunjukkan di dalam daftar aplikasi"
   },
   "roles": {
-    "team_groove": "Tim Groove",
+    "team_disco": "Tim Disco",
     "developer": "Pengembang",
     "icon_design": "Desain Ikon",
     "logo_design": "Desain Logo"

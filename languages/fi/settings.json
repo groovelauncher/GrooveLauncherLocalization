@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Nollataanko Groove Launcher?",
+      "title": "Nollataanko Disco Launcher?",
       "message": "Launcherin oletusasetusten palauttaminen poistaa kaikki tekemäsi muutokset."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Päivitykset ajan tasalla!",
-      "message": "Sinulla on groovisin versio Groove Launcherista."
+      "message": "Sinulla on groovisin versio Disco Launcherista."
     },
     "font_read_error": {
       "title": "Tiedostomuotoa ei tueta",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Tietoja",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Versio:{{version}}",
     "webview_version": "WebView Versio:{{version}}",
     "reset_launcher": "Nollaa Launcher",
@@ -151,7 +151,7 @@
     "show_app": "Näytä sovellusluettelossa"
   },
   "roles": {
-    "team_groove": "Team Groove",
+    "team_disco": "Team Disco",
     "developer": "Kehittäjä",
     "icon_design": "Kuvakkeen suunnittelu",
     "logo_design": "Logon suunnittelu"

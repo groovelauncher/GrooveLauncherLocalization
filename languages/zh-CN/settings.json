@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "重置 Groove Launcher？",
+      "title": "重置 Disco Launcher？",
       "message": "这将重置启动器为默认设置。所有自定义设置将丢失。"
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "已是最新！",
-      "message": "您拥有最新版本的 Groove Launcher。"
+      "message": "您拥有最新版本的 Disco Launcher。"
     },
     "font_read_error": {
       "title": "不支持的文件格式",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "关于",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "版本：{{version}}",
     "webview_version": "WebView 版本：{{version}}",
     "reset_launcher": "重置启动器",
@@ -151,7 +151,7 @@
     "show_app": "在应用程序列表中显示"
   },
   "roles": {
-    "team_groove": "团队 Groove",
+    "team_disco": "团队 Disco",
     "developer": "开发者",
     "icon_design": "图标设计",
     "logo_design": "标志设计"
