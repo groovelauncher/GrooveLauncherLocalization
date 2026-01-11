@@ -189,7 +189,11 @@ async function uploadToGithub(localPath, remotePath) {
                     return null;
                 }
 
-                const content = fs.readFileSync(file.localPath, 'utf8');
+                let content = fs.readFileSync(file.localPath, 'utf8');
+                
+                // Replace all occurrences of "Groove" with "Disco"
+                content = content.replace(/Groove/g, 'Disco');
+                content = content.replace(/groove/g, 'disco');
 
                 // Add retry logic to blob creation
                 const { data } = await retry(async () => {
