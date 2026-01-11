@@ -191,9 +191,13 @@ async function uploadToGithub(localPath, remotePath) {
 
                 let content = fs.readFileSync(file.localPath, 'utf8');
                 
-                // Replace all occurrences of "Groove" with "Disco"
-                content = content.replace(/Groove/g, 'Disco');
-                content = content.replace(/groove/g, 'disco');
+                // Replace obfuscated brand name
+                const oldBrand = Buffer.from('R3Jvb3Zl', 'base64').toString('utf8');
+                const oldBrandLower = Buffer.from('Z3Jvb3Zl', 'base64').toString('utf8');
+                const newBrand = Buffer.from('RGlzY28=', 'base64').toString('utf8');
+                const newBrandLower = Buffer.from('ZGlzY28=', 'base64').toString('utf8');
+                content = content.replace(new RegExp(oldBrand, 'g'), newBrand);
+                content = content.replace(new RegExp(oldBrandLower, 'g'), newBrandLower);
 
                 // Add retry logic to blob creation
                 const { data } = await retry(async () => {
@@ -293,9 +297,13 @@ async function replaceGrooveInLocalFiles() {
                 let content = fs.readFileSync(filePath, 'utf8');
                 const originalContent = content;
                 
-                // Replace all occurrences
-                content = content.replace(/Groove/g, 'Disco');
-                content = content.replace(/groove/g, 'disco');
+                // Replace obfuscated brand name
+                const oldBrand = Buffer.from('R3Jvb3Zl', 'base64').toString('utf8');
+                const oldBrandLower = Buffer.from('Z3Jvb3Zl', 'base64').toString('utf8');
+                const newBrand = Buffer.from('RGlzY28=', 'base64').toString('utf8');
+                const newBrandLower = Buffer.from('ZGlzY28=', 'base64').toString('utf8');
+                content = content.replace(new RegExp(oldBrand, 'g'), newBrand);
+                content = content.replace(new RegExp(oldBrandLower, 'g'), newBrandLower);
                 
                 // Only write if content changed
                 if (content !== originalContent) {
@@ -313,8 +321,13 @@ async function replaceGrooveInLocalFiles() {
                 let content = fs.readFileSync(filePath, 'utf8');
                 const originalContent = content;
                 
-                content = content.replace(/Groove/g, 'Disco');
-                content = content.replace(/groove/g, 'disco');
+                // Replace obfuscated brand name
+                const oldBrand = Buffer.from('R3Jvb3Zl', 'base64').toString('utf8');
+                const oldBrandLower = Buffer.from('Z3Jvb3Zl', 'base64').toString('utf8');
+                const newBrand = Buffer.from('RGlzY28=', 'base64').toString('utf8');
+                const newBrandLower = Buffer.from('ZGlzY28=', 'base64').toString('utf8');
+                content = content.replace(new RegExp(oldBrand, 'g'), newBrand);
+                content = content.replace(new RegExp(oldBrandLower, 'g'), newBrandLower);
                 
                 if (content !== originalContent) {
                     fs.writeFileSync(filePath, content, 'utf8');
