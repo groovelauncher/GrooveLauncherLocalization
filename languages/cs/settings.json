@@ -1,159 +1,159 @@
 {
-  "title": "Settings",
+  "title": "Nastavení",
   "tabs": {
-    "home": "Home",
-    "applications": "Applications"
+    "home": "Domov",
+    "applications": "Aplikace"
   },
   "theme": {
-    "title": "Home+Theme",
-    "accent_color": "Accent color",
-    "background": "Background",
-    "home_background": "Home background",
-    "choose_photo": "Choose photo",
-    "show_more_tiles": "Show more Tiles",
-    "friendly_accent": "Change your device's background and <span style='color: var(--accent-color)'>accent color</span> to match your mood today, this week, or all month.",
-    "friendly_tiles": "You can change the size and number of tiles available on your home screen.",
+    "title": "Domov+Téma",
+    "accent_color": "Barva nádechu",
+    "background": "Pozadí",
+    "home_background": "Pozadí domovské obrazovky",
+    "choose_photo": "Vybrat obrázek",
+    "show_more_tiles": "Ukázat více dlaždic",
+    "friendly_accent": "Změnit pozadí a <span style='color: var(--accent-color)'>barvu nádechu</span> podle vaší nálady dnes, tento týden, nebo celý měsíc.",
+    "friendly_tiles": "Můžete změnit velikost a počet dlaždic dostupných na vaší domovské obrazovce.",
     "themes": {
-      "light": "Light",
-      "dark": "Dark",
-      "auto": "Auto"
+      "light": "Světlý",
+      "dark": "Tmavý",
+      "auto": "Automaticky"
     }
   },
   "screen_rotation": {
-    "title": "Screen Rotation",
-    "auto_rotate": "Auto-rotate",
-    "rotation_lock": "Rotation lock",
-    "friendly_rotation_lock": "When Rotation lock is on, your home will stay in the current orientation when you rotate your device."
+    "title": "Otáčení obrazovky",
+    "auto_rotate": "Automatické otáčení",
+    "rotation_lock": "Zámek otáčení obrazovky",
+    "friendly_rotation_lock": "Když je zámek otáčení obrazovky zapnutý, vaše domovská obrazovka zůstane v aktuální pozici, pokud otočíte zařízením."
   },
   "language": {
-    "title": "Language"
+    "title": "Jazyk"
   },
   "ease_of_access": {
-    "title": "Ease of Access",
-    "description": "text size, high contrast, and more",
+    "title": "Snadný přístup",
+    "description": "velikost písma, vysoký kontrast a více",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "Snížit pohyb",
+      "description": "Omezit účinky pohybu, jako je parallax a animace, aby se zabránilo nemoci pohybu."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "Vysoký kontrast",
+      "description": "Změní barvy pro některé funkce a skryje některé jejich obrázky na pozadí."
     },
-    "scaling": "Scaling",
+    "scaling": "Škálování",
     "font": {
       "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "choose": "Zvolit...",
+      "remove": "Odstranit font"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "Hmatová odezva",
+      "description": "Povolit zpětnou vazbu vibrací při interakci s dlaždicemi a ovládáními."
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "Viditelnost",
+      "tactile": "Hmatové"
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "Pokročilé",
+    "description": "správce balíčků a další úpravy",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "Ladění",
+      "dump_apps": "Smazat nainstalované JSON aplikace"
     },
     "data": {
-      "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "title": "Údaje",
+      "backup": "Zálohovat",
+      "restore": "Obnovit"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
-      "system": "System",
+      "title": "Správce balíčků",
+      "title_experimental": "Správce balíčků (POKUSNÉ)",
+      "system": "Systém",
       "root": "Root",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "Uspat dvojitým poklepáním",
+    "alternative_wallpaper": "Alternativní umístění tapety"
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "Resetovat Disco Launcher?",
+      "message": "Váš launcher bude obnoven do výchozího nastavení. Všechny úpravy budou ztraceny."
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "Vyžadovaný root přístup",
+      "message": "Root přístup je vyžadovaný k dokončení této akce. Prosím, povolte root a pokračujte."
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "Vyžadováno Shizuku povolení",
+      "message": "Shizuku povolení je vyžadováno k dokončení této akce. Prosím, udělte Shizuku povolení a pokračujte."
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "Dostupná aktualizace!",
+      "message": "Nová verze<strong>({{version}})</strong> o velikosti {{size}} je dostupná. Přejete si ji stáhnout?",
+      "message2": "Nová verze <strong>({{version}})</strong> je dostupná. Přejete si ji stáhnout?"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "Kontrola aktualizací neúspěšná!",
+      "message": "Nelze zkontrolovat aktualizace aplikací. Zkuste to, prosím, později."
     },
     "up_to_date": {
-      "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "title": "Aktuální!",
+      "message": "Máte tu nejnovější verzi Disco Launcheru."
     },
     "font_read_error": {
-      "title": "Unsupported file format",
-      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
+      "title": "Nepodporovaný formát souboru",
+      "message": "Nesprávný soubor fontu. Použijte prosím soubor s příponou .ttf a zkuste to znovu."
     },
     "font_load_error": {
-      "title": "Can’t load font",
-      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
+      "title": "Nelze načíst font",
+      "message": "Nelze přečíst soubor fontu. Pouze soubory s příponou .ttf jsou podporovány. Použijte prosím jiný soubor."
     },
     "copy_failed": {
-      "title": "Copy Failed!",
-      "message": "Unable to copy apps list. Please try again."
+      "title": "Kopírování neúspěšné!",
+      "message": "Nelze zkopírovat seznam aplikací. Zkuste to znovu."
     },
     "copy_success": {
-      "title": "Copied to Clipboard!",
-      "message": "Installed apps copied to JSON format successfully."
+      "title": "Zkopírováno do schránky!",
+      "message": "Aplikace zkopírované do formátu JSON úspěšně staženy."
     }
   },
   "about": {
-    "title": "About",
-    "description": "Groove Launcher",
-    "version": "Version: {{version}}",
-    "webview_version": "WebView Version: {{version}}",
-    "reset_launcher": "Reset Launcher",
-    "check_updates": "Check Updates"
+    "title": "O aplikaci",
+    "description": "Disco Launcher",
+    "version": "Verze: {{version}}",
+    "webview_version": "WebView verze: {{version}}",
+    "reset_launcher": "Resetovat launcher",
+    "check_updates": "Zkontrolovat aktualizace"
   },
   "apps": {
-    "uninstall_app": "Uninstall App",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "uninstall_app": "Odinstalovat aplikaci",
+    "show_in_app_list": "Zobrazit tuto aplikaci v seznamu aplikací",
+    "name": "Název",
+    "icon": "Ikona",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "Výchozí",
+      "monochrome": "Černobílé zobrazení"
     },
-    "background": "Background",
+    "background": "Pozadí",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "Výchozí",
+      "transparent": "Průhledná"
     },
-    "text_color": "Text color",
+    "text_color": "Barva písma",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "Automaticky",
+      "dark": "tmavé",
+      "light": "světlý"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "Živé dlaždice",
+    "show_app": "Zobrazit v seznamu aplikací"
   },
   "roles": {
-    "team_groove": "Team Groove",
-    "developer": "Developer",
-    "icon_design": "Icon Design",
-    "logo_design": "Logo Design"
+    "team_disco": "Tým Disco",
+    "developer": "Vývojář",
+    "icon_design": "Vzhled ikony",
+    "logo_design": "Vzhled loga"
   }
 }

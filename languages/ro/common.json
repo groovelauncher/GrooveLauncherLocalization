@@ -7,7 +7,7 @@
     "uninstall": "Dezinstalați",
     "cancel": "Anulare",
     "apply": "Aplicare",
-    "allow": "Allow",
+    "allow": "Permiteți",
     "try_again": "Încercați din nou",
     "light": "Deschis",
     "dark": "Închis",
@@ -16,8 +16,8 @@
     "off": "Dezactivat",
     "locked": "Blocat",
     "unlocked": "Deblocat",
-    "dismiss": "Dismiss",
-    "read_more": "Read more"
+    "dismiss": "Ignorați",
+    "read_more": "Citiți mai mult"
   },
   "search": {
     "title": "Căutare",
@@ -31,7 +31,7 @@
   },
   "app_menu": {
     "pin_to_home": "Fixați pe ecranul acasă",
-    "app_info": "App info",
+    "app_info": "Informații aplicație",
     "uninstall": "Dezinstalați"
   },
   "alerts": {

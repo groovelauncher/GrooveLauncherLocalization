@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Resetați Lansatorul Groove?",
+      "title": "Resetați Lansatorul Disco?",
       "message": "Acțiunea dată va reseta lansatorul dvs. la setările sale implicite. Toate personalizările vor fi pierdute."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "La Zi!",
-      "message": "Aveți cea mai groove-zavă versiune a Lansatorului Groove."
+      "message": "Aveți cea mai disco-zavă versiune a Lansatorului Disco."
     },
     "font_read_error": {
       "title": "Format Fișier Neacceptat",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Despre",
-    "description": "Lansator Groove",
+    "description": "Lansator Disco",
     "version": "Versiune: {{version}}",
     "webview_version": "Versiune WebView: {{version}}",
     "reset_launcher": "Resetați Lansatorul",
@@ -151,7 +151,7 @@
     "show_app": "Show in apps list"
   },
   "roles": {
-    "team_groove": "Echipa Groove",
+    "team_disco": "Echipa Disco",
     "developer": "Dezvoltator",
     "icon_design": "Design Pictograme",
     "logo_design": "Design Logotipuri"

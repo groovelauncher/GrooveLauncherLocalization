@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Groove Launcherをリセットしますか？",
+      "title": "Disco Launcherをリセットしますか？",
       "message": "これにより、ランチャーがデフォルト設定にリセットされます。すべてのカスタマイズが失われます。"
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "最新の状態です！",
-      "message": "Groove Launcherの最新バージョンを使用しています。"
+      "message": "Disco Launcherの最新バージョンを使用しています。"
     },
     "font_read_error": {
       "title": "サポートされていないファイル形式",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "情報",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "バージョン: {{version}}",
     "webview_version": "WebViewバージョン: {{version}}",
     "reset_launcher": "ランチャーをリセット",
@@ -151,7 +151,7 @@
     "show_app": "アプリリストに表示"
   },
   "roles": {
-    "team_groove": "チームグルーブ",
+    "team_disco": "チームグルーブ",
     "developer": "開発者",
     "icon_design": "アイコンデザイン",
     "logo_design": "ロゴデザイン"

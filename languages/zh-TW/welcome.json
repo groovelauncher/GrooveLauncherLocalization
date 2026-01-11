@@ -1,60 +1,60 @@
 {
     "common": {
-        "next": "next",
-        "previous": "previous",
-        "pleaseWait": "Please wait..."
+        "next": "下一步",
+        "previous": "上一步",
+        "pleaseWait": "請稍後……"
     },
     "welcome": {
-        "install": "Welcome",
-        "update": "Welcome back",
-        "appName": "Groove Launcher",
-        "setupIntro": "Let's setup your experience in a few short steps.",
-        "warning": "Warning: This is pre-release software and may contain bugs."
+        "install": "歡迎",
+        "update": "歡迎回來",
+        "appName": "Disco Launcher",
+        "setupIntro": "讓我們透過幾個簡短步驟來設定您的體驗。",
+        "warning": "警告：這是預先發佈的軟體，可能包含錯誤。"
     },
     "wizard": {
-        "title": "Update Wizard",
-        "description": "Let's ensure your data is moved across safely! Click next to continue."
+        "title": "更新精靈",
+        "description": "讓我們確保您的資料能安全轉移！請點擊「下一步」以繼續。"
     },
     "access": {
-        "title": "Ease of Access",
+        "title": "協助工具",
         "description": "Customize your experience to ensure that everything feels just right.",
-        "background": "Background",
-        "scaling": "Scaling"
+        "background": "背景色",
+        "scaling": "縮放"
     },
     "themes": {
-        "light": "Light",
-        "dark": "Dark"
+        "light": "淺色",
+        "dark": "深色"
     },
     "colors": {
-        "title": "Choose your color",
-        "description": "Pick a color that matches your mood."
+        "title": "選擇您的色彩",
+        "description": "選擇一個符合您心情的色彩。"
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "權限",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "聯絡人",
+                "description": "需要存取聯絡人以顯示您的聯絡人即時磁貼。"
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "相簿",
+                "description": "需要存取相片以顯示您的相片即時磁貼。"
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "通知",
+                "description": "需要存取通知以顯示您的通知即時磁貼。"
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "協助工具",
+                "description": "啟用協助工具以鎖定裝置。"
             }
         }
     },
     "whatsnew": {
-        "title": "What's New?"
+        "title": "這次有哪些新鮮事？"
     },
     "finish": {
-        "title": "Get ready to Groove",
-        "description": "Your setup is done. Time to dive in!"
+        "title": "準備好開始使用 Disco",
+        "description": "您的設定已完成，準備開始體驗吧！"
     }
 }

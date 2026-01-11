@@ -7,7 +7,7 @@
     "welcome": {
         "install": "Üdvözöljük",
         "update": "Üdv újra",
-        "appName": "Groove Launcher",
+        "appName": "Disco Launcher",
         "setupIntro": "Kezdjük pár rövid lépéssel!",
         "warning": "Figyelem: Ez az alkalmazás fejlesztés alatt áll és tartalmazhat hibákat."
     },
@@ -30,23 +30,23 @@
         "description": "Válasszon hangulatának megfelelő színt."
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "Engedélyek",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "Névjegyek",
+                "description": "Névjegyzék hozzáférés szükséges az élő névjegyzék csempéhez."
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "Fotók",
+                "description": "Galéria hozzáférés szükséges az élő galéria csempéhez."
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "Értesítések",
+                "description": "Értesítés hozzáférés szükséges ahhoz, hogy megjelenjenek az élő csempéken."
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "Kisegítő lehetőségek",
+                "description": "Engedélyezd a kisegítő lehetőséget az ezköz zárolásához."
             }
         }
     },

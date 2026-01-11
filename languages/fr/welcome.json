@@ -7,7 +7,7 @@
     "welcome": {
         "install": "Bienvenue",
         "update": "Bienvenue de nouveau",
-        "appName": "Groove Launcher",
+        "appName": "Disco Launcher",
         "setupIntro": "Configurons votre expérience en quelques étapes seulement.",
         "warning": "Attention : il s'agit d'un logiciel préliminaire et il peut contenir des bugs."
     },
@@ -54,7 +54,7 @@
         "title": "Quoi de neuf?"
     },
     "finish": {
-        "title": "Préparez-vous pour Groove",
+        "title": "Préparez-vous pour Disco",
         "description": "Votre configuration est terminée!"
     }
 }

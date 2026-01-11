@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Nulstil Groove Launcher?",
+      "title": "Nulstil Disco Launcher?",
       "message": "Dette vil gendanne din launcher til dens oprindelige indstillinger. Alle personlige konfigurationer vil blive fjernet."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Du er opdateret!",
-      "message": "Du har den seneste version af Groove Launcher."
+      "message": "Du har den seneste version af Disco Launcher."
     },
     "font_read_error": {
       "title": "Ikke understøttet filformat",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Om",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Version: {{version}}",
     "webview_version": "WebView Version: {{version}}",
     "reset_launcher": "Nulstil Launcher",
@@ -151,7 +151,7 @@
     "show_app": "Vis i applisten"
   },
   "roles": {
-    "team_groove": "Team Groove",
+    "team_disco": "Team Disco",
     "developer": "Udvikler",
     "icon_design": "Ikondesign",
     "logo_design": "Logodesign"

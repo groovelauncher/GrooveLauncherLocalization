@@ -7,7 +7,7 @@
     "welcome": {
         "install": "欢迎",
         "update": "欢迎回来",
-        "appName": "Groove 启动器",
+        "appName": "Disco 启动器",
         "setupIntro": "让我们在几个简单的步骤中设置您的体验。",
         "warning": "警告：这是预发布软件，可能包含错误。"
     },
@@ -54,7 +54,7 @@
         "title": "新功能"
     },
     "finish": {
-        "title": "准备好开始 Groove",
+        "title": "准备好开始 Disco",
         "description": "您的设置已完成。是时候开始了！"
     }
 }

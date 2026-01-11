@@ -7,7 +7,7 @@
     "welcome": {
         "install": "Tervetuloa",
         "update": "Tervetuloa takaisin",
-        "appName": "Groove Launcher",
+        "appName": "Disco Launcher",
         "setupIntro": "Määritetään käyttökokemuksesi muutamalla lyhyellä vaiheella.",
         "warning": "Varoitus: Tämä sovellus on beta vaiheessa ja saattaa sisältää bugeja."
     },
@@ -54,7 +54,7 @@
         "title": "Mitä uutta?"
     },
     "finish": {
-        "title": "Valmistaudu Grooveen",
+        "title": "Valmistaudu Discoen",
         "description": "Asetusten määritys on valmis. Aloitetaan!"
     }
 }

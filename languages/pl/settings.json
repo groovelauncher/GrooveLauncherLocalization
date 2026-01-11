@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Brak nowych aktualizacji!",
-      "message": "Masz najbardziej szałową wersję Groove Launcher."
+      "message": "Masz najbardziej szałową wersję Disco Launcher."
     },
     "font_read_error": {
       "title": "Nie wspierany format pliku.",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "O aplikacji",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Wersja: {{version}}",
     "webview_version": "Wersja WebView: {{version}}",
     "reset_launcher": "Zresetuj Launcher",
@@ -151,7 +151,7 @@
     "show_app": "Pokaż w liście aplikacji"
   },
   "roles": {
-    "team_groove": "Zespół Groove",
+    "team_disco": "Zespół Disco",
     "developer": "Deweloper",
     "icon_design": "Design ikony",
     "logo_design": "Design loga"

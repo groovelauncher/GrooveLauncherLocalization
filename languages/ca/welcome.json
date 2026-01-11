@@ -1,60 +1,60 @@
 {
     "common": {
-        "next": "next",
-        "previous": "previous",
-        "pleaseWait": "Please wait..."
+        "next": "següent",
+        "previous": "enrere",
+        "pleaseWait": "Espereu, si us plau..."
     },
     "welcome": {
-        "install": "Welcome",
-        "update": "Welcome back",
-        "appName": "Groove Launcher",
-        "setupIntro": "Let's setup your experience in a few short steps.",
-        "warning": "Warning: This is pre-release software and may contain bugs."
+        "install": "Benvingut",
+        "update": "Benvingut de nou",
+        "appName": "Disco Launcher",
+        "setupIntro": "Configurem la teva experiència en uns curts passos.",
+        "warning": "Advertència: Això és software prellançament i pot contenir errors."
     },
     "wizard": {
-        "title": "Update Wizard",
-        "description": "Let's ensure your data is moved across safely! Click next to continue."
+        "title": "Actualitzacions",
+        "description": "Assegurem que les teves dades es moguin correctament! Fes clic en següent per continuar."
     },
     "access": {
-        "title": "Ease of Access",
-        "description": "Customize your experience to ensure that everything feels just right.",
-        "background": "Background",
-        "scaling": "Scaling"
+        "title": "Accessibilitat",
+        "description": "Personalitza la teva experiència perquè tot estigui bé.",
+        "background": "Fons",
+        "scaling": "Escala"
     },
     "themes": {
-        "light": "Light",
-        "dark": "Dark"
+        "light": "Clar",
+        "dark": "Fosc"
     },
     "colors": {
-        "title": "Choose your color",
-        "description": "Pick a color that matches your mood."
+        "title": "Escull el teu color",
+        "description": "Escull un color que combini amb com estiguis."
     },
     "permissions": {
-        "title": "Permissions",
+        "title": "Permisos",
         "groups": {
             "contacts": {
-                "title": "Contacts",
-                "description": "Access to contacts is needed to display your contacts live tile."
+                "title": "Contactes",
+                "description": "L'accés als contactes és necessari per mostrar la cel·la de contactes en viu."
             },
             "photos": {
-                "title": "Photos",
-                "description": "Access to photos is needed to display your photos live tile."
+                "title": "Fotos",
+                "description": "L'accés a les fotos és necessari per mostrar la cel·la de fotos en viu."
             },
             "notifications": {
-                "title": "Notifications",
-                "description": "Access to notifications is needed to display your notifications live tile."
+                "title": "Notificacions",
+                "description": "L'accés a les notificacions és necessari per mostrar la cel·la de notificacions en viu."
             },
             "accessibility": {
-                "title": "Accessibility",
-                "description": "Enable accessibility to lock device."
+                "title": "Accessibilitat",
+                "description": "Permeteu l'accés a l'accessibilitat per apagar el dispositiu."
             }
         }
     },
     "whatsnew": {
-        "title": "What's New?"
+        "title": "Què hi ha de nou?"
     },
     "finish": {
-        "title": "Get ready to Groove",
-        "description": "Your setup is done. Time to dive in!"
+        "title": "Prepara't per Disco",
+        "description": "La configuració ha acabat. Podeu començar!"
     }
 }

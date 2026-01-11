@@ -78,7 +78,7 @@
   },
   "alerts": {
     "reset": {
-      "title": "Groove Launcher Resetten?",
+      "title": "Disco Launcher Resetten?",
       "message": "Dit zet uw launcher terug naar fabrieksinstellingen. Alle aanpassingen raken verloren."
     },
     "root": {
@@ -100,7 +100,7 @@
     },
     "up_to_date": {
       "title": "Helemaal bij!",
-      "message": "Je hebt de grooviest versie van Groove Launcher."
+      "message": "Je hebt de grooviest versie van Disco Launcher."
     },
     "font_read_error": {
       "title": "Niet ondersteund bestandsformaat",
@@ -121,7 +121,7 @@
   },
   "about": {
     "title": "Over",
-    "description": "Groove Launcher",
+    "description": "Disco Launcher",
     "version": "Versie: {{version}}",
     "webview_version": "WebView Versie: {{version}}",
     "reset_launcher": "Reset launcher",
@@ -151,7 +151,7 @@
     "show_app": "Weergeven in de lijst met apps"
   },
   "roles": {
-    "team_groove": "Team Groove",
+    "team_disco": "Team Disco",
     "developer": "Ontwikkelaar",
     "icon_design": "Iconografie Ontwerp",
     "logo_design": "Logo Ontwerp"

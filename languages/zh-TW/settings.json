@@ -1,159 +1,159 @@
 {
-  "title": "Settings",
+  "title": "設定",
   "tabs": {
-    "home": "Home",
-    "applications": "Applications"
+    "home": "主頁",
+    "applications": "應用程式"
   },
   "theme": {
-    "title": "Home+Theme",
-    "accent_color": "Accent color",
-    "background": "Background",
-    "home_background": "Home background",
-    "choose_photo": "Choose photo",
-    "show_more_tiles": "Show more Tiles",
-    "friendly_accent": "Change your device's background and <span style='color: var(--accent-color)'>accent color</span> to match your mood today, this week, or all month.",
-    "friendly_tiles": "You can change the size and number of tiles available on your home screen.",
+    "title": "主畫面和主題",
+    "accent_color": "強調色",
+    "background": "背景色",
+    "home_background": "主頁背景色",
+    "choose_photo": "選擇照片",
+    "show_more_tiles": "顯示更多磁貼",
+    "friendly_accent": "變更您的裝置背景與 <span style='color: var(--accent-color)'>強調色</span>，以符合您今天、本週或整個月的心情。",
+    "friendly_tiles": "您可以變更主畫面上可用磁貼的大小與數量。",
     "themes": {
-      "light": "Light",
-      "dark": "Dark",
-      "auto": "Auto"
+      "light": "淺色",
+      "dark": "深色",
+      "auto": "跟隨系統"
     }
   },
   "screen_rotation": {
-    "title": "Screen Rotation",
-    "auto_rotate": "Auto-rotate",
-    "rotation_lock": "Rotation lock",
-    "friendly_rotation_lock": "When Rotation lock is on, your home will stay in the current orientation when you rotate your device."
+    "title": "螢幕翻轉",
+    "auto_rotate": "自動翻轉",
+    "rotation_lock": "翻轉鎖定",
+    "friendly_rotation_lock": "當翻轉鎖定開啟時，無論您如何旋轉裝置，主畫面都會維持在目前的方向。"
   },
   "language": {
-    "title": "Language"
+    "title": "語言"
   },
   "ease_of_access": {
-    "title": "Ease of Access",
-    "description": "text size, high contrast, and more",
+    "title": "協助工具",
+    "description": "文字大小、高對比度，以及其他功能",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "減少動態效果",
+      "description": "減少視差與動畫等動態效果，以協助避免暈動症。"
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "高對比",
+      "description": "變更部分功能的色彩，並隱藏其部分背景圖片。"
     },
-    "scaling": "Scaling",
+    "scaling": "縮放",
     "font": {
-      "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "title": "字型",
+      "choose": "選擇...",
+      "remove": "移除字型"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "觸覺回饋",
+      "description": "在與磁貼及控制項互動時啟用震動回饋。"
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "視覺",
+      "tactile": "觸覺"
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "進階",
+    "description": "套件管理器與其他調整",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "偵錯",
+      "dump_apps": "匯出已安裝應用程式 JSON"
     },
     "data": {
-      "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "title": "資料",
+      "backup": "備份",
+      "restore": "還原"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
-      "system": "System",
+      "title": "套件管理器",
+      "title_experimental": "套件管理器 （實驗性）",
+      "system": "系統",
       "root": "Root",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "雙擊以進入休眠",
+    "alternative_wallpaper": "替代桌布配置"
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "要重設 Disco Launcher 嗎？",
+      "message": "這將會把您的啟動器重設為預設設定，所有自訂內容都會遺失。"
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "需要 Root 存取權限",
+      "message": "執行此操作需要 Root 存取權限。請授予 Root 權限以繼續。"
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "需要 Shizuku 權限",
+      "message": "執行此操作需要 Shizuku 權限。請授予 Shizuku 權限以繼續。"
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "有可用的更新！",
+      "message": "有新版本 <strong>({{version}})</strong> 可用，大小為 {{size}}。您要下載嗎？",
+      "message2": "有新版本 <strong>({{version}})</strong> 可用。您要下載嗎？"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "更新檢查失敗！",
+      "message": "無法檢查應用程式更新。請稍後再試"
     },
     "up_to_date": {
-      "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "title": "已是最新版本！",
+      "message": "您已擁有最新最潮的 Disco Launcher 版本。"
     },
     "font_read_error": {
-      "title": "Unsupported file format",
-      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
+      "title": "不支援的檔案格式",
+      "message": "字型檔案無效。請確認它是 .ttf 檔案，然後再嘗試上傳。"
     },
     "font_load_error": {
-      "title": "Can’t load font",
-      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
+      "title": "無法載入字型",
+      "message": "無法讀取字型檔案。僅支援 .ttf 字型，請嘗試其他檔案。"
     },
     "copy_failed": {
-      "title": "Copy Failed!",
-      "message": "Unable to copy apps list. Please try again."
+      "title": "複製失敗！",
+      "message": "無法複製應用程式清單。請再試一次。"
     },
     "copy_success": {
-      "title": "Copied to Clipboard!",
-      "message": "Installed apps copied to JSON format successfully."
+      "title": "已複製到剪貼簿！",
+      "message": "已成功將已安裝的應用程式複製為 JSON 格式。"
     }
   },
   "about": {
-    "title": "About",
-    "description": "Groove Launcher",
-    "version": "Version: {{version}}",
-    "webview_version": "WebView Version: {{version}}",
+    "title": "關於",
+    "description": "Disco Launcher",
+    "version": "版本：{{version}}",
+    "webview_version": "WebView 版本：{{version}}",
     "reset_launcher": "Reset Launcher",
-    "check_updates": "Check Updates"
+    "check_updates": "檢查更新"
   },
   "apps": {
-    "uninstall_app": "Uninstall App",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "uninstall_app": "解除安裝應用程式",
+    "show_in_app_list": "在應用程式清單中顯示此應用程式",
+    "name": "名稱",
+    "icon": "圖示",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "預設",
+      "monochrome": "單色"
     },
-    "background": "Background",
+    "background": "背景色",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "預設",
+      "transparent": "透明"
     },
-    "text_color": "Text color",
+    "text_color": "文字顏色",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "跟隨系統",
+      "dark": "深色",
+      "light": "淺色"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "即時動態磚",
+    "show_app": "在應用程式清單中顯示"
   },
   "roles": {
-    "team_groove": "Team Groove",
-    "developer": "Developer",
-    "icon_design": "Icon Design",
-    "logo_design": "Logo Design"
+    "team_disco": "Disco 團隊",
+    "developer": "開發人員",
+    "icon_design": "圖示設計",
+    "logo_design": "標誌設計"
   }
 }

@@ -7,7 +7,7 @@
     "welcome": {
         "install": "Selamat datang",
         "update": "Selamat datang kembali",
-        "appName": "Groove Launcher",
+        "appName": "Disco Launcher",
         "setupIntro": "Mari siapkan pengalaman Anda dengan melakukan tahap-tahap berikut ini.",
         "warning": "Perhatian: perangkat lunak ini masih dalam tahap prarilis dan mungkin masih mengandung kecacatan."
     },
@@ -54,7 +54,7 @@
         "title": "Apa yang Baru?"
     },
     "finish": {
-        "title": "Bersiaplah 'tuk Groove",
+        "title": "Bersiaplah 'tuk Disco",
         "description": "Semua sudah siap. Saatnya meluncur!"
     }
 }

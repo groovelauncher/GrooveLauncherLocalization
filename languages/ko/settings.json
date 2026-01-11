@@ -1,159 +1,159 @@
 {
-  "title": "Settings",
+  "title": "설정",
   "tabs": {
-    "home": "Home",
-    "applications": "Applications"
+    "home": "홈",
+    "applications": "애플리케이션"
   },
   "theme": {
-    "title": "Home+Theme",
-    "accent_color": "Accent color",
-    "background": "Background",
-    "home_background": "Home background",
-    "choose_photo": "Choose photo",
-    "show_more_tiles": "Show more Tiles",
-    "friendly_accent": "Change your device's background and <span style='color: var(--accent-color)'>accent color</span> to match your mood today, this week, or all month.",
-    "friendly_tiles": "You can change the size and number of tiles available on your home screen.",
+    "title": "홈+테마",
+    "accent_color": "강조 색상",
+    "background": "배경",
+    "home_background": "홈 배경화면",
+    "choose_photo": "사진 선택하기",
+    "show_more_tiles": "더 많은 타일 표시",
+    "friendly_accent": "기기의 배경과 <span style='color: var(--accent-color)'>강조 색상</span>을 오늘, 한 주, 또는 한 달 내내 기분에 맞게 바꿔보세요.",
+    "friendly_tiles": "홈 화면의 타일의 숫자와 크기를 변경할 수 있습니다.",
     "themes": {
-      "light": "Light",
-      "dark": "Dark",
-      "auto": "Auto"
+      "light": "라이트",
+      "dark": "다크",
+      "auto": "자동"
     }
   },
   "screen_rotation": {
-    "title": "Screen Rotation",
-    "auto_rotate": "Auto-rotate",
-    "rotation_lock": "Rotation lock",
-    "friendly_rotation_lock": "When Rotation lock is on, your home will stay in the current orientation when you rotate your device."
+    "title": "화면 회전",
+    "auto_rotate": "자동 회전",
+    "rotation_lock": "회전 잠금",
+    "friendly_rotation_lock": "회전 잠금이 켜져 있으면, 홈 화면이 기기를 회전해도 현재 방향으로 유지됩니다."
   },
   "language": {
-    "title": "Language"
+    "title": "언어"
   },
   "ease_of_access": {
-    "title": "Ease of Access",
-    "description": "text size, high contrast, and more",
+    "title": "접근성",
+    "description": "글자 크기, 고대비 등",
     "reduce_motion": {
-      "title": "Reduce motion",
-      "description": "Reduce motion effects, such as parallax and animations, to help prevent motion sickness."
+      "title": "움직임 감소",
+      "description": "시차나 애니메이션 등의 움직임을 줄이면 멀미를 예방하는 데 도움이 됩니다."
     },
     "high_contrast": {
-      "title": "High contrast",
-      "description": "Changes the colors for some features, and hides some of their background images."
+      "title": "고대비",
+      "description": "몇몇 기능의 색을 바꾸고 배경 이미지의 일부를 숨깁니다"
     },
-    "scaling": "Scaling",
+    "scaling": "확대",
     "font": {
-      "title": "Font",
-      "choose": "Choose...",
-      "remove": "Remove Font"
+      "title": "글꼴",
+      "choose": "고르기...",
+      "remove": "글꼴 제거"
     },
     "haptic_feedback": {
-      "title": "Haptic Feedback",
-      "description": "Enable vibration feedback when interacting with tiles and controls."
+      "title": "진동",
+      "description": "타일과 컨트롤과 상호작용할 때 진동을 활성화합니다"
     },
     "groups": {
-      "vision": "Vision",
-      "tactile": "Tactile"
+      "vision": "시각",
+      "tactile": "촉각"
     }
   },
   "advanced": {
-    "title": "Advanced",
-    "description": "package manager and other tweaks",
+    "title": "고급",
+    "description": "패키지 관리자와 다른 트윅",
     "debugging": {
-      "title": "Debugging",
-      "dump_apps": "Dump Installed Apps JSON"
+      "title": "디버깅",
+      "dump_apps": "설치된 앱의 JSON 덤프"
     },
     "data": {
-      "title": "Data",
-      "backup": "Backup",
-      "restore": "Restore"
+      "title": "데이터",
+      "backup": "백업",
+      "restore": "복원"
     },
     "package_manager": {
-      "title": "Package manager",
-      "title_experimental": "Package manager (EXPERIMENTAL)",
-      "system": "System",
-      "root": "Root",
+      "title": "패키지 관리자",
+      "title_experimental": "패키지 관리자 (실험적)",
+      "system": "시스템",
+      "root": "루트",
       "shizuku": "Shizuku"
     },
-    "double_tap_to_sleep": "Double tap to sleep",
-    "alternative_wallpaper": "Alternative wallpaper placing"
+    "double_tap_to_sleep": "더블탭해서 화면 끄기",
+    "alternative_wallpaper": "배경화면 위치 반전"
   },
   "alerts": {
     "reset": {
-      "title": "Reset Groove Launcher?",
-      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+      "title": "Disco Launcher를 재설정하시겠습니까?",
+      "message": "런처를 기본 설정으로 복원하고 모든 사용자 지정이 해제됩니다."
     },
     "root": {
-      "title": "Root Access Required",
-      "message": "Root access is required to perform this action. Please grant root access to continue."
+      "title": "루트 접근 필요",
+      "message": "이 동작을 수행하기 위해 루트 접근이 필요합니다. 계속하려면 루트 접근을 허용해주세요."
     },
     "shizuku": {
-      "title": "Shizuku Permission Required",
-      "message": "Shizuku permission is required to perform this action. Please grant Shizuku permission to continue."
+      "title": "Shizuku 권한 필요",
+      "message": "이 동작을 수행하기 위해 Shizuku 권한이 필요합니다. 계속하려면 Shizuku 권한을 허용해주세요."
     },
     "update_available": {
-      "title": "Update Available!",
-      "message": "A new version <strong>({{version}})</strong> is available, sized at {{size}}. Would you like to download it?",
-      "message2": "A new version <strong>({{version}})</strong> is available. Would you like to download it?"
+      "title": "업데이트 사용 가능!",
+      "message": "새 버전 <strong>({{version}})</strong>이 {{size}}로 사용할 수 있습니다. 다운로드하시겠습니까?",
+      "message2": "새 버전 <strong>({{version}})</strong>을 사용할 수 있습니다. 다운로드하시겠습니까?"
     },
     "update_check_failed": {
-      "title": "Update Check Failed!",
-      "message": "Unable to check for app updates. Please try again later."
+      "title": "업데이트 확인 실패!",
+      "message": "앱 업데이트를 확인할 수 없습니다. 나중에 다시 시도해 주세요."
     },
     "up_to_date": {
-      "title": "Up to Date!",
-      "message": "You have the grooviest version of Groove Launcher."
+      "title": "최신 상태입니다!",
+      "message": "Groovr Launcher의 가장 최신 버전을 사용하고 있습니다."
     },
     "font_read_error": {
-      "title": "Unsupported file format",
-      "message": "The font file isn’t valid. Make sure it’s a .ttf file and try uploading again."
+      "title": "지원되지 않는 파일 형식",
+      "message": "글꼴 파일이 올바르지 않습니다. .ttf 파일인지 확인하고 다시 업로드해 보세요."
     },
     "font_load_error": {
-      "title": "Can’t load font",
-      "message": "We couldn’t read the font file. Only .ttf fonts are supported. Please try a different file."
+      "title": "글꼴을 로드할 수 없음",
+      "message": "글꼴 파일을 읽을 수 없습니다. .ttf 글꼴만이 지원됩니다. 다른 파일로 시도해 주세요."
     },
     "copy_failed": {
-      "title": "Copy Failed!",
-      "message": "Unable to copy apps list. Please try again."
+      "title": "복사 실패!",
+      "message": "앱 목록을 복사할 수 없습니다. 나중에 다시 시도하세요."
     },
     "copy_success": {
-      "title": "Copied to Clipboard!",
-      "message": "Installed apps copied to JSON format successfully."
+      "title": "클립보드에 복사되었습니다!",
+      "message": "설치된 앱을 JSON 형식으로 복사했습니다."
     }
   },
   "about": {
-    "title": "About",
-    "description": "Groove Launcher",
-    "version": "Version: {{version}}",
-    "webview_version": "WebView Version: {{version}}",
-    "reset_launcher": "Reset Launcher",
-    "check_updates": "Check Updates"
+    "title": "정보",
+    "description": "Disco Launcher",
+    "version": "버전: {{version}}",
+    "webview_version": "WebView 버전: {{version}}",
+    "reset_launcher": "런처 재설정",
+    "check_updates": "업데이트 확인"
   },
   "apps": {
-    "uninstall_app": "Uninstall App",
-    "show_in_app_list": "Show this app in App List",
-    "name": "Name",
-    "icon": "Icon",
+    "uninstall_app": "앱 제거",
+    "show_in_app_list": "이 앱을 앱 목록에 표시하기",
+    "name": "이름",
+    "icon": "아이콘",
     "icon_selections": {
-      "default": "Default",
-      "monochrome": "Monochrome"
+      "default": "기본",
+      "monochrome": "흑백"
     },
-    "background": "Background",
+    "background": "배경",
     "background_selections": {
-      "default": "Default",
-      "transparent": "Transparent"
+      "default": "기본",
+      "transparent": "투명"
     },
-    "text_color": "Text color",
+    "text_color": "글자 색",
     "text_color_selections": {
-      "auto": "Auto",
-      "dark": "dark",
-      "light": "light"
+      "auto": "자동",
+      "dark": "다크",
+      "light": "라이트"
     },
-    "live_tile": "Live tile",
-    "show_app": "Show in apps list"
+    "live_tile": "라이브 타일",
+    "show_app": "앱 목록에 표시"
   },
   "roles": {
-    "team_groove": "Team Groove",
-    "developer": "Developer",
-    "icon_design": "Icon Design",
-    "logo_design": "Logo Design"
+    "team_disco": "Disco 팀",
+    "developer": "개발자",
+    "icon_design": "아이콘 디자인",
+    "logo_design": "로고 디자인"
   }
 }
