@@ -16,8 +16,8 @@ const __dirname = path.dirname(__filename);
 const CROWDIN_API_KEY = process.env.CROWDIN_API_KEY;
 const CROWDIN_PROJECT_ID = 737627;
 const GITHUB_TOKEN = process.env.TOKEN;
-const GITHUB_OWNER = "groovelauncher";
-const GITHUB_REPO = "GrooveLauncherLocalization";
+const GITHUB_OWNER = "cherryhoax";
+const GITHUB_REPO = "DiscoLauncherLocalization";
 const GITHUB_BRANCH = 'nightly';
 // Create a temporary directory for extracted files
 const tempDir = path.join(__dirname, 'translations-temp');
