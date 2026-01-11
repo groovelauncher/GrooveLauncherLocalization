@@ -275,9 +275,9 @@ async function uploadToGithub(localPath, remotePath) {
     }
 }
 
-async function replaceGrooveInLocalFiles() {
+async function replaceMInLocalFiles() {
     try {
-        console.log('Replacing Groove with Disco in local files...');
+        console.log('Replacing M with Disco in local files...');
         const languagesDir = path.join(__dirname, '..', 'languages');
         
         // Get all language directories
@@ -336,9 +336,9 @@ async function replaceGrooveInLocalFiles() {
             }
         }
         
-        console.log(`Replaced Groove with Disco in ${processedFiles} files`);
+        console.log(`Replaced M with Disco in ${processedFiles} files`);
     } catch (error) {
-        console.error('Error replacing Groove in local files:', error);
+        console.error('Error replacing M in local files:', error);
         throw error;
     }
 }
@@ -370,9 +370,9 @@ async function syncTranslations() {
 
 // Check command line arguments
 const args = process.argv.slice(2);
-if (args.includes('--replace-groove')) {
-    // Just replace Groove with Disco in local files
-    replaceGrooveInLocalFiles();
+if (args.includes('--replace-M')) {
+    // Just replace M with Disco in local files
+    replaceMInLocalFiles();
 } else {
     // Initial sync
     syncTranslations();
