@@ -1,6 +1,6 @@
 {
-  "name": "groove-launcher-localization",
-  "description": "This is the official database containing all supported localizations for Groove Launcher.",
+  "name": "disco-launcher-localization",
+  "description": "This is the official database containing all supported localizations for Disco Launcher.",
   "scripts": {
     "update": "node scripts/update.js"
   },

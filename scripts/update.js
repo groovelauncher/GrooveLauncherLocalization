@@ -271,6 +271,65 @@ async function uploadToGithub(localPath, remotePath) {
     }
 }
 
+async function replaceGrooveInLocalFiles() {
+    try {
+        console.log('Replacing Groove with Disco in local files...');
+        const languagesDir = path.join(__dirname, '..', 'languages');
+        
+        // Get all language directories
+        const directories = fs.readdirSync(languagesDir, { withFileTypes: true })
+            .filter(dirent => dirent.isDirectory())
+            .map(dirent => dirent.name);
+        
+        let processedFiles = 0;
+        
+        // Process each directory
+        for (const dir of directories) {
+            const dirPath = path.join(languagesDir, dir);
+            const files = fs.readdirSync(dirPath).filter(file => file.endsWith('.json'));
+            
+            for (const file of files) {
+                const filePath = path.join(dirPath, file);
+                let content = fs.readFileSync(filePath, 'utf8');
+                const originalContent = content;
+                
+                // Replace all occurrences
+                content = content.replace(/Groove/g, 'Disco');
+                content = content.replace(/groove/g, 'disco');
+                
+                // Only write if content changed
+                if (content !== originalContent) {
+                    fs.writeFileSync(filePath, content, 'utf8');
+                    processedFiles++;
+                }
+            }
+        }
+        
+        // Also process root markdown and json files
+        const rootFiles = ['README.md', 'STATUS.md', 'package.json', 'package-lock.json'];
+        for (const file of rootFiles) {
+            const filePath = path.join(__dirname, '..', file);
+            if (fs.existsSync(filePath)) {
+                let content = fs.readFileSync(filePath, 'utf8');
+                const originalContent = content;
+                
+                content = content.replace(/Groove/g, 'Disco');
+                content = content.replace(/groove/g, 'disco');
+                
+                if (content !== originalContent) {
+                    fs.writeFileSync(filePath, content, 'utf8');
+                    processedFiles++;
+                }
+            }
+        }
+        
+        console.log(`Replaced Groove with Disco in ${processedFiles} files`);
+    } catch (error) {
+        console.error('Error replacing Groove in local files:', error);
+        throw error;
+    }
+}
+
 async function cleanupTempDir() {
     try {
         if (fs.existsSync(tempDir)) {
@@ -296,5 +355,12 @@ async function syncTranslations() {
     }
 }
 
-// Initial sync
-syncTranslations();
+// Check command line arguments
+const args = process.argv.slice(2);
+if (args.includes('--replace-groove')) {
+    // Just replace Groove with Disco in local files
+    replaceGrooveInLocalFiles();
+} else {
+    // Initial sync
+    syncTranslations();
+}

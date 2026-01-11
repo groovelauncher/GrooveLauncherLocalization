@@ -5,11 +5,19 @@
         "pleaseWait": "請稍後……"
     },
     "welcome": {
+<<<<<<< HEAD
         "install": "歡迎",
         "update": "歡迎回來",
         "appName": "Disco Launcher",
         "setupIntro": "讓我們透過幾個簡短步驟來設定您的體驗。",
         "warning": "警告：這是預先發佈的軟體，可能包含錯誤。"
+=======
+        "install": "Welcome",
+        "update": "Welcome back",
+        "appName": "Disco Launcher",
+        "setupIntro": "Let's setup your experience in a few short steps.",
+        "warning": "Warning: This is pre-release software and may contain bugs."
+>>>>>>> 1234a15 (migration of tribes)
     },
     "wizard": {
         "title": "更新精靈",
@@ -54,7 +62,12 @@
         "title": "這次有哪些新鮮事？"
     },
     "finish": {
+<<<<<<< HEAD
         "title": "準備好開始使用 Disco",
         "description": "您的設定已完成，準備開始體驗吧！"
+=======
+        "title": "Get ready to Disco",
+        "description": "Your setup is done. Time to dive in!"
+>>>>>>> 1234a15 (migration of tribes)
     }
 }

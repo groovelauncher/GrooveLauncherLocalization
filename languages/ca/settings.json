@@ -78,8 +78,13 @@
   },
   "alerts": {
     "reset": {
+<<<<<<< HEAD
       "title": "Reiniciar Disco Launcher?",
       "message": "Això reiniciarà el llançador a les seves configuracions per defecte. Tota la personalització serà eliminada.."
+=======
+      "title": "Reset Disco Launcher?",
+      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+>>>>>>> 1234a15 (migration of tribes)
     },
     "root": {
       "title": "Accés a l'Arrel Requerit",
@@ -99,8 +104,13 @@
       "message": "No s'ha pogut comprovar si hi ha actualitzacions. Intenta-ho de nou més tard."
     },
     "up_to_date": {
+<<<<<<< HEAD
       "title": "Tens l'última versió!",
       "message": "Tens l'última versió de Disco Launcher."
+=======
+      "title": "Up to Date!",
+      "message": "You have the grooviest version of Disco Launcher."
+>>>>>>> 1234a15 (migration of tribes)
     },
     "font_read_error": {
       "title": "Format d'arxiu no compatible",
@@ -120,12 +130,21 @@
     }
   },
   "about": {
+<<<<<<< HEAD
     "title": "Quant a",
     "description": "Disco Launcher",
     "version": "Versió: {{version}}",
     "webview_version": "Versió del WebView: {{version}}",
     "reset_launcher": "Reinicia el Llençador",
     "check_updates": "Comprova "
+=======
+    "title": "About",
+    "description": "Disco Launcher",
+    "version": "Version: {{version}}",
+    "webview_version": "WebView Version: {{version}}",
+    "reset_launcher": "Reset Launcher",
+    "check_updates": "Check Updates"
+>>>>>>> 1234a15 (migration of tribes)
   },
   "apps": {
     "uninstall_app": "Desinstal·la l'aplicació",
@@ -151,9 +170,16 @@
     "show_app": "Mostra a la llista d'aplicacions"
   },
   "roles": {
+<<<<<<< HEAD
     "team_disco": "Equip Disco",
     "developer": "Desenvolupador",
     "icon_design": "Disseny d'Icones",
     "logo_design": "Disseny del Logotipus"
+=======
+    "team_disco": "Team Disco",
+    "developer": "Developer",
+    "icon_design": "Icon Design",
+    "logo_design": "Logo Design"
+>>>>>>> 1234a15 (migration of tribes)
   }
 }

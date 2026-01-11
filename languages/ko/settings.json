@@ -78,8 +78,13 @@
   },
   "alerts": {
     "reset": {
+<<<<<<< HEAD
       "title": "Disco Launcher를 재설정하시겠습니까?",
       "message": "런처를 기본 설정으로 복원하고 모든 사용자 지정이 해제됩니다."
+=======
+      "title": "Reset Disco Launcher?",
+      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+>>>>>>> 1234a15 (migration of tribes)
     },
     "root": {
       "title": "루트 접근 필요",
@@ -99,8 +104,13 @@
       "message": "앱 업데이트를 확인할 수 없습니다. 나중에 다시 시도해 주세요."
     },
     "up_to_date": {
+<<<<<<< HEAD
       "title": "최신 상태입니다!",
       "message": "Groovr Launcher의 가장 최신 버전을 사용하고 있습니다."
+=======
+      "title": "Up to Date!",
+      "message": "You have the grooviest version of Disco Launcher."
+>>>>>>> 1234a15 (migration of tribes)
     },
     "font_read_error": {
       "title": "지원되지 않는 파일 형식",
@@ -120,12 +130,21 @@
     }
   },
   "about": {
+<<<<<<< HEAD
     "title": "정보",
     "description": "Disco Launcher",
     "version": "버전: {{version}}",
     "webview_version": "WebView 버전: {{version}}",
     "reset_launcher": "런처 재설정",
     "check_updates": "업데이트 확인"
+=======
+    "title": "About",
+    "description": "Disco Launcher",
+    "version": "Version: {{version}}",
+    "webview_version": "WebView Version: {{version}}",
+    "reset_launcher": "Reset Launcher",
+    "check_updates": "Check Updates"
+>>>>>>> 1234a15 (migration of tribes)
   },
   "apps": {
     "uninstall_app": "앱 제거",
@@ -151,9 +170,16 @@
     "show_app": "앱 목록에 표시"
   },
   "roles": {
+<<<<<<< HEAD
     "team_disco": "Disco 팀",
     "developer": "개발자",
     "icon_design": "아이콘 디자인",
     "logo_design": "로고 디자인"
+=======
+    "team_disco": "Team Disco",
+    "developer": "Developer",
+    "icon_design": "Icon Design",
+    "logo_design": "Logo Design"
+>>>>>>> 1234a15 (migration of tribes)
   }
 }

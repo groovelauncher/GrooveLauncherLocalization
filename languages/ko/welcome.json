@@ -5,11 +5,19 @@
         "pleaseWait": "잠시만 기다려 주세요..."
     },
     "welcome": {
+<<<<<<< HEAD
         "install": "환영합니다",
         "update": "다시 오신 걸 환영합니다",
         "appName": "Disco Launcher",
         "setupIntro": "짧은 단계로 사용자 환경을 설정해 봅시다",
         "warning": "경고: 이 앱은 사전 체험 소프트웨어이며 버그가 있을 수 있습니다."
+=======
+        "install": "Welcome",
+        "update": "Welcome back",
+        "appName": "Disco Launcher",
+        "setupIntro": "Let's setup your experience in a few short steps.",
+        "warning": "Warning: This is pre-release software and may contain bugs."
+>>>>>>> 1234a15 (migration of tribes)
     },
     "wizard": {
         "title": "업데이트 마법사",
@@ -54,7 +62,12 @@
         "title": "새로운 기능"
     },
     "finish": {
+<<<<<<< HEAD
         "title": "Disco를 준비하세요",
         "description": "설정이 끝났습니다. 시작할 시간입니다!"
+=======
+        "title": "Get ready to Disco",
+        "description": "Your setup is done. Time to dive in!"
+>>>>>>> 1234a15 (migration of tribes)
     }
 }

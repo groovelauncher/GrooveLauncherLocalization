@@ -5,11 +5,19 @@
         "pleaseWait": "Espereu, si us plau..."
     },
     "welcome": {
+<<<<<<< HEAD
         "install": "Benvingut",
         "update": "Benvingut de nou",
         "appName": "Disco Launcher",
         "setupIntro": "Configurem la teva experiència en uns curts passos.",
         "warning": "Advertència: Això és software prellançament i pot contenir errors."
+=======
+        "install": "Welcome",
+        "update": "Welcome back",
+        "appName": "Disco Launcher",
+        "setupIntro": "Let's setup your experience in a few short steps.",
+        "warning": "Warning: This is pre-release software and may contain bugs."
+>>>>>>> 1234a15 (migration of tribes)
     },
     "wizard": {
         "title": "Actualitzacions",
@@ -54,7 +62,12 @@
         "title": "Què hi ha de nou?"
     },
     "finish": {
+<<<<<<< HEAD
         "title": "Prepara't per Disco",
         "description": "La configuració ha acabat. Podeu començar!"
+=======
+        "title": "Get ready to Disco",
+        "description": "Your setup is done. Time to dive in!"
+>>>>>>> 1234a15 (migration of tribes)
     }
 }

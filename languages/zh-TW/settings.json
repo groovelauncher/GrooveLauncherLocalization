@@ -78,8 +78,13 @@
   },
   "alerts": {
     "reset": {
+<<<<<<< HEAD
       "title": "要重設 Disco Launcher 嗎？",
       "message": "這將會把您的啟動器重設為預設設定，所有自訂內容都會遺失。"
+=======
+      "title": "Reset Disco Launcher?",
+      "message": "This will reset your launcher to its default settings. All customizations will be lost."
+>>>>>>> 1234a15 (migration of tribes)
     },
     "root": {
       "title": "需要 Root 存取權限",
@@ -99,8 +104,13 @@
       "message": "無法檢查應用程式更新。請稍後再試"
     },
     "up_to_date": {
+<<<<<<< HEAD
       "title": "已是最新版本！",
       "message": "您已擁有最新最潮的 Disco Launcher 版本。"
+=======
+      "title": "Up to Date!",
+      "message": "You have the grooviest version of Disco Launcher."
+>>>>>>> 1234a15 (migration of tribes)
     },
     "font_read_error": {
       "title": "不支援的檔案格式",
@@ -120,10 +130,17 @@
     }
   },
   "about": {
+<<<<<<< HEAD
     "title": "關於",
     "description": "Disco Launcher",
     "version": "版本：{{version}}",
     "webview_version": "WebView 版本：{{version}}",
+=======
+    "title": "About",
+    "description": "Disco Launcher",
+    "version": "Version: {{version}}",
+    "webview_version": "WebView Version: {{version}}",
+>>>>>>> 1234a15 (migration of tribes)
     "reset_launcher": "Reset Launcher",
     "check_updates": "檢查更新"
   },
@@ -151,9 +168,16 @@
     "show_app": "在應用程式清單中顯示"
   },
   "roles": {
+<<<<<<< HEAD
     "team_disco": "Disco 團隊",
     "developer": "開發人員",
     "icon_design": "圖示設計",
     "logo_design": "標誌設計"
+=======
+    "team_disco": "Team Disco",
+    "developer": "Developer",
+    "icon_design": "Icon Design",
+    "logo_design": "Logo Design"
+>>>>>>> 1234a15 (migration of tribes)
   }
 }
